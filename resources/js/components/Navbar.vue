@@ -14,7 +14,6 @@
           <li><a href="#">Kemahasiswaan</a></li>
           <li><a href="#">Penjaminan Mutu</a></li>
           <li><a href="#">Penelitian</a></li>
-          <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
