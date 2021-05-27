@@ -28,6 +28,7 @@
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.35",
         "@fortawesome/free-solid-svg-icons": "^5.15.3",
+        "vue-meta": "^2.4.0",
         "vue-router": "^3.5.1"
     }
 }
