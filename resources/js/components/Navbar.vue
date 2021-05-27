@@ -5,7 +5,7 @@
         <i class="fa fa-bars fa-2x"></i>
       </div>
       <div class="logo">
-        <img width="80px" src="/img/logo-transparent.png" alt="Logo">
+        <img width="90px" src="/img/logo-transparent.png" alt="Logo">
       </div>
       <div class="menu">
         <ul>
@@ -134,7 +134,7 @@ nav {
 nav ul {
   line-height: 60px;
   list-style: none;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
   overflow: hidden;
   color: #fff;
   padding: 0;
