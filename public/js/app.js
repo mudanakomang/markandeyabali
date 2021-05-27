@@ -6385,6 +6385,11 @@ __webpack_require__.r(__webpack_exports__);
       });
     }); // Scrolling Effect
 
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()('li a').on('click', function () {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default()('nav ul').removeClass('showing');
+      });
+    });
     jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).on("scroll", function () {
       if (jquery__WEBPACK_IMPORTED_MODULE_0___default()(window).scrollTop()) {
         jquery__WEBPACK_IMPORTED_MODULE_0___default()('nav').addClass('black');
@@ -6601,15 +6606,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/Home */ "./resources/js/pages/Home.vue");
+/* harmony import */ var _pages_Akademik__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pages/Akademik */ "./resources/js/pages/Akademik.vue");
+
 
 var routes = [{
   path: '/',
   name: 'home',
   component: _pages_Home__WEBPACK_IMPORTED_MODULE_0__.default
 }, {
-  path: '/about',
-  name: 'about',
-  component: _pages_Home__WEBPACK_IMPORTED_MODULE_0__.default
+  path: '/akademik',
+  name: 'akademik',
+  component: _pages_Akademik__WEBPACK_IMPORTED_MODULE_1__.default
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (routes);
 
@@ -42546,6 +42553,43 @@ component.options.__file = "resources/js/components/Navbar.vue"
 
 /***/ }),
 
+/***/ "./resources/js/pages/Akademik.vue":
+/*!*****************************************!*\
+  !*** ./resources/js/pages/Akademik.vue ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Akademik.vue?vue&type=template&id=77a03e20& */ "./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
+  script,
+  _Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/Akademik.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/pages/Home.vue":
 /*!*************************************!*\
   !*** ./resources/js/pages/Home.vue ***!
@@ -42669,6 +42713,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&":
+/*!************************************************************************!*\
+  !*** ./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20& ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akademik.vue?vue&type=template&id=77a03e20& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&");
+
+
+/***/ }),
+
 /***/ "./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&scoped=true&":
 /*!********************************************************************************!*\
   !*** ./resources/js/pages/Home.vue?vue&type=template&id=b3c5cf30&scoped=true& ***!
@@ -42787,7 +42848,7 @@ var render = function() {
           _c(
             "li",
             [
-              _c("router-link", { attrs: { to: { path: "/about" } } }, [
+              _c("router-link", { attrs: { to: { path: "/akademik" } } }, [
                 _vm._v("Akademik")
               ])
             ],
@@ -42860,6 +42921,31 @@ var staticRenderFns = [
     ])
   }
 ]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("h1", [_vm._v("AKADEMIK")])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 

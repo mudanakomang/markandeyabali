@@ -10,7 +10,7 @@
       <div class="menu">
         <ul>
           <li><router-link :to="{path: '/'}">Home</router-link></li>
-          <li><router-link :to="{path: '/about'}">Akademik</router-link></li>
+          <li><router-link :to="{path: '/akademik'}">Akademik</router-link></li>
           <li><a href="#">Kemahasiswaan</a></li>
           <li><a href="#">Penjaminan Mutu</a></li>
           <li><a href="#">Penelitian</a></li>
@@ -34,7 +34,11 @@ export default {
       });
 
       // Scrolling Effect
-
+     $(document).ready(function(){
+         $('li a').on('click', function(){
+             $('nav ul').removeClass('showing')
+         })
+     })
       $(window).on("scroll", function() {
             if($(window).scrollTop()) {
                   $('nav').addClass('black');

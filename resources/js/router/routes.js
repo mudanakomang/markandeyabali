@@ -1,4 +1,5 @@
 import Home from '../pages/Home';
+import Akademik from '../pages/Akademik';
 
 const routes = [
 	{
@@ -7,9 +8,9 @@ const routes = [
 		component: Home
 	},
     {
-        path:'/about',
-        name: 'about',
-        component: Home
+        path:'/akademik',
+        name: 'akademik',
+        component: Akademik
     }
 ];
 
