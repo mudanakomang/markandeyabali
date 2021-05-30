@@ -1,6 +1,6 @@
 <template>
-  <div class="contanier hero-section">
-    <nav>
+<div>
+ <nav>
       <div class="menu-icon">
         <i class="fa fa-bars fa-2x"></i>
       </div>
@@ -13,15 +13,12 @@
           <li><router-link :to="{path: '/akademik'}">Akademik</router-link></li>
           <li><a href="#">Kemahasiswaan</a></li>
           <li><a href="#">Penjaminan Mutu</a></li>
-          <li><a href="#">Penelitian</a></li>
+          <li><router-link :to="{path: '/penelitian'}">Penelitian</router-link></li>
         </ul>
       </div>
     </nav>
-     <div class="hero-text">
-      <h1 class="header-text">BEYOND EDUCATION</h1>
-      <button type="submit" class="register">DAFTAR SEKARANG</button>
-    </div>
-  </div>
+</div>
+
 </template>
 <script>
 import $ from 'jquery';
@@ -39,7 +36,7 @@ export default {
              $('nav ul').removeClass('showing')
          })
      })
-      $(window).on("scroll", function() {
+     $(window).on("scroll", function() {
             if($(window).scrollTop()) {
                   $('nav').addClass('black');
             }
@@ -52,47 +49,6 @@ export default {
 }
 </script>
 <style  scoped>
-.register{
-    transition: all .5s ease;
-    color: #fff;
-    border: 3px solid white;
-    font-family:'Montserrat', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 1;
-    font-size: 17px;
-    background-color : transparent;
-    padding: 10px;
-    outline: none;
-    border-radius: 4px;
-}
-.register:hover{
-    color: #001F3F;
-    background-color: #fcc254;
-    border: 3px solid #fcc254;
-}
-.hero-section {
-  height: 100vh;
-  color: white;
-  height: 75vh;
-  background-image:
-    linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
-    url('/img/header.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.hero-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  font-size: 1.4em;
-  letter-spacing: 9px;
-}
-
 h1 {
   margin: 0 0 3rem 0;
   font-family: 'Varta', sans-serif;

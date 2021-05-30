@@ -9,8 +9,14 @@ require('./bootstrap');
 window.Vue = require('vue').default;
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@fortawesome/fontawesome-free/js/all.js';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+library.add(faFacebook , faTwitter, faInstagram)
 import App from './App.vue';
 import router from './router';
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
