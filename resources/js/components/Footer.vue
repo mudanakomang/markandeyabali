@@ -7,7 +7,7 @@
                 <div class="footer-clomun footer-about-widget">
                     <div class="footer-logo">
                         <figure>
-                            <router-link :to="{name: 'home'}"><img width="100px" src="/img/logo-transparent.png" alt="Logo Bottom"></router-link>
+                            <router-link :to="{name: 'home'}"><img width="120px" src="/img/logo.png" alt="Logo Bottom"></router-link>
                         </figure>
                     </div>
                     <p class="text-dark">These days are all share them with me oh said Cali forny till the one day when the making your way in the world  and when the odds are against him and their dangers work to do.</p>
