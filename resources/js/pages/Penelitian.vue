@@ -525,6 +525,12 @@ body {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+.panel-title {
+  border-bottom: #f36371 solid 2px;
+}
+.panel-title a:hover {
+  color: #f36371;
+}
 .panel-title > a,
 .panel-title > a:active {
   display: block;

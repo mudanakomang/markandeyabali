@@ -12836,6 +12836,641 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  mounted: function mounted() {
+    $(".panel-collapse").on("show.bs.collapse", function () {
+      $(this).siblings(".panel-heading").addClass("active");
+      $("html, body").animate({
+        scrollTop: 0
+      }, 1000);
+      var currentId = $(this).attr("id");
+      $(".panel-collapse").each(function () {
+        var id = $(this).attr("id");
+
+        if (currentId !== id) {
+          $(this).removeClass("show");
+          $(this).siblings(".panel-heading").removeClass("active");
+        }
+      });
+    });
+    $(".panel-collapse").on("hide.bs.collapse", function () {
+      $(this).siblings(".panel-heading").removeClass("active");
+    });
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=script&lang=js&":
 /*!******************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=script&lang=js& ***!
@@ -18109,6 +18744,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\nh1[data-v-6dde423b] {\n  margin: 0 0
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\nol > li[data-v-77a03e20] {\n  font-weight: bold;\n}\n.sp-one[data-v-77a03e20] {\n  padding: 100px 0px;\n  z-index: 0;\n}\n.content[data-v-77a03e20] {\n  padding: 100px 0px;\n}\n.welcome-section .title-manu li[data-v-77a03e20] {\n  position: relative;\n  font-size: 15px;\n  line-height: 26px;\n  font-weight: 700;\n  color: #f36371;\n  margin-left: 15px;\n  padding: 17px 0px;\n  display: inline-block;\n  font-family: \"Montserrat\", sans-serif;\n  text-transform: capitalize;\n}\n.welcome-section .title-manu li a[data-v-77a03e20] {\n  color: #333333;\n  font-family: \"Montserrat\", sans-serif;\n  transition: all 500ms ease;\n}\n.link a[data-v-77a03e20] {\n  color: #333333;\n  font-family: \"Montserrat\", sans-serif;\n  transition: all 500ms ease;\n}\n.link a[data-v-77a03e20]:hover {\n  color: #f36371;\n  transition: all 500ms ease;\n  text-decoration: none;\n}\n.welcome-section .title-manu li a[data-v-77a03e20]:hover {\n  color: #f36371;\n  transition: all 500ms ease;\n}\n.title h2[data-v-77a03e20] {\n  padding-top: 25px;\n}\nbody[data-v-77a03e20] {\n  padding: 50px;\n  background: #fff;\n}\n.wrapper[data-v-77a03e20] {\n  width: 90%;\n}\n@media (max-width: 992px) {\n.wrapper[data-v-77a03e20] {\n    width: 100%;\n}\n}\n.panel-heading[data-v-77a03e20] {\n  padding: 0;\n  border: 0;\n}\n.panel-icon[data-v-77a03e20] {\n  transition: all 0.5s linear;\n}\n.panel-heading.active .panel-icon[data-v-77a03e20] {\n  transform: rotate(180deg);\n}\n.panel-title[data-v-77a03e20] {\n  border-bottom: #f36371 solid 2px;\n}\n.panel-title a[data-v-77a03e20]:hover {\n  color: #f36371;\n}\n.panel-title > a[data-v-77a03e20],\n.panel-title > a[data-v-77a03e20]:active {\n  display: block;\n  padding: 15px;\n  color: #555;\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  word-spacing: 3px;\n  text-decoration: none;\n}\n/* .panel-heading a:before {\n  font-family: \"Glyphicons Halflings\";\n  content: \"\\e114\";\n  float: right;\n  transition: all 0.5s;\n} */\n.panel-body[data-v-77a03e20] {\n  padding: 0px 25px 0px 25px;\n}\n.panel-body h5[data-v-77a03e20] {\n  font-weight: bold;\n}\n.panel-heading.active a[data-v-77a03e20]:before {\n  transform: rotate(180deg);\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&scoped=true&lang=css&":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&scoped=true&lang=css& ***!
@@ -18150,7 +18809,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.sp-nine[data-v-6ea73e94] {\n  padding: 25px 0px 25px;\n}\n.left-side-area[data-v-6ea73e94] {\n  margin-right: -20px;\n}\n.left-side-area .product-info[data-v-6ea73e94] {\n  margin-bottom: 40px;\n}\n.shop-item-one[data-v-6ea73e94] {\n  margin-bottom: 30px;\n}\n.shop-item-one .image-box[data-v-6ea73e94] {\n  position: relative;\n  overflow: hidden;\n  border: 1px solid #e0e0e0;\n}\n.item img[data-v-6ea73e94] {\n  max-width: 270px;\n}\n.shop-item-one .overly-box[data-v-6ea73e94] {\n  position: absolute;\n  text-align: center;\n  left: 0px;\n  top: 0px;\n  width: 100%;\n  height: 100%;\n  color: #ffffff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  background: rgba(249, 190, 77, 0.7);\n  transition: 0.5s cubic-bezier(0.4, 0, 1, 1);\n  opacity: 0;\n  content: \"\";\n  visibility: hidden;\n}\n.shop-item-one .image-box:hover .overly-box[data-v-6ea73e94] {\n  visibility: visible;\n  opacity: 1;\n  transition: all 500ms ease;\n}\n.shop-item-one a i[data-v-6ea73e94] {\n  font-size: 13px;\n  line-height: 29px;\n  margin-right: 10px;\n}\n.shop-item-one .image-text[data-v-6ea73e94] {\n  padding: 20px 0px;\n}\n.shop-item-one .image-text h6[data-v-6ea73e94] {\n  font-size: 16px;\n  font-weight: bold;\n  line-height: 22px;\n  color: #333333;\n}\n.shop-item-one h6[data-v-6ea73e94] {\n  font-size: 16px;\n  font-weight: bold;\n  line-height: 22px;\n  color: #000000;\n}\n.list[data-v-6ea73e94] {\n  padding: 15px 15px 15px 15px;\n}\n.list .title[data-v-6ea73e94] {\n  padding-bottom: 5px;\n  font-weight: bold;\n}\n.list .item[data-v-6ea73e94] {\n  padding: 5px 0px;\n}\n.title-manu[data-v-6ea73e94] {\n  padding-top: 15px;\n}\n.content[data-v-6ea73e94] {\n  padding: 100px 0px;\n}\n.sp-one[data-v-6ea73e94] {\n  padding: 100px 0px;\n  z-index: 0;\n}\n.welcome-section .title-manu li[data-v-6ea73e94] {\n  position: relative;\n  font-size: 15px;\n  line-height: 26px;\n  font-weight: 700;\n  color: #f36371;\n  margin-left: 15px;\n  padding: 17px 0px;\n  display: inline-block;\n  font-family: \"Montserrat\", sans-serif;\n  text-transform: capitalize;\n}\n.welcome-section .title-manu li a[data-v-6ea73e94] {\n  color: #333333;\n  font-family: \"Montserrat\", sans-serif;\n  transition: all 500ms ease;\n}\n.welcome-section .title-manu li a[data-v-6ea73e94]:hover {\n  color: #f36371;\n  transition: all 500ms ease;\n}\n.title h2[data-v-6ea73e94] {\n  padding-top: 25px;\n}\nbody[data-v-6ea73e94] {\n  padding: 50px;\n  background: #fff;\n}\n.wrapper[data-v-6ea73e94] {\n  width: 90%;\n}\n@media (max-width: 992px) {\n.wrapper[data-v-6ea73e94] {\n    width: 100%;\n}\n}\n.panel-heading[data-v-6ea73e94] {\n  padding: 0;\n  border: 0;\n}\n.panel-icon[data-v-6ea73e94] {\n  transition: all 0.5s linear;\n}\n.panel-heading.active .panel-icon[data-v-6ea73e94] {\n  transform: rotate(180deg);\n}\n.panel-title > a[data-v-6ea73e94],\n.panel-title > a[data-v-6ea73e94]:active {\n  display: block;\n  padding: 15px;\n  color: #555;\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  word-spacing: 3px;\n  text-decoration: none;\n}\n/* .panel-heading a:before {\n  font-family: \"Glyphicons Halflings\";\n  content: \"\\e114\";\n  float: right;\n  transition: all 0.5s;\n} */\n.panel-body[data-v-6ea73e94] {\n  padding: 0px 25px 0px 25px;\n}\n.panel-body h5[data-v-6ea73e94] {\n  font-weight: bold;\n}\n.panel-heading.active a[data-v-6ea73e94]:before {\n  transform: rotate(180deg);\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.sp-nine[data-v-6ea73e94] {\n  padding: 25px 0px 25px;\n}\n.left-side-area[data-v-6ea73e94] {\n  margin-right: -20px;\n}\n.left-side-area .product-info[data-v-6ea73e94] {\n  margin-bottom: 40px;\n}\n.shop-item-one[data-v-6ea73e94] {\n  margin-bottom: 30px;\n}\n.shop-item-one .image-box[data-v-6ea73e94] {\n  position: relative;\n  overflow: hidden;\n  border: 1px solid #e0e0e0;\n}\n.item img[data-v-6ea73e94] {\n  max-width: 270px;\n}\n.shop-item-one .overly-box[data-v-6ea73e94] {\n  position: absolute;\n  text-align: center;\n  left: 0px;\n  top: 0px;\n  width: 100%;\n  height: 100%;\n  color: #ffffff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  background: rgba(249, 190, 77, 0.7);\n  transition: 0.5s cubic-bezier(0.4, 0, 1, 1);\n  opacity: 0;\n  content: \"\";\n  visibility: hidden;\n}\n.shop-item-one .image-box:hover .overly-box[data-v-6ea73e94] {\n  visibility: visible;\n  opacity: 1;\n  transition: all 500ms ease;\n}\n.shop-item-one a i[data-v-6ea73e94] {\n  font-size: 13px;\n  line-height: 29px;\n  margin-right: 10px;\n}\n.shop-item-one .image-text[data-v-6ea73e94] {\n  padding: 20px 0px;\n}\n.shop-item-one .image-text h6[data-v-6ea73e94] {\n  font-size: 16px;\n  font-weight: bold;\n  line-height: 22px;\n  color: #333333;\n}\n.shop-item-one h6[data-v-6ea73e94] {\n  font-size: 16px;\n  font-weight: bold;\n  line-height: 22px;\n  color: #000000;\n}\n.list[data-v-6ea73e94] {\n  padding: 15px 15px 15px 15px;\n}\n.list .title[data-v-6ea73e94] {\n  padding-bottom: 5px;\n  font-weight: bold;\n}\n.list .item[data-v-6ea73e94] {\n  padding: 5px 0px;\n}\n.title-manu[data-v-6ea73e94] {\n  padding-top: 15px;\n}\n.content[data-v-6ea73e94] {\n  padding: 100px 0px;\n}\n.sp-one[data-v-6ea73e94] {\n  padding: 100px 0px;\n  z-index: 0;\n}\n.welcome-section .title-manu li[data-v-6ea73e94] {\n  position: relative;\n  font-size: 15px;\n  line-height: 26px;\n  font-weight: 700;\n  color: #f36371;\n  margin-left: 15px;\n  padding: 17px 0px;\n  display: inline-block;\n  font-family: \"Montserrat\", sans-serif;\n  text-transform: capitalize;\n}\n.welcome-section .title-manu li a[data-v-6ea73e94] {\n  color: #333333;\n  font-family: \"Montserrat\", sans-serif;\n  transition: all 500ms ease;\n}\n.welcome-section .title-manu li a[data-v-6ea73e94]:hover {\n  color: #f36371;\n  transition: all 500ms ease;\n}\n.title h2[data-v-6ea73e94] {\n  padding-top: 25px;\n}\nbody[data-v-6ea73e94] {\n  padding: 50px;\n  background: #fff;\n}\n.wrapper[data-v-6ea73e94] {\n  width: 90%;\n}\n@media (max-width: 992px) {\n.wrapper[data-v-6ea73e94] {\n    width: 100%;\n}\n}\n.panel-heading[data-v-6ea73e94] {\n  padding: 0;\n  border: 0;\n}\n.panel-icon[data-v-6ea73e94] {\n  transition: all 0.5s linear;\n}\n.panel-heading.active .panel-icon[data-v-6ea73e94] {\n  transform: rotate(180deg);\n}\n.panel-title[data-v-6ea73e94] {\n  border-bottom: #f36371 solid 2px;\n}\n.panel-title a[data-v-6ea73e94]:hover {\n  color: #f36371;\n}\n.panel-title > a[data-v-6ea73e94],\n.panel-title > a[data-v-6ea73e94]:active {\n  display: block;\n  padding: 15px;\n  color: #555;\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  word-spacing: 3px;\n  text-decoration: none;\n}\n/* .panel-heading a:before {\n  font-family: \"Glyphicons Halflings\";\n  content: \"\\e114\";\n  float: right;\n  transition: all 0.5s;\n} */\n.panel-body[data-v-6ea73e94] {\n  padding: 0px 25px 0px 25px;\n}\n.panel-body h5[data-v-6ea73e94] {\n  font-weight: bold;\n}\n.panel-heading.active a[data-v-6ea73e94]:before {\n  transform: rotate(180deg);\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -49619,21 +50278,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Akademik.vue?vue&type=template&id=77a03e20& */ "./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Akademik_vue_vue_type_template_id_77a03e20_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Akademik.vue?vue&type=template&id=77a03e20&scoped=true& */ "./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&scoped=true&");
+/* harmony import */ var _Akademik_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Akademik.vue?vue&type=script&lang=js& */ "./resources/js/pages/Akademik.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Akademik_vue_vue_type_style_index_0_id_77a03e20_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css& */ "./resources/js/pages/Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
+;
 
 
 /* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
-  script,
-  _Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__.render,
-  _Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _Akademik_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Akademik_vue_vue_type_template_id_77a03e20_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Akademik_vue_vue_type_template_id_77a03e20_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
-  null,
+  "77a03e20",
   null
   
 )
@@ -49939,6 +50602,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/pages/Akademik.vue?vue&type=script&lang=js&":
+/*!******************************************************************!*\
+  !*** ./resources/js/pages/Akademik.vue?vue&type=script&lang=js& ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akademik.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/pages/Home.vue?vue&type=script&lang=js&":
 /*!**************************************************************!*\
   !*** ./resources/js/pages/Home.vue?vue&type=script&lang=js& ***!
@@ -50039,19 +50718,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&":
-/*!************************************************************************!*\
-  !*** ./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20& ***!
-  \************************************************************************/
+/***/ "./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&scoped=true&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&scoped=true& ***!
+  \************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_template_id_77a03e20_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_template_id_77a03e20_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_template_id_77a03e20___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akademik.vue?vue&type=template&id=77a03e20& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_template_id_77a03e20_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akademik.vue?vue&type=template&id=77a03e20&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&scoped=true&");
 
 
 /***/ }),
@@ -50221,6 +50900,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
 /* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Navbar_vue_vue_type_style_index_0_id_6dde423b_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/pages/Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css& ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_style_index_0_id_77a03e20_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-style-loader/index.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css& */ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_style_index_0_id_77a03e20_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_style_index_0_id_77a03e20_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_style_index_0_id_77a03e20_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Akademik_vue_vue_type_style_index_0_id_77a03e20_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
 /* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
 
 
@@ -50593,10 +51289,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&":
-/*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20& ***!
-  \***************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=template&id=77a03e20&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -50609,9 +51305,860 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("h1", [_vm._v("AKADEMIK")])
+  return _c("div", [
+    _c("section", { staticClass: "welcome-section sp-one" }, [
+      _c(
+        "div",
+        { staticClass: "container", attrs: { "data-target": "html" } },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("ul", { staticClass: "title-manu pull-right" }, [
+            _c(
+              "li",
+              [
+                _c("router-link", { attrs: { to: { path: "/home" } } }, [
+                  _vm._v("Home")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(1),
+            _vm._v(" "),
+            _c("li", [_vm._v("Akademik")])
+          ])
+        ]
+      )
+    ]),
+    _vm._v(" "),
+    _vm._m(2)
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "title pull-left" }, [
+      _c("h2", [_vm._v("Akademik")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("i", {
+        staticClass: "fa fa-angle-double-right",
+        attrs: { "aria-hidden": "true" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "content" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "wrapper center-block" }, [
+          _c("p", { staticClass: "text-justify" }, [
+            _vm._v(
+              "\n          Institut Teknologi dan Pendidikan Markandeya Bali menyelenggarakan\n          program pendidikan Sarjana (S-1) pada dua Fakultas yaitu Fakultas\n          Ilmu Pendidikan dan Fakultas Teknologi.\n        "
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "panel-group",
+              attrs: {
+                id: "accordion",
+                role: "tablist",
+                "aria-multiselectable": "true"
+              }
+            },
+            [
+              _c("div", { staticClass: "panel panel-default" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-heading active",
+                    attrs: { role: "tab", id: "headingOne" }
+                  },
+                  [
+                    _c("h4", { staticClass: "panel-title" }, [
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            role: "button",
+                            "data-toggle": "collapse",
+                            "data-parent": "#accordion",
+                            href: "#collapseOne",
+                            "aria-expanded": "true",
+                            "aria-controls": "collapseOne"
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                  Kurikulum\n                  "
+                          ),
+                          _c("i", {
+                            staticClass:
+                              "fa fa-angle-double-up pull-right panel-icon",
+                            attrs: { "aria-hidden": "true" }
+                          })
+                        ]
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-collapse collapse in show",
+                    attrs: {
+                      id: "collapseOne",
+                      role: "tabpanel",
+                      "aria-labelledby": "headingOne"
+                    }
+                  },
+                  [
+                    _c("div", { staticClass: "panel-body" }, [
+                      _c("h5", [_vm._v("Fakultas Ilmu Pendidikan")]),
+                      _vm._v(" "),
+                      _c("ol", [
+                        _c("li", [
+                          _vm._v(
+                            "\n                    Program Studi Pendidikan Bahasa dan Sastra Indonesia\n                  "
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("dl", [
+                          _c("dt", [_vm._v("Visi Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _vm._v(
+                              "\n                      “Menjadi pusat pengembangan pendidikan bahasa dan sastra\n                      Indonesia yang unggul, serta menghasilkan calon guru\n                      pendidikan bahasa dan sastra Indonesia yang cerdas,\n                      bermartabat, dan berdaya saing pada tahun 2021”\n                    "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Misi Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan pendidikan dan pengajaran\n                          pendidikan bahasa dan sastra indonesia berorientasi\n                          pada kemandirian mahasiswa dalam mengembangkan\n                          potensinya.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan penelitian sebagai media\n                          pengembangan diri dan pengetahun tentang pengajaran\n                          pendidikan bahasa dan sastra indonesia.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan pengabdian kepada masyarakat yang\n                          berbentuk penerapan ilmu pengetahuan dan\n                          keterampilan dalam bidang pendidikan bahasa dan\n                          sastra indonesia.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Mengembangkan kecakapan hidup untuk mempersiapkan\n                          mahasiswa menghadapi tuntutan dan tantangan dunia\n                          kerja.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Membangun karakter mahasiswa agar memiliki wawasan\n                          kebangsaan.\n                        "
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Tujuan Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan lulusan yang memiliki kompetensi\n                          pedagogik, profesional, kepribadian, dan sosial.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan karya-karya penelitian sebagai landasan\n                          untuk memecahkan masalah di bidang pendidikan bahasa\n                          dan sastra indonesia\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Terselenggaranya pengabdian kepada masyarakat untuk\n                          meningkatkan kesejahteraan sosial masyarakat.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan lulusan pendidikan bahasa dan sastra\n                          Indonesia yang terampil sehingga mampu menghadapi\n                          tuntutan dan tantangan dunia kerja.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan lulusan pendidikan bahasa dan sastra\n                          Indonesia yang memiliki wawasan kebangsaan.\n                        "
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Profil Lulusan")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("dl", { staticClass: "row pl-5" }, [
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v(
+                                  "\n                          Pendidik pemula bahasa Indonesia\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan Prodi Pendidikan Bahasa dan Sastra Indonesia\n                          bisa menjadi pendidik pemula Bahasa Indonesia di\n                          tingkat sekolah menengah.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v(
+                                  "\n                          Peneliti pemula bidang pendidikan bahasa Indonesia\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan Prodi Pendidikan Bahasa dan Sastra Indonesia\n                          bisa menjadi peneliti Bahasa Indonesia dalam bidang\n                          kebahasaan dan sastra.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Wirausahawan")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan Prodi Pendidikan Bahasa dan Sastra Indonesia\n                          bisa menjadi wirausahawan idang bahasa Indonesia\n                          serta pembelajarannya yang berakhlak mulia,\n                          berkemampuan akademis-profesional, berjiwa pemimpin,\n                          kreatif-inovatif, dan mandiri berlandaskan karakter\n                          kebangsaan dan berorientasi global.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Penulis")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan Prodi Pendidikan Bahasa dan Sastra Indonesia\n                          bisa menjadi penulis karya sastra maupun karya\n                          ilmiah.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Jurnalis")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan Prodi Pendidikan Bahasa dan Sastra Indonesia\n                          bisa menjadi seorang jurnalis yang objektif.\n                        "
+                                )
+                              ])
+                            ])
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _vm._v("Program Studi Pendidikan Bahasa Inggris")
+                        ]),
+                        _vm._v(" "),
+                        _c("dl", [
+                          _c("dt", [_vm._v("Visi Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _vm._v(
+                              "\n                      “Menyiapkan tenaga pendidik dalam bidang Bahasa Inggris\n                      yang cerdas dan berdaya saing pada tahun 2021”\n                    "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Misi Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan pendidikan dan pengajaran bahasa\n                          Inggris yang berorientasi pada kemandirian mahasiswa\n                          dalam mengembangkan potensinya.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan penelitian untuk meningkatkan\n                          penguasaan dasar-dasar penelitian dan keterampilan\n                          di bidang pendidikan bahasa Inggris.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan pengabdian kepada masyarakat yang\n                          berbentuk penerapan ilmu pengetahuan dan\n                          keterampilan dalam bidang bahasa Inggris.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Mengembangkan keterampilan hidup untuk mempersiapkan\n                          mahasiswa menghadapi tuntutan dan tantangan dunia\n                          kerja.\n                        "
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Tujuan Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan lulusan yang memiliki kompetensi\n                          pedagogik, profesional, kepribadian dan sosial.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Melahirkan karya-karya penelitian yang menggambarkan\n                          pemahaman terhadap dasar-dasar/prinsip-prinsip\n                          ilmiah sebagai landasan untuk memecahkan masalah di\n                          bidang pendidikan bahasa Inggris.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Mendiseminasikan hasil pendidikan dan pengajaran\n                          serta penelitian di bidang pendidikan bahasa Inggris\n                          kepada masyarakat.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan lulusan yang memiliki kecakapan hidup\n                          khususnya yang terkait dengan dunia kerja.\n                        "
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Profil Luulusan")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("dl", { staticClass: "row pl-5" }, [
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v(
+                                  "\n                          Calon Pendidik Bahasa Inggris\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan Prodi Pendidikan Bahasa Inggris bisa menjadi\n                          calon pendidik Bahasa Inggris di jenjang Sekolah\n                          Menengah, maupun sekolah dasar. Selanjutnya, lulusan\n                          juga bisa menjadi guru setelah mengikuti sertifikasi\n                          guru. Lulusan juga bisa menjadi pengajar/ instruktur\n                          Bahasa Inggris di Lembaga-lembaga pendidikan\n                          non-formal.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Penerjemah/ Juru Bahasa")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan Prodi Pendidikan Bahasa Inggris bisa menjadi\n                          seorang penerjemah Bahasa Inggris karena memiliki\n                          kemampuan komunikasi non-verbal yang baik. Selain\n                          itu, lulusan juga memiliki kesempatan menjadi\n                          seorang juru Bahasa dikarenakan memiliki kemampuan\n                          verbal yang baik pula.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v(
+                                  "\n                          Pengembang Program Pengajaran Bahasa Inggris\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Selain sebagai pengajar/instruktur Bahasa Inggris,\n                          lulusan juga mempunyai kemampuan untuk mengembangakn\n                          suatu program pengajaran Bahasa Inggris baik dalam\n                          institusi pendidikan formal maupun non-formal.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Peneliti Bidang Pendidikan")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan juga mempunyai kesempatan menjadi seorang\n                          peneliti di bidang pendidikan, khususnya bidang\n                          pendidikan Bahasa Inggris. Hal ini dikarenakan para\n                          lulusan sudah mendapatkan pengalaman empiris dalam\n                          melaksanakan penelitian di kampus.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Wirausahawan")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan juga mempunyai kesempatan untuk bisa menjadi\n                          seorang wirausahawan khususnya di bidang pendidikan\n                          Bahasa Inggris. Hal ini dimungkinkan karena lulusan\n                          sudah mendapatkan pendidikan kewirausahaan pada\n                          proses pendidikan mereka.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v(
+                                  "\n                          Praktisi/ tenaga profesional di dunia industri\n                          pariwisata\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Sebagai penciri utama kurikulum, ilmu dan praktek\n                          mengenai kepariwisataan juga diberikan kepada para\n                          mahasiswa. Hal ini memungkinkan para lulusan bisa\n                          menjadi seorang praktisi/ tenaga profesional di\n                          bidang pariwisata, khususnya pada bidang F&B, FO,\n                          Guiding, dan HK.\n                        "
+                                )
+                              ])
+                            ])
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("li", [
+                          _vm._v("Program Studi Pendidikan Guru Sekolah Dasar")
+                        ]),
+                        _vm._v(" "),
+                        _c("dl", [
+                          _c("dt", [_vm._v("Visi Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _vm._v(
+                              "\n                      “Menjadi program studi yang siap mencetak calon guru\n                      sekolah dasar yang cerdas dan berdaya saing tinggi di\n                      tingkat nasional tahun 2025”\n                    "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Misi Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan pendidikan dan pengajaran\n                          pendidikan dasar yang berorientasi pada kemandirian\n                          mahasiswa dalam mengembangkan potensinya.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan penelitian untuk meningkatkan\n                          penguasaan dasar-dasar penelitian dan keterampilan\n                          di bidang pendidikan dasar.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan pengabdian kepada masyarakat yang\n                          berbentuk penerapan ilmu pengetahuan dan\n                          keterampilan dalam bidang pendidikan dasar.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Mengembangkan keterampilan hidup untuk mempersiapkan\n                          mahasiswa menghadapi tuntutan dan tantangan dunia\n                          kerja.\n                        "
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Tujuan Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan lulusan yang memiliki kompetensi\n                          pedagogik, profesional, kepribadian dan sosial.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Melahirkan karya-karya penelitian yang menggambarkan\n                          pemahaman terhadap dasar-dasar/prinsip-prinsip\n                          ilmiah sebagai landasan untuk memecahkan masalah di\n                          bidang pendidikan dasar.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Mendiseminasikan hasil pendidikan dan pengajaran\n                          serta penelitian di bidang pendidikan bahasa Inggris\n                          kepada masyarakat.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan lulusan yang memiliki kecakapan hidup\n                          khususnya yang terkait dengan dunia kerja.\n                        "
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Profil Luulusan")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("dl", { staticClass: "row pl-5" }, [
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Tenaga Pendidik di SD")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Tenaga Pendidik pada jenjang sekolah dasar yang\n                          mampu merencanakan, melaksanakan, mengevaluasi dan\n                          mengembangkan pembelajaran berdasar keilmuan,\n                          karakter, dan inovasi untuk meningkatkan mutu\n                          pendidikan\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Peneliti")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Peneliti yang mampu memecahkan permasalahan\n                          pembelajaran serta mampu menghasilkan inovasi\n                          pembelajaran yang teruji untuk peningkatan mutu\n                          pendidikan di sekolah dasar.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Konsultan Pendidikan")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Konsultan Pendidikan di tingkat satuan pendidikan\n                          dasar dalam bidang pengelola pendidikan, pembina\n                          ekstra kurikuler, evaluator pelaksanaan\n                          pembelajaran, dan pengembang media serta sumber\n                          belajar.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Wirausahawan")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan prodi PGSD juga bisa menjadi seorang\n                          wirausahawan dikarenakan mendapatkan proses\n                          pendidikan kewirausahaan.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Pengajar PAUD")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Selain sebagai tenaga pengajar di jenjang SD,\n                          lulusan prodi PGSD juga dibekali dengan ilmu\n                          pedagogi dan psikologi untuk mengajar di tingkat\n                          PAUD.\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("dt", { staticClass: "col-sm-3" }, [
+                                _vm._v("Konselor")
+                              ]),
+                              _vm._v(" "),
+                              _c("dd", { staticClass: "col-sm-9" }, [
+                                _vm._v(
+                                  "\n                          Lulusan prodi PGSD juga bisa menjadi seorang\n                          konselor di SD. Hal ini dimungkinkan karena para\n                          mahasiswa dibekali dengan pengetahuan dan\n                          keterampilan dalam bidang psikologi, dalam hal\n                          konseling di SD.\n                        "
+                                )
+                              ])
+                            ])
+                          ])
+                        ])
+                      ]),
+                      _vm._v(" "),
+                      _c("h5", [_vm._v("Fakultas Teknologi")]),
+                      _vm._v(" "),
+                      _c("ol", [
+                        _c("li", [_vm._v("Program Studi Sistem Informasi")]),
+                        _vm._v(" "),
+                        _c("dl", [
+                          _c("dt", [_vm._v("Visi Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _vm._v(
+                              "\n                      “Menjadi program studi unggulan Nasional pada bidang\n                      sistem informasi pemerintahan dan industri pada tahun\n                      2030”\n                    "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Misi Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan pendidikan dan pengajaran bidang\n                          sistem informasi yang berorientasi pada pengembangan\n                          sistem informasi pemerintahan (pusat dan daerah)\n                          serta industri (pariwisata, ekonomi kreatif,\n                          perusahaan, dan UMKM)\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan penelitian bidang sistem informasi\n                          yang berorientasi pada pengembangan sistem informasi\n                          pemerintahan (pusat dan daerah) serta industri\n                          (pariwisata, ekonomi kreatif, perusahaan, dan UMKM)\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menyelenggarakan pengabdian kepada masyarakat yang\n                          berbentuk penerapan ilmu pengetahuan, teknologi dan\n                          keterampilan dalam bidang sistem informasi yang\n                          berorientasi pada pengembangan sistem informasi\n                          pemerintahan (pusat dan daerah) serta industri\n                          (pariwisata, ekonomi kreatif, perusahaan, dan UMKM)\n                        "
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Tujuan Program Studi")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan lulusan yang memiliki daya saing dalam\n                          bidang sistem informasi yang berorientasi pada\n                          pengembangan sistem informasi pemerintahan (pusat\n                          dan daerah) serta industri (pariwisata, ekonomi\n                          kreatif, perusahaan, dan UMKM)\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan karya-karya penelitian yang inovatif\n                          dalam bidang sistem informasi yang berorientasi pada\n                          pengembangan sistem informasi pemerintahan (pusat\n                          dan daerah) serta industri (pariwisata, ekonomi\n                          kreatif, perusahaan, dan UMKM)\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menghasilkan karya dan kegiatan pengabdian kepada\n                          masyarakat yang mampu mengatasi permasalahan\n                          masyarakat dalam bidang pemerintahan (pusat dan\n                          daerah) serta industri (pariwisata, ekonomi kreatif,\n                          perusahaan, dan UMKM)\n                        "
+                                )
+                              ])
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("dt", [_vm._v("Profil Lulusan")]),
+                          _vm._v(" "),
+                          _c("dd", [
+                            _c("ul", [
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menjadi tenaga profesional pengembang Sistem\n                          Informasi e-Government dalam bidang Pemerintahan\n                          Pusat, Pemerintahan Daerah dan Pemerintahan Desa\n                          Adat\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menjadi tenaga profesional pengembang Sistem\n                          Informasi e-Business bidang Pariwisata, perusahaan,\n                          dan UMKM\n                        "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "\n                          Menjadi wirausahawan berbasis teknologi informasi\n                          ("
+                                ),
+                                _c("i", [_vm._v("technopreneur")]),
+                                _vm._v(")\n                        ")
+                              ]),
+                              _vm._v(" "),
+                              _c("li", [
+                                _vm._v(
+                                  "Siap melanjutkan jenjang studi S2 dan S3"
+                                )
+                              ])
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "panel panel-default" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-heading",
+                    attrs: { role: "tab", id: "headingTwo" }
+                  },
+                  [
+                    _c("h4", { staticClass: "panel-title" }, [
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            role: "button",
+                            "data-toggle": "collapse",
+                            "data-parent": "#accordion",
+                            href: "#collapseTwo",
+                            "aria-expanded": "true",
+                            "aria-controls": "collapseTwo"
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                  Kalender Akademik\n                  "
+                          ),
+                          _c("i", {
+                            staticClass:
+                              "fa fa-angle-double-up pull-right panel-icon",
+                            attrs: { "aria-hidden": "true" }
+                          })
+                        ]
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-collapse collapse in",
+                    attrs: {
+                      id: "collapseTwo",
+                      role: "tabpanel",
+                      "aria-labelledby": "headingTwo"
+                    }
+                  },
+                  [
+                    _c("div", { staticClass: "panel-body" }, [
+                      _c("p", { staticClass: "text-justify" }, [
+                        _vm._v(
+                          "\n                  Kalender Akademik ITP Markandeya Bali dapat dilihat pada\n                  bagian ini\n                "
+                        )
+                      ])
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "panel panel-default" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-heading",
+                    attrs: { role: "tab", id: "headingThree" }
+                  },
+                  [
+                    _c("h4", { staticClass: "panel-title" }, [
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            role: "button",
+                            "data-toggle": "collapse",
+                            "data-parent": "#accordion",
+                            href: "#collapseThree",
+                            "aria-expanded": "true",
+                            "aria-controls": "collapseThree"
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                  Informasi Akademik\n                  "
+                          ),
+                          _c("i", {
+                            staticClass:
+                              "fa fa-angle-double-up pull-right panel-icon",
+                            attrs: { "aria-hidden": "true" }
+                          })
+                        ]
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-collapse collapse in",
+                    attrs: {
+                      id: "collapseThree",
+                      role: "tabpanel",
+                      "aria-labelledby": "headingThree"
+                    }
+                  },
+                  [
+                    _c("div", { staticClass: "panel-body" }, [
+                      _c("p", { staticClass: "text-justify" }, [
+                        _vm._v(
+                          "\n                  Informasi Akademik ITP Markandeya Bali dapat dilihat pada\n                  bagian ini\n                "
+                        )
+                      ])
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "panel panel-default" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-heading",
+                    attrs: { role: "tab", id: "headingFour" }
+                  },
+                  [
+                    _c("h4", { staticClass: "panel-title" }, [
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            role: "button",
+                            "data-toggle": "collapse",
+                            "data-parent": "#accordion",
+                            href: "#collapseFour",
+                            "aria-expanded": "true",
+                            "aria-controls": "collapseFour"
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                  Kuliah Online\n                  "
+                          ),
+                          _c("i", {
+                            staticClass:
+                              "fa fa-angle-double-up pull-right panel-icon",
+                            attrs: { "aria-hidden": "true" }
+                          })
+                        ]
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-collapse collapse in",
+                    attrs: {
+                      id: "collapseFour",
+                      role: "tabpanel",
+                      "aria-labelledby": "headingFour"
+                    }
+                  },
+                  [
+                    _c("div", { staticClass: "panel-body" }, [
+                      _c("p", { staticClass: "text-justify" }, [
+                        _vm._v(
+                          "\n                  Kuliah Online ITP Markandeya Bali bisa diakses pada link\n                  berikut\n                "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "link" }, [
+                        _c(
+                          "a",
+                          {
+                            attrs: {
+                              href:
+                                "https://kuliahonline.stkipsuarbangli.ac.id/",
+                              target: "_blank"
+                            }
+                          },
+                          [_c("strong", [_vm._v("Kuliah Online")])]
+                        )
+                      ])
+                    ])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -54853,6 +56400,27 @@ if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
 var update = add("622f3b2a", content, false, {});
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akademik.vue?vue&type=style&index=0&id=77a03e20&scoped=true&lang=css&");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
+var update = add("18db3a4d", content, false, {});
 // Hot Module Replacement
 if(false) {}
 
