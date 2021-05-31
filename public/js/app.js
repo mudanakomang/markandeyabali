@@ -12936,6 +12936,400 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  mounted: function mounted() {
+    $(".panel-collapse").on("show.bs.collapse", function () {
+      $(this).siblings(".panel-heading").addClass("active");
+      $("html, body").animate({
+        scrollTop: 0
+      }, 1000);
+      var currentId = $(this).attr("id");
+      $(".panel-collapse").each(function () {
+        var id = $(this).attr("id");
+
+        if (currentId !== id) {
+          $(this).removeClass("show");
+          $(this).siblings(".panel-heading").removeClass("active");
+        }
+      });
+    });
+    $(".panel-collapse").on("hide.bs.collapse", function () {
+      $(this).siblings(".panel-heading").removeClass("active");
+    });
+  }
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -17660,7 +18054,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.main-footer h6[data-v-61a7c374] {\n\tfont-size: 20px;\n\tline-height: 27px;\n\tcolor: #ffffff;\n\tfont-weight: 700;\n\ttext-transform: capitalize;\n}\n.main-footer .sec-title-one[data-v-61a7c374] {\n\tmargin-bottom: 25px;\n}\n.footer-about-widget[data-v-61a7c374] {\n\tmargin-right: 50px;\n}\n.footer-about-widget p[data-v-61a7c374] {\n\tcolor: #b3b3b3;\n}\n.footer-about-widget .footer-logo[data-v-61a7c374] {\n\tpadding-bottom: 10px;\n}\n.footer-about-widget .social-links[data-v-61a7c374] {\n\tpadding-top: 10px;\n}\n.footer-about-widget .social-links li[data-v-61a7c374] {\n\tdisplay: inline-block;\n\tmargin: 0px 2px;\n}\n.footer-about-widget .social-links li i[data-v-61a7c374] {\n\tfont-size: 14px;\n\twidth: 45px;\n\theight: 45px;\n\tcolor: #adadad;\n\ttext-align: center;\n\tbackground: #222222;\n\tline-height: 45px;\n\ttransition: all 500ms ease;\n}\n.footer-about-widget .social-links li:hover i[data-v-61a7c374] {\n\tcolor: #f6f6f6;\n\tbackground: #f36371;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li a[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #b3b3b3;\n\tline-height: 41px;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li a[data-v-61a7c374]:hover {\n\tcolor: #f36371;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li i[data-v-61a7c374] {\n\tmargin-right: 8px;\n\tcolor: #f36371;\n}\n.footer-blog[data-v-61a7c374] {\n\tmargin-left: 25px;\n}\n.footer-blog .item[data-v-61a7c374] {\n\tposition: relative;\n\tpadding-bottom: 15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #3e3e3e;\n}\n.footer-blog .item[data-v-61a7c374]:last-child {\n\tborder-bottom: none;\n}\n.footer-blog .icon-box[data-v-61a7c374] {\n\tposition: absolute;\n\ttop: 5px;\n\tleft: 0px;\n}\n.footer-blog .icon-box i[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #0084b4;\n}\n.footer-blog .icon-text[data-v-61a7c374] {\n\tposition: relative;\n\tpadding-left: 35px;\n}\n.footer-blog .icon-text p[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #b3b3b3;\n\tline-height: 24px;\n\tmargin-bottom: 5px;\n}\n.footer-blog .icon-text a[data-v-61a7c374] {\n\tfont-size: 15px;\n\tcolor: #0084b4;\n\ttext-transform: uppercase;\n}\n.footer-blog .icon-text span[data-v-61a7c374] {\n\tfont-size: 14px;\n\tcolor: #b3b3b3;\n\tfont-style: normal;\n\tfont-weight: 400;\n}\n.footer-blog .icon-text span i[data-v-61a7c374] {\n\tfont-size: 12px;\n\tmargin-right: 10px;\n\tcolor: #f9be4d;\n}\n.footer-gallery-widget[data-v-61a7c374] {\n\tposition: relative;\n\tmargin-left: 30px;\n}\n.footer-gallery-widget .innar-box[data-v-61a7c374] {\n\tpadding: 0px 10px;\n}\n.footer-gallery-widget .image[data-v-61a7c374] {\n\tposition: relative;\n\tmargin: 5px -10px;\n}\n.footer-gallery-widget img[data-v-61a7c374] {\n\twidth: 100%;\n}\nul[data-v-61a7c374], li[data-v-61a7c374] {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n}\n.sp-one[data-v-61a7c374] {\n\tpadding: 130px 0px;\n}\n.bg-four[data-v-61a7c374] {\n\tbackground: #3333332d;\n}\n\n/*===Footer Bottom===*/\n.bottom-text p[data-v-61a7c374] {\n\tfont-size: 15px;\n\tcolor: #333333;\n\tline-height: 28px;\n\tpadding: 16px 0px;\n\tmargin-bottom: 0px;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.main-footer[data-v-61a7c374]{\n    position: relative;\n    z-index: -1;\n}\n.main-footer h6[data-v-61a7c374] {\n\tfont-size: 20px;\n\tline-height: 27px;\n\tcolor: #ffffff;\n\tfont-weight: 700;\n\ttext-transform: capitalize;\n}\n.main-footer .sec-title-one[data-v-61a7c374] {\n\tmargin-bottom: 25px;\n}\n.footer-about-widget[data-v-61a7c374] {\n\tmargin-right: 50px;\n}\n.footer-about-widget p[data-v-61a7c374] {\n\tcolor: #b3b3b3;\n}\n.footer-about-widget .footer-logo[data-v-61a7c374] {\n\tpadding-bottom: 10px;\n}\n.footer-about-widget .social-links[data-v-61a7c374] {\n\tpadding-top: 10px;\n}\n.footer-about-widget .social-links li[data-v-61a7c374] {\n\tdisplay: inline-block;\n\tmargin: 0px 2px;\n}\n.footer-about-widget .social-links li i[data-v-61a7c374] {\n\tfont-size: 14px;\n\twidth: 45px;\n\theight: 45px;\n\tcolor: #adadad;\n\ttext-align: center;\n\tbackground: #222222;\n\tline-height: 45px;\n\ttransition: all 500ms ease;\n}\n.footer-about-widget .social-links li:hover i[data-v-61a7c374] {\n\tcolor: #f6f6f6;\n\tbackground: #f36371;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li a[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #b3b3b3;\n\tline-height: 41px;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li a[data-v-61a7c374]:hover {\n\tcolor: #f36371;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li i[data-v-61a7c374] {\n\tmargin-right: 8px;\n\tcolor: #f36371;\n}\n.footer-blog[data-v-61a7c374] {\n\tmargin-left: 25px;\n}\n.footer-blog .item[data-v-61a7c374] {\n\tposition: relative;\n\tpadding-bottom: 15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #3e3e3e;\n}\n.footer-blog .item[data-v-61a7c374]:last-child {\n\tborder-bottom: none;\n}\n.footer-blog .icon-box[data-v-61a7c374] {\n\tposition: absolute;\n\ttop: 5px;\n\tleft: 0px;\n}\n.footer-blog .icon-box i[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #0084b4;\n}\n.footer-blog .icon-text[data-v-61a7c374] {\n\tposition: relative;\n\tpadding-left: 35px;\n}\n.footer-blog .icon-text p[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #b3b3b3;\n\tline-height: 24px;\n\tmargin-bottom: 5px;\n}\n.footer-blog .icon-text a[data-v-61a7c374] {\n\tfont-size: 15px;\n\tcolor: #0084b4;\n\ttext-transform: uppercase;\n}\n.footer-blog .icon-text span[data-v-61a7c374] {\n\tfont-size: 14px;\n\tcolor: #b3b3b3;\n\tfont-style: normal;\n\tfont-weight: 400;\n}\n.footer-blog .icon-text span i[data-v-61a7c374] {\n\tfont-size: 12px;\n\tmargin-right: 10px;\n\tcolor: #f9be4d;\n}\n.footer-gallery-widget[data-v-61a7c374] {\n\tposition: relative;\n\tmargin-left: 30px;\n}\n.footer-gallery-widget .innar-box[data-v-61a7c374] {\n\tpadding: 0px 10px;\n}\n.footer-gallery-widget .image[data-v-61a7c374] {\n\tposition: relative;\n\tmargin: 5px -10px;\n}\n.footer-gallery-widget img[data-v-61a7c374] {\n\twidth: 100%;\n}\nul[data-v-61a7c374], li[data-v-61a7c374] {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n}\n.sp-one[data-v-61a7c374] {\n\tpadding: 130px 0px;\n}\n.bg-four[data-v-61a7c374] {\n\tbackground: #3333332d;\n}\n\n/*===Footer Bottom===*/\n.bottom-text p[data-v-61a7c374] {\n\tfont-size: 15px;\n\tcolor: #333333;\n\tline-height: 28px;\n\tpadding: 16px 0px;\n\tmargin-bottom: 0px;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -17708,7 +18102,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nh1[data-v-6dde423b] {\n  margin: 0 0 3rem 0;\n  font-family: 'Varta', sans-serif;\n  text-shadow: 2px 2px black;\n}\np[data-v-6dde423b] {\n  font-family: 'Archivo', sans-serif;\n  text-shadow: 2px 2px black;\n  letter-spacing: 3px;\n  color: white;\n  text-justify: right;\n}\n@media (max-width: 786px) {\n.hero-text p[data-v-6dde423b]{\n        font-family: 'Archivo', sans-serif;\n        text-shadow: 2px 2px black;\n        letter-spacing: 3px;\n        color: white;\n        align-items: center;\n        justify-content: center;\n        text-align: center;\n}\n}\n.logo[data-v-6dde423b] {\n  line-height: 60px;\n  position: fixed;\n  float: left;\n  margin: 16px 46px;\n  color: #fff;\n  font-weight: bold;\n  font-size: 20px;\n  letter-spacing: 2px;\n}\nnav[data-v-6dde423b] {\n  position: fixed;\n  width: 100%;\n  line-height: 60px;\n}\nnav ul[data-v-6dde423b] {\n  line-height: 60px;\n  list-style: none;\n  background: rgba(0, 0, 0, 0.5);\n  overflow: hidden;\n  color: #fff;\n  padding: 0;\n  text-align: right;\n  margin: 0;\n  padding-right: 40px;\n  transition: 1s;\n}\nnav.black ul[data-v-6dde423b] {\n  background: #000;\n}\nnav ul li[data-v-6dde423b] {\n  display: inline-block;\n  padding: 16px 40px;\n}\nnav ul li a[data-v-6dde423b] {\n  text-decoration: none;\n  color: #fff;\n  font-size: 16px;\n}\n.menu-icon[data-v-6dde423b] {\n  line-height: 60px;\n  width: 100%;\n  background: #000;\n  text-align: right;\n  box-sizing: border-box;\n  padding: 15px 24px;\n  cursor: pointer;\n  color: #fff;\n  display: none;\n}\n@media (max-width: 786px) {\n.logo[data-v-6dde423b] {\n    position: fixed;\n    top: 0;\n    margin-top: 16px;\n}\nnav ul[data-v-6dde423b] {\n    max-height: 0px;\n    background: #000;\n}\nnav.black ul[data-v-6dde423b] {\n    background: #000;\n}\n.showing[data-v-6dde423b] {\n    max-height: 38em;\n}\nnav ul li[data-v-6dde423b] {\n    box-sizing: border-box;\n    width: 100%;\n    padding: 24px;\n    text-align: center;\n}\n.menu-icon[data-v-6dde423b] {\n    display: block;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nh1[data-v-6dde423b] {\n  margin: 0 0 3rem 0;\n  font-family: 'Varta', sans-serif;\n  text-shadow: 2px 2px black;\n}\np[data-v-6dde423b] {\n  font-family: 'Archivo', sans-serif;\n  text-shadow: 2px 2px black;\n  letter-spacing: 3px;\n  color: white;\n  text-justify: right;\n}\n@media (max-width: 883px) {\n.hero-text p[data-v-6dde423b]{\n        font-family: 'Archivo', sans-serif;\n        text-shadow: 2px 2px black;\n        letter-spacing: 3px;\n        color: white;\n        align-items: center;\n        justify-content: center;\n        text-align: center;\n}\n}\n.logo[data-v-6dde423b] {\n  line-height: 60px;\n  position: fixed;\n  float: left;\n  margin: 16px 46px;\n  color: #fff;\n  font-weight: bold;\n  font-size: 20px;\n  letter-spacing: 2px;\n}\nnav[data-v-6dde423b] {\n  position: fixed;\n  width: 100%;\n  line-height: 60px;\n  z-index: 999999;\n}\nnav ul[data-v-6dde423b] {\n  line-height: 60px;\n  list-style: none;\n  background: rgba(0, 0, 0, 0.5);\n  overflow: hidden;\n  color: #fff;\n  padding: 0;\n  text-align: right;\n  margin: 0;\n  padding-right: 40px;\n  transition: 1s;\n}\nnav.black ul[data-v-6dde423b] {\n  background: #000;\n}\nnav ul li[data-v-6dde423b] {\n  display: inline-block;\n  padding: 16px 40px;\n}\nnav ul li a[data-v-6dde423b] {\n  text-decoration: none;\n  color: #fff;\n  font-size: 16px;\n}\n.menu-icon[data-v-6dde423b] {\n  line-height: 60px;\n  width: 100%;\n  background: #000;\n  text-align: right;\n  box-sizing: border-box;\n  padding: 15px 24px;\n  cursor: pointer;\n  color: #fff;\n  display: none;\n}\n@media (max-width: 883px) {\n.logo[data-v-6dde423b] {\n    position: fixed;\n    top: 0;\n    margin-top: 16px;\n}\nnav ul[data-v-6dde423b] {\n    max-height: 10px;\n    background: #000;\n}\nnav.black ul[data-v-6dde423b] {\n    background: #000;\n}\n.showing[data-v-6dde423b] {\n    max-height: 38em;\n}\nnav ul li[data-v-6dde423b] {\n    box-sizing: border-box;\n    width: 100%;\n    padding: 24px;\n    text-align: center;\n}\n.menu-icon[data-v-6dde423b] {\n    display: block;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -17732,7 +18126,31 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.callout-section[data-v-b3c5cf30] {\n  margin: 0px;\n}\n.callout-section .callout-item[data-v-b3c5cf30] {\n  background: #3333332d;\n  padding: 35px 0 35px;\n  /* border-left: #333333 solid 1px; */\n  cursor: pointer;\n}\n.callout-section .callout-item.light-bg[data-v-b3c5cf30] {\n  background: transparent;\n}\n.callout-section .callout-item.deep-bg[data-v-b3c5cf30] {\n  background: transparent;\n}\n.callout-section .default-bg[data-v-b3c5cf30] {\n  margin: 0px;\n}\n.callout-item h5[data-v-b3c5cf30] {\n  font-weight: bold;\n}\n.callout-item .inner-item[data-v-b3c5cf30] {\n  position: relative;\n  margin: 0px 30px 0px 100px;\n}\n.callout-item .icon-box[data-v-b3c5cf30] {\n  position: absolute;\n  top: 5px;\n  left: 0px;\n}\n.callout-item .icon-box i[data-v-b3c5cf30]:before {\n  font-size: 50px;\n  color: #333333;\n}\n.callout-item h5[data-v-b3c5cf30] {\n  transition: 0.5s ease;\n}\n.callout-item .text[data-v-b3c5cf30] {\n  color: #222;\n}\n.sp-one[data-v-b3c5cf30] {\n  padding: 100px 0px;\n}\n.sp-two[data-v-b3c5cf30] {\n  padding: 130px 0px 80px;\n}\n.sp-three[data-v-b3c5cf30] {\n  padding: 130px 0px 100px;\n}\n.sp-four[data-v-b3c5cf30] {\n  padding: 120px 0px 80px;\n}\n.sp-five[data-v-b3c5cf30] {\n  padding: 50px 0px 20px;\n}\n.sp-six[data-v-b3c5cf30] {\n  padding: 75px 0px 55px;\n}\n.sp-seven[data-v-b3c5cf30] {\n  padding: 95px 0px 65px;\n}\n.sp-eight[data-v-b3c5cf30] {\n  padding: 60px 0px 30px;\n}\n.sp-nine[data-v-b3c5cf30] {\n  padding: 150px 0px 40px;\n}\n.sp-ten[data-v-b3c5cf30] {\n  padding: 150px 0px 110px;\n}\n.sp-eleven[data-v-b3c5cf30] {\n  padding: 150px 0px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.callout-section[data-v-b3c5cf30] {\n  margin: 0px;\n  position: relative;\n  z-index: 0;\n}\n.callout-section .callout-item[data-v-b3c5cf30] {\n  background: #3333332d;\n  padding: 35px 0 35px;\n  /* border-left: #333333 solid 1px; */\n  cursor: pointer;\n}\n.callout-section .callout-item.light-bg[data-v-b3c5cf30] {\n  background: transparent;\n}\n.callout-section .callout-item.deep-bg[data-v-b3c5cf30] {\n  background: transparent;\n}\n.callout-section .default-bg[data-v-b3c5cf30] {\n  margin: 0px;\n}\n.callout-item h5[data-v-b3c5cf30] {\n  font-weight: bold;\n}\n.callout-item .inner-item[data-v-b3c5cf30] {\n  position: relative;\n  margin: 0px 30px 0px 100px;\n}\n.callout-item .icon-box[data-v-b3c5cf30] {\n  position: absolute;\n  top: 5px;\n  left: 0px;\n}\n.callout-item .icon-box i[data-v-b3c5cf30]:before {\n  font-size: 50px;\n  color: #333333;\n}\n.callout-item h5[data-v-b3c5cf30] {\n  transition: 0.5s ease;\n}\n.callout-item .text[data-v-b3c5cf30] {\n  color: #222;\n}\n.sp-one[data-v-b3c5cf30] {\n  padding: 100px 0px;\n}\n.sp-two[data-v-b3c5cf30] {\n  padding: 130px 0px 80px;\n}\n.sp-three[data-v-b3c5cf30] {\n  padding: 130px 0px 100px;\n}\n.sp-four[data-v-b3c5cf30] {\n  padding: 120px 0px 80px;\n}\n.sp-five[data-v-b3c5cf30] {\n  padding: 50px 0px 20px;\n}\n.sp-six[data-v-b3c5cf30] {\n  padding: 75px 0px 55px;\n}\n.sp-seven[data-v-b3c5cf30] {\n  padding: 95px 0px 65px;\n}\n.sp-eight[data-v-b3c5cf30] {\n  padding: 60px 0px 30px;\n}\n.sp-nine[data-v-b3c5cf30] {\n  padding: 150px 0px 40px;\n}\n.sp-ten[data-v-b3c5cf30] {\n  padding: 150px 0px 110px;\n}\n.sp-eleven[data-v-b3c5cf30] {\n  padding: 150px 0px;\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.sp-nine[data-v-6ea73e94] {\n  padding: 25px 0px 25px;\n}\n.left-side-area[data-v-6ea73e94] {\n  margin-right: -20px;\n}\n.left-side-area .product-info[data-v-6ea73e94] {\n  margin-bottom: 40px;\n}\n.shop-item-one[data-v-6ea73e94] {\n  margin-bottom: 30px;\n}\n.shop-item-one .image-box[data-v-6ea73e94] {\n  position: relative;\n  overflow: hidden;\n  border: 1px solid #e0e0e0;\n}\n.item img[data-v-6ea73e94] {\n  max-width: 270px;\n}\n.shop-item-one .overly-box[data-v-6ea73e94] {\n  position: absolute;\n  text-align: center;\n  left: 0px;\n  top: 0px;\n  width: 100%;\n  height: 100%;\n  color: #ffffff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  background: rgba(249, 190, 77, 0.7);\n  transition: 0.5s cubic-bezier(0.4, 0, 1, 1);\n  opacity: 0;\n  content: \"\";\n  visibility: hidden;\n}\n.shop-item-one .image-box:hover .overly-box[data-v-6ea73e94] {\n  visibility: visible;\n  opacity: 1;\n  transition: all 500ms ease;\n}\n.shop-item-one a i[data-v-6ea73e94] {\n  font-size: 13px;\n  line-height: 29px;\n  margin-right: 10px;\n}\n.shop-item-one .image-text[data-v-6ea73e94] {\n  padding: 20px 0px;\n}\n.shop-item-one .image-text h6[data-v-6ea73e94] {\n  font-size: 16px;\n  font-weight: bold;\n  line-height: 22px;\n  color: #333333;\n}\n.shop-item-one h6[data-v-6ea73e94] {\n  font-size: 16px;\n  font-weight: bold;\n  line-height: 22px;\n  color: #000000;\n}\n.list[data-v-6ea73e94] {\n  padding: 15px 15px 15px 15px;\n}\n.list .title[data-v-6ea73e94] {\n  padding-bottom: 5px;\n  font-weight: bold;\n}\n.list .item[data-v-6ea73e94] {\n  padding: 5px 0px;\n}\n.title-manu[data-v-6ea73e94] {\n  padding-top: 15px;\n}\n.content[data-v-6ea73e94] {\n  padding: 100px 0px;\n}\n.sp-one[data-v-6ea73e94] {\n  padding: 100px 0px;\n  z-index: 0;\n}\n.welcome-section .title-manu li[data-v-6ea73e94] {\n  position: relative;\n  font-size: 15px;\n  line-height: 26px;\n  font-weight: 700;\n  color: #f36371;\n  margin-left: 15px;\n  padding: 17px 0px;\n  display: inline-block;\n  font-family: \"Montserrat\", sans-serif;\n  text-transform: capitalize;\n}\n.welcome-section .title-manu li a[data-v-6ea73e94] {\n  color: #333333;\n  font-family: \"Montserrat\", sans-serif;\n  transition: all 500ms ease;\n}\n.welcome-section .title-manu li a[data-v-6ea73e94]:hover {\n  color: #f36371;\n  transition: all 500ms ease;\n}\n.title h2[data-v-6ea73e94] {\n  padding-top: 25px;\n}\nbody[data-v-6ea73e94] {\n  padding: 50px;\n  background: #fff;\n}\n.wrapper[data-v-6ea73e94] {\n  width: 90%;\n}\n@media (max-width: 992px) {\n.wrapper[data-v-6ea73e94] {\n    width: 100%;\n}\n}\n.panel-heading[data-v-6ea73e94] {\n  padding: 0;\n  border: 0;\n}\n.panel-icon[data-v-6ea73e94] {\n  transition: all 0.5s linear;\n}\n.panel-heading.active .panel-icon[data-v-6ea73e94] {\n  transform: rotate(180deg);\n}\n.panel-title > a[data-v-6ea73e94],\n.panel-title > a[data-v-6ea73e94]:active {\n  display: block;\n  padding: 15px;\n  color: #555;\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  word-spacing: 3px;\n  text-decoration: none;\n}\n/* .panel-heading a:before {\n  font-family: \"Glyphicons Halflings\";\n  content: \"\\e114\";\n  float: right;\n  transition: all 0.5s;\n} */\n.panel-body[data-v-6ea73e94] {\n  padding: 0px 25px 0px 25px;\n}\n.panel-body h5[data-v-6ea73e94] {\n  font-weight: bold;\n}\n.panel-heading.active a[data-v-6ea73e94]:before {\n  transform: rotate(180deg);\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -49427,21 +49845,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Penelitian_vue_vue_type_template_id_6ea73e94___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Penelitian.vue?vue&type=template&id=6ea73e94& */ "./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Penelitian_vue_vue_type_template_id_6ea73e94_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true& */ "./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true&");
+/* harmony import */ var _Penelitian_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Penelitian.vue?vue&type=script&lang=js& */ "./resources/js/pages/Penelitian.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Penelitian_vue_vue_type_style_index_0_id_6ea73e94_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css& */ "./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
+;
 
 
 /* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
-  script,
-  _Penelitian_vue_vue_type_template_id_6ea73e94___WEBPACK_IMPORTED_MODULE_0__.render,
-  _Penelitian_vue_vue_type_template_id_6ea73e94___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _Penelitian_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Penelitian_vue_vue_type_template_id_6ea73e94_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Penelitian_vue_vue_type_template_id_6ea73e94_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
-  null,
+  "6ea73e94",
   null
   
 )
@@ -49530,6 +49952,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Home.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/Penelitian.vue?vue&type=script&lang=js&":
+/*!********************************************************************!*\
+  !*** ./resources/js/pages/Penelitian.vue?vue&type=script&lang=js& ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Penelitian.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
 
 /***/ }),
 
@@ -49703,19 +50141,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&":
-/*!**************************************************************************!*\
-  !*** ./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94& ***!
-  \**************************************************************************/
+/***/ "./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true& ***!
+  \**************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_template_id_6ea73e94___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_template_id_6ea73e94___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_template_id_6ea73e94_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_template_id_6ea73e94_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_template_id_6ea73e94___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Penelitian.vue?vue&type=template&id=6ea73e94& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_template_id_6ea73e94_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true&");
 
 
 /***/ }),
@@ -49800,6 +50238,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_id_b3c5cf30_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_id_b3c5cf30_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
 /* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_id_b3c5cf30_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_style_index_0_id_b3c5cf30_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css& ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_style_index_0_id_6ea73e94_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-style-loader/index.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css& */ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_style_index_0_id_6ea73e94_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_style_index_0_id_6ea73e94_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_style_index_0_id_6ea73e94_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_style_index_0_id_6ea73e94_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
 /* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
 
 
@@ -50355,10 +50810,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94& ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -50371,9 +50826,661 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("h1", [_vm._v("Penelitian")])
+  return _c("div", [
+    _c("section", { staticClass: "welcome-section sp-one" }, [
+      _c(
+        "div",
+        { staticClass: "container", attrs: { "data-target": "html" } },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("ul", { staticClass: "title-manu pull-right" }, [
+            _c(
+              "li",
+              [
+                _c("router-link", { attrs: { to: { path: "/home" } } }, [
+                  _vm._v("Home")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(1),
+            _vm._v(" "),
+            _c("li", [_vm._v("Penelitian")])
+          ])
+        ]
+      )
+    ]),
+    _vm._v(" "),
+    _vm._m(2)
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "title pull-left" }, [
+      _c("h2", [_vm._v("Penelitian")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("i", {
+        staticClass: "fa fa-angle-double-right",
+        attrs: { "aria-hidden": "true" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "content" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "wrapper center-block" }, [
+          _c(
+            "div",
+            {
+              staticClass: "panel-group",
+              attrs: {
+                id: "accordion",
+                role: "tablist",
+                "aria-multiselectable": "true"
+              }
+            },
+            [
+              _c("div", { staticClass: "panel panel-default" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-heading active",
+                    attrs: { role: "tab", id: "headingOne" }
+                  },
+                  [
+                    _c("h4", { staticClass: "panel-title" }, [
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            role: "button",
+                            "data-toggle": "collapse",
+                            "data-parent": "#accordion",
+                            href: "#collapseOne",
+                            "aria-expanded": "true",
+                            "aria-controls": "collapseOne"
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                  Profil Lembaga Penelitian\n                  "
+                          ),
+                          _c("i", {
+                            staticClass:
+                              "fa fa-angle-double-up pull-right panel-icon",
+                            attrs: { "aria-hidden": "true" }
+                          })
+                        ]
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-collapse collapse in show",
+                    attrs: {
+                      id: "collapseOne",
+                      role: "tabpanel",
+                      "aria-labelledby": "headingOne"
+                    }
+                  },
+                  [
+                    _c("div", { staticClass: "panel-body" }, [
+                      _c("p", { staticClass: "text-justify" }, [
+                        _vm._v(
+                          "\n                  Lembaga penelitian dan pengabdian kepada masyarakat Institut\n                  Teknologi dan Pendidikan (ITP) Markandeya Bali didirikan\n                  berdasarkan SK Rektor No 059/ITP-MB/IV/2021. Lembaga ini\n                  bertujuan mewadahi pelaksanaan tugas Tri Dharma Perguruan\n                  Tinggi Dosen ITP Markandeya Bali.\n                "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("h5", [_vm._v("Program kerja")]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                  LPPM ITP Markandeya Bali memiliki program kerja yang salah\n                  satunya dapat meningkatkan publikasi ilmiah Dosen serta\n                  peningkatan proposal penelitian dan pengabdian Dosen lolos\n                  Hibah Dikti.\n                "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("h5", [_vm._v("Pimpinan Lembaga")]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "container" }, [
+                        _c("div", { staticClass: "row p-5" }, [
+                          _c("div", { staticClass: "col-lg-4 col-sm-12" }, [
+                            _c("img", {
+                              attrs: {
+                                width: "100%",
+                                src: "/img/ketua-lp.jpg",
+                                alt: "Ketua Lembaga Penelitian"
+                              }
+                            })
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            { staticClass: "col-lg-8 col-sm-12 list" },
+                            [
+                              _c("div", { staticClass: "title" }, [
+                                _vm._v("Kepala LPPM ITP Markandeya Bali")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "item" }, [
+                                _vm._v(
+                                  "\n                        Nama : Ni Wayan Sri Darmayanti, S.Pd.,M.Pd.\n                      "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "item" }, [
+                                _vm._v(
+                                  "\n                        Tempat/Tanggal Lahir: Tampaksiring, 26 Februari 1989\n                      "
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "item" }, [
+                                _vm._v("NIDN : 0026028903")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "item" }, [
+                                _vm._v("Jabatan Akademik : Lektor")
+                              ])
+                            ]
+                          )
+                        ])
+                      ])
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "panel panel-default" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-heading",
+                    attrs: { role: "tab", id: "headingTwo" }
+                  },
+                  [
+                    _c("h4", { staticClass: "panel-title" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "collapsed",
+                          attrs: {
+                            role: "button",
+                            "data-toggle": "collapse",
+                            "data-parent": "#accordion",
+                            href: "#collapseTwo",
+                            "aria-expanded": "false",
+                            "aria-controls": "collapseTwo"
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                  Panduan Penelitan dan Pengabdian\n                  "
+                          ),
+                          _c("i", {
+                            staticClass:
+                              "fa fa-angle-double-up pull-right panel-icon",
+                            attrs: { "aria-hidden": "true" }
+                          })
+                        ]
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-collapse collapse",
+                    attrs: {
+                      id: "collapseTwo",
+                      role: "tabpanel",
+                      "aria-labelledby": "headingTwo"
+                    }
+                  },
+                  [
+                    _c("div", { staticClass: "panel-body" }, [
+                      _c("div", { staticClass: "download" }, [
+                        _vm._v("Download")
+                      ])
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "panel panel-default" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-heading",
+                    attrs: { role: "tab", id: "headingThree" }
+                  },
+                  [
+                    _c("h4", { staticClass: "panel-title" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "collapsed",
+                          attrs: {
+                            role: "button",
+                            "data-toggle": "collapse",
+                            "data-parent": "#accordion",
+                            href: "#collapseThree",
+                            "aria-expanded": "false",
+                            "aria-controls": "collapseThree"
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                  Jurnal penelitian\n                  "
+                          ),
+                          _c("i", {
+                            staticClass:
+                              "fa fa-angle-double-up pull-right panel-icon",
+                            attrs: { "aria-hidden": "true" }
+                          })
+                        ]
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-collapse collapse",
+                    attrs: {
+                      id: "collapseThree",
+                      role: "tabpanel",
+                      "aria-labelledby": "headingThree"
+                    }
+                  },
+                  [
+                    _c("div", { staticClass: "panel-body" }, [
+                      _vm._v(
+                        "\n                ITP Markandeya Bali memiliki tiga jurnal ilmiah, yaitu:\n                "
+                      ),
+                      _c(
+                        "div",
+                        { staticClass: "single-product-section sp-nine" },
+                        [
+                          _c("div", { staticClass: "container" }, [
+                            _c("div", { staticClass: "row" }, [
+                              _c(
+                                "div",
+                                { staticClass: "col-xl-12 col-sm-12" },
+                                [
+                                  _c("div", { staticClass: "left-side-area" }, [
+                                    _c(
+                                      "div",
+                                      { staticClass: "single-product-one" },
+                                      [
+                                        _c("div", { staticClass: "row" }, [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "col-xl-4 col-md-4 col-sm-12"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                { staticClass: "product-info" },
+                                                [
+                                                  _c("div", {}, [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "item" },
+                                                      [
+                                                        _c("img", {
+                                                          attrs: {
+                                                            src:
+                                                              "/img/deiksis.png",
+                                                            alt: "Awesome Image"
+                                                          }
+                                                        })
+                                                      ]
+                                                    )
+                                                  ])
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "col-xl-8 col-md-8 col-sm-12"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass: "shop-item-one"
+                                                },
+                                                [
+                                                  _c("h6", [_vm._v("Deiksis")]),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "product-text"
+                                                    },
+                                                    [
+                                                      _c(
+                                                        "p",
+                                                        {
+                                                          staticClass:
+                                                            "text-justify"
+                                                        },
+                                                        [
+                                                          _vm._v(
+                                                            "\n                                      Jurnal Pendidikan Deiksis hadir untuk\n                                      mewadahi tulisan baik berupa artikel\n                                      penelitian, artikel ilmiah, maupun\n                                      kajian ilmiah lain yang berkaitan dengan\n                                      bidang Pendidikan Bahasa dan Sastra\n                                      Indonesia. Penggunaan Deiksis sebagai\n                                      nama jurnal ilmiah diilhami istilah\n                                      deiksis dalam ilmu linguistik yang\n                                      berarti acuan. Diharapkan dengan\n                                      menggunakan nama ini, jurnal khsusus\n                                      untuk pendidikan bahasa dan sastra\n                                      Indonesia milik ITP Markandeya Bali\n                                      mampu menjadi acuan untuk menerbitkan\n                                      karya ilmiah yang berkaitan dengan ilmu\n                                      kebahasaan, khususnya dalam bahasa\n                                      Indonesia. Jurnal ini terbit setahun 2\n                                      kali, yaitu bulan Januari dan Juli.\n                                    "
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ])
+                                      ]
+                                    )
+                                  ])
+                                ]
+                              )
+                            ])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "single-product-section sp-nine" },
+                        [
+                          _c("div", { staticClass: "container" }, [
+                            _c("div", { staticClass: "row" }, [
+                              _c(
+                                "div",
+                                { staticClass: "col-xl-12 col-sm-12" },
+                                [
+                                  _c("div", { staticClass: "left-side-area" }, [
+                                    _c(
+                                      "div",
+                                      { staticClass: "single-product-one" },
+                                      [
+                                        _c("div", { staticClass: "row" }, [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "col-xl-4 col-md-4 col-sm-12"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                { staticClass: "product-info" },
+                                                [
+                                                  _c("div", {}, [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "item" },
+                                                      [
+                                                        _c("img", {
+                                                          attrs: {
+                                                            src:
+                                                              "/img/rare-pustaka.png",
+                                                            alt: "Awesome Image"
+                                                          }
+                                                        })
+                                                      ]
+                                                    )
+                                                  ])
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "col-xl-8 col-md-8 col-sm-12"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass: "shop-item-one"
+                                                },
+                                                [
+                                                  _c("h6", [
+                                                    _vm._v("Rare Pustaka")
+                                                  ]),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "product-text"
+                                                    },
+                                                    [
+                                                      _c(
+                                                        "p",
+                                                        {
+                                                          staticClass:
+                                                            "text-justify"
+                                                        },
+                                                        [
+                                                          _vm._v(
+                                                            "\n                                      Jurnal Pendidikan Rare Pustaka adalah\n                                      jurnal ilmiah kependidikan berkala yang\n                                      diterbitkan oleh Program Studi\n                                      Pendidikan Guru Sekolah Dasar (PGSD)\n                                      STKIP Suar Bangli. Rare berasal dari\n                                      kata raray yang diambil dari bahasa jawa\n                                      kuno mengandung arti anak kecil dan\n                                      pustaka berasal dari kata pustakah yang\n                                      diambil dari bahasa sanskerta mengandung\n                                      makna kumpulan pengetahuan. Rare\n                                      melambangkan anak kecil dengan\n                                      perkembangan dan keunikannya, sedangkan\n                                      pustaka mengandung makna kumpulan karya\n                                      yang memuat berbagai macam pengetahuan.\n                                      Falsafah dari dua kata ini menjadi dasar\n                                      diterbitkannya jurnal berkala ini.\n                                      Jurnal ini diharapkan memuat kumpulan\n                                      karya yang didalamnya mengulas tentang\n                                      anak-anak sekolah dasar dalam proses\n                                      pembelajaran yang diterimanya secara\n                                      mendalam. Harapannya, jurnal ini dapat\n                                      berkontribusi dalam membangun dunia\n                                      pendidikan khususnya bidang pendidikan\n                                      dasar yang lebih berkualitas. Jurnal ini\n                                      terbit pada bulan Juli dan Desember.\n                                    "
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ])
+                                      ]
+                                    )
+                                  ])
+                                ]
+                              )
+                            ])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "single-product-section sp-nine" },
+                        [
+                          _c("div", { staticClass: "container" }, [
+                            _c("div", { staticClass: "row" }, [
+                              _c(
+                                "div",
+                                { staticClass: "col-xl-12 col-sm-12" },
+                                [
+                                  _c("div", { staticClass: "left-side-area" }, [
+                                    _c(
+                                      "div",
+                                      { staticClass: "single-product-one" },
+                                      [
+                                        _c("div", { staticClass: "row" }, [
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "col-xl-4 col-md-4 col-sm-12"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                { staticClass: "product-info" },
+                                                [
+                                                  _c("div", {}, [
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "item" },
+                                                      [
+                                                        _c("img", {
+                                                          attrs: {
+                                                            src:
+                                                              "/img/wahana-chitta.png",
+                                                            alt: "Awesome Image"
+                                                          }
+                                                        })
+                                                      ]
+                                                    )
+                                                  ])
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "div",
+                                            {
+                                              staticClass:
+                                                "col-xl-8 col-md-8 col-sm-12"
+                                            },
+                                            [
+                                              _c(
+                                                "div",
+                                                {
+                                                  staticClass: "shop-item-one"
+                                                },
+                                                [
+                                                  _c("h6", [
+                                                    _vm._v("Wahana Chitta")
+                                                  ]),
+                                                  _vm._v(" "),
+                                                  _c(
+                                                    "div",
+                                                    {
+                                                      staticClass:
+                                                        "product-text"
+                                                    },
+                                                    [
+                                                      _c(
+                                                        "p",
+                                                        {
+                                                          staticClass:
+                                                            "text-justify"
+                                                        },
+                                                        [
+                                                          _vm._v(
+                                                            "\n                                      Wahana Chitta merupakan kumpulan artikel\n                                      ilmiah di bidang Kependidikan maupun\n                                      Non-Kependidikan. Jurnal ini terbit 2\n                                      kali setahun yaitu, bulan Maret dan\n                                      September. Jurnal ini diharapkan bisa\n                                      menjembatani hubungan yang penuh\n                                      kedekatan dan kehangatan antara\n                                      masyarakat ilmiah, baik internal maupun\n                                      eksternal, sehingga dapat berjalan\n                                      secara berdampingan dan saling\n                                      mendukung.\n                                    "
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ]
+                                          )
+                                        ])
+                                      ]
+                                    )
+                                  ])
+                                ]
+                              )
+                            ])
+                          ])
+                        ]
+                      )
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "panel panel-default" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-heading",
+                    attrs: { role: "tab", id: "headingFour" }
+                  },
+                  [
+                    _c("h4", { staticClass: "panel-title" }, [
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            role: "button",
+                            "data-toggle": "collapse",
+                            "data-parent": "#accordion",
+                            href: "#collapseFour",
+                            "aria-expanded": "true",
+                            "aria-controls": "collapseFour"
+                          }
+                        },
+                        [
+                          _vm._v(
+                            "\n                  Repository\n                  "
+                          ),
+                          _c("i", {
+                            staticClass:
+                              "fa fa-angle-double-up pull-right panel-icon",
+                            attrs: { "aria-hidden": "true" }
+                          })
+                        ]
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "panel-collapse collapse in",
+                    attrs: {
+                      id: "collapseFour",
+                      role: "tabpanel",
+                      "aria-labelledby": "headingFour"
+                    }
+                  },
+                  [
+                    _c("div", { staticClass: "panel-body" }, [
+                      _c("p", { staticClass: "text-justify" }, [
+                        _vm._v(
+                          "\n                  Repository Institut Teknologi Dan Pendidikan Markandeya Bali\n                  menyimpan beberapa data karya ilmiah mahasiswa dari berbagai\n                  prodi yang ada di Institut Teknologi Dan Pendidikan\n                  Markandeya Bali. Institut Pendidikan Dan Teknologi\n                  Markandeya Bali terdiri dari empat prodi yakti prodi Bahasa\n                  dan Sastra Indonesia, Prodi Pendidikan Bahasa Inggris, Prodi\n                  Pendidikan Guru Sekolah Dasar dan prodi Sistem Informasi.\n                  Saat ini sudah tersimpan beberapa karya ilmiah dari prodi\n                  Bahasa dan Sastra Indonesia, Prodi Pendidikan Bahasa\n                  Inggris, Prodi Pendidikan Guru Sekolah Dasar. Prodi sistem\n                  informasi belum menghasilkan lulusan sehingga belum ada data\n                  karya ilmiah yang tersimpan di repository.\n                "
+                        )
+                      ])
+                    ])
+                  ]
+                )
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -53767,6 +54874,27 @@ if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
 var update = add("42e30931", content, false, {});
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css&");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
+var update = add("2196a040", content, false, {});
 // Hot Module Replacement
 if(false) {}
 

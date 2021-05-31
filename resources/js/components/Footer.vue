@@ -125,6 +125,10 @@ export default {
 }
 </script>
 <style scoped>
+.main-footer{
+    position: relative;
+    z-index: -1;
+}
 .main-footer h6 {
 	font-size: 20px;
 	line-height: 27px;

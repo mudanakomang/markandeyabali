@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar />
-    <router-view />
+      <router-view />
     <Footer />
     <div
       class="scroll-to-top scroll-to-target"

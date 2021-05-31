@@ -62,8 +62,7 @@ p {
   color: white;
   text-justify: right;
 }
-
-@media (max-width: 786px) {
+@media (max-width: 883px) {
     .hero-text p{
         font-family: 'Archivo', sans-serif;
         text-shadow: 2px 2px black;
@@ -89,6 +88,7 @@ nav {
   position: fixed;
   width: 100%;
   line-height: 60px;
+  z-index: 999999;
 }
 
 nav ul {
@@ -131,7 +131,7 @@ nav ul li a {
   display: none;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 883px) {
   .logo {
     position: fixed;
     top: 0;
@@ -139,7 +139,7 @@ nav ul li a {
   }
 
   nav ul {
-    max-height: 0px;
+    max-height: 10px;
     background: #000;
   }
 

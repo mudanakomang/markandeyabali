@@ -90,6 +90,8 @@ export default {
 <style scoped>
 .callout-section {
   margin: 0px;
+  position: relative;
+  z-index: 0;
 }
 
 .callout-section .callout-item {
