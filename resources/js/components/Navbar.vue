@@ -12,7 +12,7 @@
           <li><router-link :to="{path: '/'}">Home</router-link></li>
           <li><router-link :to="{path: '/akademik'}">Akademik</router-link></li>
           <li><a href="#">Kemahasiswaan</a></li>
-          <li><a href="#">Penjaminan Mutu</a></li>
+          <li><router-link :to="{path: '/penjaminan-mutu'}">Penjaminan Mutu</router-link></li>
           <li><router-link :to="{path: '/penelitian'}">Penelitian</router-link></li>
         </ul>
       </div>

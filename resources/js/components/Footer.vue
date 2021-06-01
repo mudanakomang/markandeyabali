@@ -108,7 +108,7 @@
 <section class="footer-bottom bg-three">
     <div class="container">
         <div class="bottom-text text-center">
-            <p>&copy; Copyrights 2018 Murcia. All Rights Reserved</p>
+            <p>&copy; Copyrights {{ new Date().getFullYear()}} {{ appName }}</p>
         </div>
     </div>
 </section>
@@ -120,9 +120,11 @@ export default {
    data() {
     return {
       hover: false,
+      appName: process.env.MIX_APP_NAME,
     };
   },
 }
+
 </script>
 <style scoped>
 .main-footer{
@@ -278,7 +280,7 @@ ul, li {
 }
 
 .sp-one {
-	padding: 130px 0px;
+	padding: 100px 0px;
 }
 
 .bg-four {

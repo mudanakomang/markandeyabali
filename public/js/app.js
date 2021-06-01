@@ -12625,6 +12625,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* provided dependency */ var process = __webpack_require__(/*! process/browser */ "./node_modules/process/browser.js");
 //
 //
 //
@@ -12745,7 +12746,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
-      hover: false
+      hover: false,
+      appName: process.env.MIX_APP_NAME
     };
   }
 });
@@ -13471,6 +13473,110 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {};
+  },
+  computed: {
+    akreditasi: function akreditasi() {
+      return [{
+        nama: "Akreditasi Institusi Perguruan Tinggi",
+        jenjang: "",
+        sk: "458/SK/BAN-PT/Ak-PNB/PT/V/2021",
+        awal: "2018",
+        akhir: "2023",
+        akreditasi: "Baik/C",
+        status: "Masih Berlaku",
+        file: ""
+      }, {
+        nama: "Akreditasi Program Studi Pendidikan Bahasa dan Sastra Indonesia",
+        jenjang: "S1",
+        sk: "2971/SK/BAN-PT/Ak-PNB/S/V/2021",
+        awal: "2020",
+        akhir: "2025",
+        akreditasi: "Sangat Baik/B",
+        status: "Masih Berlaku",
+        file: ""
+      }, {
+        nama: "Pendidikan Bahasa Inggris",
+        jenjang: "S1",
+        sk: "2970/SK/BAN-PT/Ak-PNB/S/V/2021",
+        awal: "2016",
+        akhir: "2021",
+        akreditasi: "Sangat Baik/B",
+        status: "Masih Berlaku",
+        file: ""
+      }, {
+        nama: "Pendidikan Guru Sekolah Dasar",
+        jenjang: "S1",
+        sk: "2969/SK/BAN-PT/Ak-PNB/S/V/2021",
+        awal: "2020",
+        akhir: "2025",
+        akreditasi: "Sangat Baik/B",
+        status: "Masih Berlaku",
+        file: ""
+      }, {
+        nama: "Sistem Informasi",
+        jenjang: "S1",
+        sk: "",
+        awal: "2021",
+        akhir: "2023",
+        akreditasi: "Baik/C",
+        status: "Masih Berlaku",
+        file: ""
+      }];
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=script&lang=js&":
 /*!******************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=script&lang=js& ***!
@@ -13965,6 +14071,242 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  mounted: function mounted() {
+    $(".panel-collapse").on("show.bs.collapse", function () {
+      $(this).siblings(".panel-heading").addClass("active");
+      $("html, body").animate({
+        scrollTop: 0
+      }, 1000);
+      var currentId = $(this).attr("id");
+      $(".panel-collapse").each(function () {
+        var id = $(this).attr("id");
+
+        if (currentId !== id) {
+          $(this).removeClass("show");
+          $(this).siblings(".panel-heading").removeClass("active");
+        }
+      });
+    });
+    $(".panel-collapse").on("hide.bs.collapse", function () {
+      $(this).siblings(".panel-heading").removeClass("active");
+    });
+  },
+  methods: {
+    previewPdf: function previewPdf() {
+      console.log("PDF");
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -14112,6 +14454,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_Home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/Home */ "./resources/js/pages/Home.vue");
 /* harmony import */ var _pages_Akademik__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pages/Akademik */ "./resources/js/pages/Akademik.vue");
 /* harmony import */ var _pages_Penelitian__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/Penelitian */ "./resources/js/pages/Penelitian.vue");
+/* harmony import */ var _pages_PenjaminanMutu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/PenjaminanMutu */ "./resources/js/pages/PenjaminanMutu.vue");
+
 
 
 
@@ -14127,6 +14471,10 @@ var routes = [{
   path: '/penelitian',
   name: 'penelitian',
   component: _pages_Penelitian__WEBPACK_IMPORTED_MODULE_2__.default
+}, {
+  path: '/penjaminan-mutu',
+  name: 'penjaminan.mutu',
+  component: _pages_PenjaminanMutu__WEBPACK_IMPORTED_MODULE_3__.default
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (routes);
 
@@ -18689,7 +19037,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.main-footer[data-v-61a7c374]{\n    position: relative;\n    z-index: -1;\n}\n.main-footer h6[data-v-61a7c374] {\n\tfont-size: 20px;\n\tline-height: 27px;\n\tcolor: #ffffff;\n\tfont-weight: 700;\n\ttext-transform: capitalize;\n}\n.main-footer .sec-title-one[data-v-61a7c374] {\n\tmargin-bottom: 25px;\n}\n.footer-about-widget[data-v-61a7c374] {\n\tmargin-right: 50px;\n}\n.footer-about-widget p[data-v-61a7c374] {\n\tcolor: #b3b3b3;\n}\n.footer-about-widget .footer-logo[data-v-61a7c374] {\n\tpadding-bottom: 10px;\n}\n.footer-about-widget .social-links[data-v-61a7c374] {\n\tpadding-top: 10px;\n}\n.footer-about-widget .social-links li[data-v-61a7c374] {\n\tdisplay: inline-block;\n\tmargin: 0px 2px;\n}\n.footer-about-widget .social-links li i[data-v-61a7c374] {\n\tfont-size: 14px;\n\twidth: 45px;\n\theight: 45px;\n\tcolor: #adadad;\n\ttext-align: center;\n\tbackground: #222222;\n\tline-height: 45px;\n\ttransition: all 500ms ease;\n}\n.footer-about-widget .social-links li:hover i[data-v-61a7c374] {\n\tcolor: #f6f6f6;\n\tbackground: #f36371;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li a[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #b3b3b3;\n\tline-height: 41px;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li a[data-v-61a7c374]:hover {\n\tcolor: #f36371;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li i[data-v-61a7c374] {\n\tmargin-right: 8px;\n\tcolor: #f36371;\n}\n.footer-blog[data-v-61a7c374] {\n\tmargin-left: 25px;\n}\n.footer-blog .item[data-v-61a7c374] {\n\tposition: relative;\n\tpadding-bottom: 15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #3e3e3e;\n}\n.footer-blog .item[data-v-61a7c374]:last-child {\n\tborder-bottom: none;\n}\n.footer-blog .icon-box[data-v-61a7c374] {\n\tposition: absolute;\n\ttop: 5px;\n\tleft: 0px;\n}\n.footer-blog .icon-box i[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #0084b4;\n}\n.footer-blog .icon-text[data-v-61a7c374] {\n\tposition: relative;\n\tpadding-left: 35px;\n}\n.footer-blog .icon-text p[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #b3b3b3;\n\tline-height: 24px;\n\tmargin-bottom: 5px;\n}\n.footer-blog .icon-text a[data-v-61a7c374] {\n\tfont-size: 15px;\n\tcolor: #0084b4;\n\ttext-transform: uppercase;\n}\n.footer-blog .icon-text span[data-v-61a7c374] {\n\tfont-size: 14px;\n\tcolor: #b3b3b3;\n\tfont-style: normal;\n\tfont-weight: 400;\n}\n.footer-blog .icon-text span i[data-v-61a7c374] {\n\tfont-size: 12px;\n\tmargin-right: 10px;\n\tcolor: #f9be4d;\n}\n.footer-gallery-widget[data-v-61a7c374] {\n\tposition: relative;\n\tmargin-left: 30px;\n}\n.footer-gallery-widget .innar-box[data-v-61a7c374] {\n\tpadding: 0px 10px;\n}\n.footer-gallery-widget .image[data-v-61a7c374] {\n\tposition: relative;\n\tmargin: 5px -10px;\n}\n.footer-gallery-widget img[data-v-61a7c374] {\n\twidth: 100%;\n}\nul[data-v-61a7c374], li[data-v-61a7c374] {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n}\n.sp-one[data-v-61a7c374] {\n\tpadding: 130px 0px;\n}\n.bg-four[data-v-61a7c374] {\n\tbackground: #3333332d;\n}\n\n/*===Footer Bottom===*/\n.bottom-text p[data-v-61a7c374] {\n\tfont-size: 15px;\n\tcolor: #333333;\n\tline-height: 28px;\n\tpadding: 16px 0px;\n\tmargin-bottom: 0px;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.main-footer[data-v-61a7c374]{\n    position: relative;\n    z-index: -1;\n}\n.main-footer h6[data-v-61a7c374] {\n\tfont-size: 20px;\n\tline-height: 27px;\n\tcolor: #ffffff;\n\tfont-weight: 700;\n\ttext-transform: capitalize;\n}\n.main-footer .sec-title-one[data-v-61a7c374] {\n\tmargin-bottom: 25px;\n}\n.footer-about-widget[data-v-61a7c374] {\n\tmargin-right: 50px;\n}\n.footer-about-widget p[data-v-61a7c374] {\n\tcolor: #b3b3b3;\n}\n.footer-about-widget .footer-logo[data-v-61a7c374] {\n\tpadding-bottom: 10px;\n}\n.footer-about-widget .social-links[data-v-61a7c374] {\n\tpadding-top: 10px;\n}\n.footer-about-widget .social-links li[data-v-61a7c374] {\n\tdisplay: inline-block;\n\tmargin: 0px 2px;\n}\n.footer-about-widget .social-links li i[data-v-61a7c374] {\n\tfont-size: 14px;\n\twidth: 45px;\n\theight: 45px;\n\tcolor: #adadad;\n\ttext-align: center;\n\tbackground: #222222;\n\tline-height: 45px;\n\ttransition: all 500ms ease;\n}\n.footer-about-widget .social-links li:hover i[data-v-61a7c374] {\n\tcolor: #f6f6f6;\n\tbackground: #f36371;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li a[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #b3b3b3;\n\tline-height: 41px;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li a[data-v-61a7c374]:hover {\n\tcolor: #f36371;\n\ttransition: all 500ms ease;\n}\n.footer-menu-link li i[data-v-61a7c374] {\n\tmargin-right: 8px;\n\tcolor: #f36371;\n}\n.footer-blog[data-v-61a7c374] {\n\tmargin-left: 25px;\n}\n.footer-blog .item[data-v-61a7c374] {\n\tposition: relative;\n\tpadding-bottom: 15px;\n\tmargin-bottom: 15px;\n\tborder-bottom: 1px solid #3e3e3e;\n}\n.footer-blog .item[data-v-61a7c374]:last-child {\n\tborder-bottom: none;\n}\n.footer-blog .icon-box[data-v-61a7c374] {\n\tposition: absolute;\n\ttop: 5px;\n\tleft: 0px;\n}\n.footer-blog .icon-box i[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #0084b4;\n}\n.footer-blog .icon-text[data-v-61a7c374] {\n\tposition: relative;\n\tpadding-left: 35px;\n}\n.footer-blog .icon-text p[data-v-61a7c374] {\n\tfont-size: 16px;\n\tcolor: #b3b3b3;\n\tline-height: 24px;\n\tmargin-bottom: 5px;\n}\n.footer-blog .icon-text a[data-v-61a7c374] {\n\tfont-size: 15px;\n\tcolor: #0084b4;\n\ttext-transform: uppercase;\n}\n.footer-blog .icon-text span[data-v-61a7c374] {\n\tfont-size: 14px;\n\tcolor: #b3b3b3;\n\tfont-style: normal;\n\tfont-weight: 400;\n}\n.footer-blog .icon-text span i[data-v-61a7c374] {\n\tfont-size: 12px;\n\tmargin-right: 10px;\n\tcolor: #f9be4d;\n}\n.footer-gallery-widget[data-v-61a7c374] {\n\tposition: relative;\n\tmargin-left: 30px;\n}\n.footer-gallery-widget .innar-box[data-v-61a7c374] {\n\tpadding: 0px 10px;\n}\n.footer-gallery-widget .image[data-v-61a7c374] {\n\tposition: relative;\n\tmargin: 5px -10px;\n}\n.footer-gallery-widget img[data-v-61a7c374] {\n\twidth: 100%;\n}\nul[data-v-61a7c374], li[data-v-61a7c374] {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n}\n.sp-one[data-v-61a7c374] {\n\tpadding: 100px 0px;\n}\n.bg-four[data-v-61a7c374] {\n\tbackground: #3333332d;\n}\n\n/*===Footer Bottom===*/\n.bottom-text p[data-v-61a7c374] {\n\tfont-size: 15px;\n\tcolor: #333333;\n\tline-height: 28px;\n\tpadding: 16px 0px;\n\tmargin-bottom: 0px;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -18768,6 +19116,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\nol > li[data-v-77a03e20] {\n  font-w
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.grid-striped .row[data-v-8516e524]:nth-of-type(odd) {\n  background-color: rgba(0, 0, 0, 0.05);\n}\n@media (max-width: 833px) {\n.grid-content[data-v-8516e524] {\n    position: relative;\n    overflow: auto;\n}\n.row[data-v-8516e524] {\n    width: 860px;\n    overflow-wrap: break-word;\n}\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&scoped=true&lang=css&":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&scoped=true&lang=css& ***!
@@ -18810,6 +19182,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\n.sp-nine[data-v-6ea73e94] {\n  padding: 25px 0px 25px;\n}\n.left-side-area[data-v-6ea73e94] {\n  margin-right: -20px;\n}\n.left-side-area .product-info[data-v-6ea73e94] {\n  margin-bottom: 40px;\n}\n.shop-item-one[data-v-6ea73e94] {\n  margin-bottom: 30px;\n}\n.shop-item-one .image-box[data-v-6ea73e94] {\n  position: relative;\n  overflow: hidden;\n  border: 1px solid #e0e0e0;\n}\n.item img[data-v-6ea73e94] {\n  max-width: 270px;\n}\n.shop-item-one .overly-box[data-v-6ea73e94] {\n  position: absolute;\n  text-align: center;\n  left: 0px;\n  top: 0px;\n  width: 100%;\n  height: 100%;\n  color: #ffffff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  background: rgba(249, 190, 77, 0.7);\n  transition: 0.5s cubic-bezier(0.4, 0, 1, 1);\n  opacity: 0;\n  content: \"\";\n  visibility: hidden;\n}\n.shop-item-one .image-box:hover .overly-box[data-v-6ea73e94] {\n  visibility: visible;\n  opacity: 1;\n  transition: all 500ms ease;\n}\n.shop-item-one a i[data-v-6ea73e94] {\n  font-size: 13px;\n  line-height: 29px;\n  margin-right: 10px;\n}\n.shop-item-one .image-text[data-v-6ea73e94] {\n  padding: 20px 0px;\n}\n.shop-item-one .image-text h6[data-v-6ea73e94] {\n  font-size: 16px;\n  font-weight: bold;\n  line-height: 22px;\n  color: #333333;\n}\n.shop-item-one h6[data-v-6ea73e94] {\n  font-size: 16px;\n  font-weight: bold;\n  line-height: 22px;\n  color: #000000;\n}\n.list[data-v-6ea73e94] {\n  padding: 15px 15px 15px 15px;\n}\n.list .title[data-v-6ea73e94] {\n  padding-bottom: 5px;\n  font-weight: bold;\n}\n.list .item[data-v-6ea73e94] {\n  padding: 5px 0px;\n}\n.title-manu[data-v-6ea73e94] {\n  padding-top: 15px;\n}\n.content[data-v-6ea73e94] {\n  padding: 100px 0px;\n}\n.sp-one[data-v-6ea73e94] {\n  padding: 100px 0px;\n  z-index: 0;\n}\n.welcome-section .title-manu li[data-v-6ea73e94] {\n  position: relative;\n  font-size: 15px;\n  line-height: 26px;\n  font-weight: 700;\n  color: #f36371;\n  margin-left: 15px;\n  padding: 17px 0px;\n  display: inline-block;\n  font-family: \"Montserrat\", sans-serif;\n  text-transform: capitalize;\n}\n.welcome-section .title-manu li a[data-v-6ea73e94] {\n  color: #333333;\n  font-family: \"Montserrat\", sans-serif;\n  transition: all 500ms ease;\n}\n.welcome-section .title-manu li a[data-v-6ea73e94]:hover {\n  color: #f36371;\n  transition: all 500ms ease;\n}\n.title h2[data-v-6ea73e94] {\n  padding-top: 25px;\n}\nbody[data-v-6ea73e94] {\n  padding: 50px;\n  background: #fff;\n}\n.wrapper[data-v-6ea73e94] {\n  width: 90%;\n}\n@media (max-width: 992px) {\n.wrapper[data-v-6ea73e94] {\n    width: 100%;\n}\n}\n.panel-heading[data-v-6ea73e94] {\n  padding: 0;\n  border: 0;\n}\n.panel-icon[data-v-6ea73e94] {\n  transition: all 0.5s linear;\n}\n.panel-heading.active .panel-icon[data-v-6ea73e94] {\n  transform: rotate(180deg);\n}\n.panel-title[data-v-6ea73e94] {\n  border-bottom: #f36371 solid 2px;\n}\n.panel-title a[data-v-6ea73e94]:hover {\n  color: #f36371;\n}\n.panel-title > a[data-v-6ea73e94],\n.panel-title > a[data-v-6ea73e94]:active {\n  display: block;\n  padding: 15px;\n  color: #555;\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  word-spacing: 3px;\n  text-decoration: none;\n}\n/* .panel-heading a:before {\n  font-family: \"Glyphicons Halflings\";\n  content: \"\\e114\";\n  float: right;\n  transition: all 0.5s;\n} */\n.panel-body[data-v-6ea73e94] {\n  padding: 0px 25px 0px 25px;\n}\n.panel-body h5[data-v-6ea73e94] {\n  font-weight: bold;\n}\n.panel-heading.active a[data-v-6ea73e94]:before {\n  transform: rotate(180deg);\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.btn-label[data-v-237b7efe] {\n  position: relative;\n  left: -12px;\n  display: inline;\n  padding: 3px 3px;\n  background: rgba(0, 0, 0, 0.15);\n  border-radius: 3px 0 0 3px;\n}\n.btn-labeled[data-v-237b7efe] {\n  padding-top: 0;\n  padding-bottom: 0;\n}\n.btn[data-v-237b7efe] {\n  margin-bottom: 10px;\n}\nol[data-v-237b7efe] {\n  padding-top: 25px;\n}\nol > li[data-v-237b7efe] {\n  font-weight: bold;\n  padding-bottom: 10px;\n  width: 60%;\n}\n.list[data-v-237b7efe] {\n  padding: 15px 15px 15px 15px;\n}\n.list .title[data-v-237b7efe] {\n  padding-bottom: 5px;\n  font-weight: bold;\n}\n.list .item[data-v-237b7efe] {\n  padding: 5px 0px;\n}\n.title-manu[data-v-237b7efe] {\n  padding-top: 15px;\n}\n.content[data-v-237b7efe] {\n  padding: 100px 0px;\n}\n.title h2[data-v-237b7efe] {\n  padding-top: 25px;\n}\n.sp-one[data-v-237b7efe] {\n  padding: 100px 0px;\n  z-index: 0;\n}\n.welcome-section .title-manu li[data-v-237b7efe] {\n  position: relative;\n  font-size: 15px;\n  line-height: 26px;\n  font-weight: 700;\n  color: #f36371;\n  margin-left: 15px;\n  padding: 17px 0px;\n  display: inline-block;\n  font-family: \"Montserrat\", sans-serif;\n  text-transform: capitalize;\n}\n.welcome-section .title-manu li a[data-v-237b7efe] {\n  color: #333333;\n  font-family: \"Montserrat\", sans-serif;\n  transition: all 500ms ease;\n}\n.welcome-section .title-manu li a[data-v-237b7efe]:hover {\n  color: #f36371;\n  transition: all 500ms ease;\n}\nbody[data-v-237b7efe] {\n  padding: 50px;\n  background: #fff;\n}\n.wrapper[data-v-237b7efe] {\n  width: 90%;\n}\n@media (max-width: 992px) {\n.wrapper[data-v-237b7efe] {\n    width: 100%;\n}\nol > li[data-v-237b7efe] {\n    font-weight: bold;\n    padding-bottom: 10px;\n    width: 100%;\n}\n}\n.panel-heading[data-v-237b7efe] {\n  padding: 0;\n  border: 0;\n}\n.panel-icon[data-v-237b7efe] {\n  transition: all 0.5s linear;\n}\n.panel-heading.active .panel-icon[data-v-237b7efe] {\n  transform: rotate(180deg);\n}\n.panel-title[data-v-237b7efe] {\n  border-bottom: #f36371 solid 2px;\n}\n.panel-title a[data-v-237b7efe]:hover {\n  color: #f36371;\n}\n.panel-title > a[data-v-237b7efe],\n.panel-title > a[data-v-237b7efe]:active {\n  display: block;\n  padding: 15px;\n  color: #555;\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  word-spacing: 3px;\n  text-decoration: none;\n}\n/* .panel-heading a:before {\n  font-family: \"Glyphicons Halflings\";\n  content: \"\\e114\";\n  float: right;\n  transition: all 0.5s;\n} */\n.panel-body[data-v-237b7efe] {\n  padding: 0px 25px 0px 25px;\n}\n.panel-body h5[data-v-237b7efe] {\n  font-weight: bold;\n}\n.panel-heading.active a[data-v-237b7efe]:before {\n  transform: rotate(180deg);\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -50319,21 +50715,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Akreditasi_vue_vue_type_template_id_8516e524___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Akreditasi.vue?vue&type=template&id=8516e524& */ "./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _Akreditasi_vue_vue_type_template_id_8516e524_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Akreditasi.vue?vue&type=template&id=8516e524&scoped=true& */ "./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524&scoped=true&");
+/* harmony import */ var _Akreditasi_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Akreditasi.vue?vue&type=script&lang=js& */ "./resources/js/pages/Akreditasi.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Akreditasi_vue_vue_type_style_index_0_id_8516e524_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css& */ "./resources/js/pages/Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
+;
 
 
 /* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
-  script,
-  _Akreditasi_vue_vue_type_template_id_8516e524___WEBPACK_IMPORTED_MODULE_0__.render,
-  _Akreditasi_vue_vue_type_template_id_8516e524___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _Akreditasi_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Akreditasi_vue_vue_type_template_id_8516e524_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Akreditasi_vue_vue_type_template_id_8516e524_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
-  null,
+  "8516e524",
   null
   
 )
@@ -50538,6 +50938,47 @@ component.options.__file = "resources/js/pages/Penelitian.vue"
 
 /***/ }),
 
+/***/ "./resources/js/pages/PenjaminanMutu.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/pages/PenjaminanMutu.vue ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _PenjaminanMutu_vue_vue_type_template_id_237b7efe_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PenjaminanMutu.vue?vue&type=template&id=237b7efe&scoped=true& */ "./resources/js/pages/PenjaminanMutu.vue?vue&type=template&id=237b7efe&scoped=true&");
+/* harmony import */ var _PenjaminanMutu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PenjaminanMutu.vue?vue&type=script&lang=js& */ "./resources/js/pages/PenjaminanMutu.vue?vue&type=script&lang=js&");
+/* harmony import */ var _PenjaminanMutu_vue_vue_type_style_index_0_id_237b7efe_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css& */ "./resources/js/pages/PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _PenjaminanMutu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _PenjaminanMutu_vue_vue_type_template_id_237b7efe_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _PenjaminanMutu_vue_vue_type_template_id_237b7efe_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "237b7efe",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/PenjaminanMutu.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/App.vue?vue&type=script&lang=js&":
 /*!*******************************************************!*\
   !*** ./resources/js/App.vue?vue&type=script&lang=js& ***!
@@ -50618,6 +51059,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/pages/Akreditasi.vue?vue&type=script&lang=js&":
+/*!********************************************************************!*\
+  !*** ./resources/js/pages/Akreditasi.vue?vue&type=script&lang=js& ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akreditasi.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/pages/Home.vue?vue&type=script&lang=js&":
 /*!**************************************************************!*\
   !*** ./resources/js/pages/Home.vue?vue&type=script&lang=js& ***!
@@ -50647,6 +51104,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Penelitian.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/PenjaminanMutu.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/pages/PenjaminanMutu.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PenjaminanMutu.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
 
 /***/ }),
 
@@ -50735,19 +51208,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524&":
-/*!**************************************************************************!*\
-  !*** ./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524& ***!
-  \**************************************************************************/
+/***/ "./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524&scoped=true&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524&scoped=true& ***!
+  \**************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_template_id_8516e524___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_template_id_8516e524___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_template_id_8516e524_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_template_id_8516e524_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_template_id_8516e524___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akreditasi.vue?vue&type=template&id=8516e524& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_template_id_8516e524_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akreditasi.vue?vue&type=template&id=8516e524&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524&scoped=true&");
 
 
 /***/ }),
@@ -50837,6 +51310,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/pages/PenjaminanMutu.vue?vue&type=template&id=237b7efe&scoped=true&":
+/*!******************************************************************************************!*\
+  !*** ./resources/js/pages/PenjaminanMutu.vue?vue&type=template&id=237b7efe&scoped=true& ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_template_id_237b7efe_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_template_id_237b7efe_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_template_id_237b7efe_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PenjaminanMutu.vue?vue&type=template&id=237b7efe&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=template&id=237b7efe&scoped=true&");
+
+
+/***/ }),
+
 /***/ "./resources/js/App.vue?vue&type=style&index=0&lang=css&":
 /*!***************************************************************!*\
   !*** ./resources/js/App.vue?vue&type=style&index=0&lang=css& ***!
@@ -50922,6 +51412,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/pages/Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/pages/Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css& ***!
+  \****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_style_index_0_id_8516e524_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-style-loader/index.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css& */ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_style_index_0_id_8516e524_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_style_index_0_id_8516e524_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_style_index_0_id_8516e524_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Akreditasi_vue_vue_type_style_index_0_id_8516e524_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+
+/***/ }),
+
 /***/ "./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&scoped=true&lang=css&":
 /*!**********************************************************************************************!*\
   !*** ./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&scoped=true&lang=css& ***!
@@ -50951,6 +51458,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_style_index_0_id_6ea73e94_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_style_index_0_id_6ea73e94_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
 /* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_style_index_0_id_6ea73e94_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Penelitian_vue_vue_type_style_index_0_id_6ea73e94_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/pages/PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css& ***!
+  \********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_style_index_0_id_237b7efe_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-style-loader/index.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css& */ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_style_index_0_id_237b7efe_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_style_index_0_id_237b7efe_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_style_index_0_id_237b7efe_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_style_index_0_id_237b7efe_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
 /* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
 
 
@@ -51124,23 +51648,23 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(0)
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "footer-bottom bg-three" }, [
+    _c("section", { staticClass: "footer-bottom bg-three" }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "bottom-text text-center" }, [
-          _c("p", [_vm._v("© Copyrights 2018 Murcia. All Rights Reserved")])
+          _c("p", [
+            _vm._v(
+              "© Copyrights " +
+                _vm._s(new Date().getFullYear()) +
+                " " +
+                _vm._s(_vm.appName)
+            )
+          ])
         ])
       ])
     ])
-  }
-]
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -51233,7 +51757,17 @@ var render = function() {
           _vm._v(" "),
           _vm._m(2),
           _vm._v(" "),
-          _vm._m(3),
+          _c(
+            "li",
+            [
+              _c(
+                "router-link",
+                { attrs: { to: { path: "/penjaminan-mutu" } } },
+                [_vm._v("Penjaminan Mutu")]
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
           _c(
             "li",
@@ -51272,14 +51806,6 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("li", [
       _c("a", { attrs: { href: "#" } }, [_vm._v("Kemahasiswaan")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", [
-      _c("a", { attrs: { href: "#" } }, [_vm._v("Penjaminan Mutu")])
     ])
   }
 ]
@@ -52165,10 +52691,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524&":
-/*!*****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524& ***!
-  \*****************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=template&id=8516e524&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -52181,9 +52707,73 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("h1", [_vm._v("Akreditasi")])
+  return _c("div", [
+    _c("h2", [_vm._v("Akreditasi")]),
+    _vm._v(" "),
+    _c("div", { staticClass: "content-text" }, [
+      _c("div", { staticClass: "container grid-striped" }, [
+        _c(
+          "div",
+          { staticClass: "grid-content" },
+          [
+            _vm._m(0),
+            _vm._v(" "),
+            _vm._l(_vm.akreditasi, function(item, index) {
+              return _c("div", { key: index, staticClass: "row py-2" }, [
+                _c("div", { staticClass: "col" }, [_vm._v(_vm._s(item.nama))]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" }, [
+                  _vm._v(_vm._s(item.jenjang))
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" }, [_vm._v(_vm._s(item.sk))]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" }, [_vm._v(_vm._s(item.awal))]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" }, [_vm._v(_vm._s(item.akhir))]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" }, [
+                  _vm._v(_vm._s(item.akreditasi))
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" }, [
+                  _vm._v(_vm._s(item.status))
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col" })
+              ])
+            })
+          ],
+          2
+        )
+      ])
+    ])
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row font-weight-bold py-2" }, [
+      _c("div", { staticClass: "col" }, [_vm._v("Nama Jurusan")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [_vm._v("Jenjang")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [_vm._v("NO. SK BAN-PT")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [_vm._v("Awal")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [_vm._v("Akhir")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [_vm._v("Akreditasi")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [_vm._v("Status")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col" }, [_vm._v("File")])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -53025,6 +53615,409 @@ var staticRenderFns = [
           )
         ])
       ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=template&id=237b7efe&scoped=true&":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=template&id=237b7efe&scoped=true& ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("section", { staticClass: "welcome-section sp-one" }, [
+      _c(
+        "div",
+        { staticClass: "container", attrs: { "data-target": "html" } },
+        [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("ul", { staticClass: "title-manu pull-right" }, [
+            _c(
+              "li",
+              [
+                _c("router-link", { attrs: { to: { path: "/home" } } }, [
+                  _vm._v("Home")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _vm._m(1),
+            _vm._v(" "),
+            _c("li", [_vm._v("Penjaminan Mutu")])
+          ])
+        ]
+      )
+    ]),
+    _vm._v(" "),
+    _c("section", { staticClass: "content" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "wrapper center-block" }, [
+          _c(
+            "div",
+            {
+              staticClass: "panel-group",
+              attrs: {
+                id: "accordion",
+                role: "tablist",
+                "aria-multiselectable": "true"
+              }
+            },
+            [
+              _c("div", { staticClass: "panel panel-default" }, [
+                _vm._m(2),
+                _vm._v(" "),
+                _vm._m(3),
+                _vm._v(" "),
+                _c("div", { staticClass: "panel panel-default" }, [
+                  _vm._m(4),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "panel-collapse collapse",
+                      attrs: {
+                        id: "collapseTwo",
+                        role: "tabpanel",
+                        "aria-labelledby": "headingTwo"
+                      }
+                    },
+                    [
+                      _c("div", { staticClass: "panel-body" }, [
+                        _c("ol", [
+                          _c("li", [
+                            _c("span", { staticClass: "title" }, [
+                              _vm._v("Buku Kebijakan SPMI")
+                            ]),
+                            _vm._v(" "),
+                            _c("span", {}, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "btn btn-sm btn-success btn-labeled pull-right",
+                                  attrs: { href: "#", role: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.preventDefault()
+                                      return _vm.previewPdf($event)
+                                    }
+                                  }
+                                },
+                                [_vm._m(5), _vm._v("Lihat")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("span", { staticClass: "title" }, [
+                              _vm._v("Buku Manual SPMI")
+                            ]),
+                            _vm._v(" "),
+                            _c("span", {}, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "btn btn-sm btn-success btn-labeled pull-right",
+                                  attrs: { href: "#", role: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.preventDefault()
+                                      return _vm.previewPdf($event)
+                                    }
+                                  }
+                                },
+                                [_vm._m(6), _vm._v("Lihat")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("span", { staticClass: "title" }, [
+                              _vm._v(" Standar SPMI")
+                            ]),
+                            _vm._v(" "),
+                            _c("span", {}, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "btn btn-sm btn-success btn-labeled pull-right",
+                                  attrs: { href: "#", role: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.preventDefault()
+                                      return _vm.previewPdf($event)
+                                    }
+                                  }
+                                },
+                                [_vm._m(7), _vm._v("Lihat")]
+                              )
+                            ])
+                          ]),
+                          _vm._v(" "),
+                          _c("li", [
+                            _c("span", { staticClass: "title" }, [
+                              _vm._v(" Buku Formulir SPMI")
+                            ]),
+                            _vm._v(" "),
+                            _c("span", {}, [
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "btn btn-sm btn-success btn-labeled pull-right",
+                                  attrs: { href: "#", role: "button" },
+                                  on: {
+                                    click: function($event) {
+                                      $event.preventDefault()
+                                      return _vm.previewPdf($event)
+                                    }
+                                  }
+                                },
+                                [_vm._m(8), _vm._v("Lihat")]
+                              )
+                            ])
+                          ])
+                        ])
+                      ])
+                    ]
+                  )
+                ])
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "title pull-left" }, [
+      _c("h2", [_vm._v("Penjaminan Mutu")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("i", {
+        staticClass: "fa fa-angle-double-right",
+        attrs: { "aria-hidden": "true" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "panel-heading active",
+        attrs: { role: "tab", id: "headingOne" }
+      },
+      [
+        _c("h4", { staticClass: "panel-title" }, [
+          _c(
+            "a",
+            {
+              attrs: {
+                role: "button",
+                "data-toggle": "collapse",
+                "data-parent": "#accordion",
+                href: "#collapseOne",
+                "aria-expanded": "true",
+                "aria-controls": "collapseOne"
+              }
+            },
+            [
+              _vm._v(
+                "\n                  Profil Lembaga Penjaminan Mutu\n                  "
+              ),
+              _c("i", {
+                staticClass: "fa fa-angle-double-up pull-right panel-icon",
+                attrs: { "aria-hidden": "true" }
+              })
+            ]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "panel-collapse collapse in show",
+        attrs: {
+          id: "collapseOne",
+          role: "tabpanel",
+          "aria-labelledby": "headingOne"
+        }
+      },
+      [
+        _c("div", { staticClass: "panel-body" }, [
+          _c("p", { staticClass: "text-justify" }, [
+            _vm._v(
+              "\n                  Lembaga Penjaminan Mutu Institut Teknologi dan Pendidikan\n                  (ITP) Markandeya Bali didirikan berdasarkan SK Rektor ITP\n                  Markandeya Bali Nomor: 032/ITP-MB/III/2021. Lembaga ini\n                  bertujuan untuk menyelenggarakan pendidikan di Institut\n                  Pendidikan dan Teknologi (ITP) Markandeya Bali berbasis\n                  kepuasan pemangku kepentingan dan taat pada peraturan dan\n                  perundang undangan yang berlaku, serta melakukan perbaikan\n                  secara berkelanjutan.\n                "
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n                  Di dalam mewujudkan visi dan misi serta tujuan\n                  penyelenggaraan pendidikan ITP Markandeya Bali, Lembaga\n                  Penjaminan Mutu memiliki kerangka kerja yang terbagi menjadi\n                  5 Bidang yakni:\n                "
+            )
+          ]),
+          _vm._v(" "),
+          _c("ol", [
+            _c("li", [_vm._v("Pendidikan")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Penelitian")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Pengabdian")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Manajemen Perguruan Tinggi")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Kemahasiswaan")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row p-5" }, [
+              _c("div", { staticClass: "col-lg-4 col-sm-12" }, [
+                _c("img", {
+                  attrs: {
+                    width: "100%",
+                    src: "/img/ketua-pm.jpg",
+                    alt: "Ketua Lembaga Penelitian"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-lg-8 col-sm-12 list" }, [
+                _c("div", { staticClass: "title" }, [
+                  _vm._v("Kepala Lembaga Penjaminan Mutu")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "item" }, [
+                  _vm._v(
+                    "\n                        Nama : Ni Putu Eni Astuti, S.Pd., M.Pd.\n                      "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "item" }, [
+                  _vm._v(
+                    "\n                        Tempat/Tanggal Lahir: Buahan, 10 Mei 1988\n                      "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "item" }, [
+                  _vm._v("NIDN : 0810058802")
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "item" }, [
+                  _vm._v("Jabatan Akademik : Lektor")
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "panel-heading",
+        attrs: { role: "tab", id: "headingTwo" }
+      },
+      [
+        _c("h4", { staticClass: "panel-title" }, [
+          _c(
+            "a",
+            {
+              staticClass: "collapsed",
+              attrs: {
+                role: "button",
+                "data-toggle": "collapse",
+                "data-parent": "#accordion",
+                href: "#collapseTwo",
+                "aria-expanded": "false",
+                "aria-controls": "collapseTwo"
+              }
+            },
+            [
+              _vm._v("\n                    Panduan\n                    "),
+              _c("i", {
+                staticClass: "fa fa-angle-double-up pull-right panel-icon",
+                attrs: { "aria-hidden": "true" }
+              })
+            ]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "btn-label" }, [
+      _c("i", { staticClass: "fa fa-search" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "btn-label" }, [
+      _c("i", { staticClass: "fa fa-search" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "btn-label" }, [
+      _c("i", { staticClass: "fa fa-search" })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("span", { staticClass: "btn-label" }, [
+      _c("i", { staticClass: "fa fa-search" })
     ])
   }
 ]
@@ -56426,6 +57419,27 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Akreditasi.vue?vue&type=style&index=0&id=8516e524&scoped=true&lang=css&");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
+var update = add("d5018c7c", content, false, {});
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&scoped=true&lang=css&":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Home.vue?vue&type=style&index=0&id=b3c5cf30&scoped=true&lang=css& ***!
@@ -56463,6 +57477,27 @@ if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
 var update = add("2196a040", content, false, {});
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=style&index=0&id=237b7efe&scoped=true&lang=css&");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
+var update = add("54406da7", content, false, {});
 // Hot Module Replacement
 if(false) {}
 
