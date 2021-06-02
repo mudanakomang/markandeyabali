@@ -26,7 +26,18 @@
             <div class="col">{{ item.akhir }}</div>
             <div class="col">{{ item.akreditasi }}</div>
             <div class="col">{{ item.status }}</div>
-            <div class="col"></div>
+            <div class="col">
+              <a v-if="item.file"
+                class="btn btn-sm btn-success btn-labeled pull-right"
+                href="#"
+                role="button"
+                @click.prevent="previewPdf(item)"
+              >
+                <span class="btn-label"><i class="fa fa-search"></i></span
+                >Lihat</a
+              >
+              <ViewPDF :show="showModal" :title="viewItem.nama" :pdf="viewItem.file" @closeModal="hideModal()"/>
+            </div>
           </div>
         </div>
       </div>
@@ -34,14 +45,23 @@
   </div>
 </template>
 <script>
+import ViewPDF from '../components/ViewPDF';
 export default {
   data() {
-    return {};
+    return {
+        dialog: false,
+        showModal: false,
+        viewItem: {}
+    };
+  },
+  components:{
+      ViewPDF
   },
   computed: {
     akreditasi() {
       return [
         {
+          id: 1,
           nama: "Akreditasi Institusi Perguruan Tinggi",
           jenjang: "",
           sk: "458/SK/BAN-PT/Ak-PNB/PT/V/2021",
@@ -49,9 +69,10 @@ export default {
           akhir: "2023",
           akreditasi: "Baik/C",
           status: "Masih Berlaku",
-          file: "",
+          file: "SK & Sertifikat-ITP Markandeya.pdf",
         },
         {
+          id: 2,
           nama:
             "Akreditasi Program Studi Pendidikan Bahasa dan Sastra Indonesia",
           jenjang: "S1",
@@ -60,9 +81,10 @@ export default {
           akhir: "2025",
           akreditasi: "Sangat Baik/B",
           status: "Masih Berlaku",
-          file: "",
+          file: "SK & Sertifikat-Bahasa Indo.pdf",
         },
         {
+          id: 3,
           nama: "Pendidikan Bahasa Inggris",
           jenjang: "S1",
           sk: "2970/SK/BAN-PT/Ak-PNB/S/V/2021",
@@ -70,9 +92,10 @@ export default {
           akhir: "2021",
           akreditasi: "Sangat Baik/B",
           status: "Masih Berlaku",
-          file: "",
+          file: "SK & Sertifikat-bahasa Inggris.pdf",
         },
         {
+          id: 4,
           nama: "Pendidikan Guru Sekolah Dasar",
           jenjang: "S1",
           sk: "2969/SK/BAN-PT/Ak-PNB/S/V/2021",
@@ -80,9 +103,10 @@ export default {
           akhir: "2025",
           akreditasi: "Sangat Baik/B",
           status: "Masih Berlaku",
-          file: "",
+          file: "SK & Sertifikat-PGSD.pdf",
         },
         {
+          id: 5,
           nama: "Sistem Informasi",
           jenjang: "S1",
           sk: "",
@@ -95,9 +119,35 @@ export default {
       ];
     },
   },
+  methods: {
+    previewPdf: function (item) {
+        if(item.file){
+            this.showModal = true;
+            this.viewItem = item;
+        }
+    },
+    hideModal(){
+        return this.showModal = false;
+    }
+  },
 };
 </script>
 <style scoped>
+.btn-label {
+  position: relative;
+  left: -12px;
+  display: inline;
+  padding: 3px 3px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 3px 0 0 3px;
+}
+.btn-labeled {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.btn {
+  margin-bottom: 10px;
+}
 .grid-striped .row:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.05);
 }

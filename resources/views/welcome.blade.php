@@ -133,6 +133,7 @@
     <body>
         <div id="app">
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/pdfobject@2.2.5/pdfobject.min.js"></script>
         <script src="{{ asset(mix('/js/app.js')) }}"></script>
     </body>
 </html>
