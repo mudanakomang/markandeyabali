@@ -63,7 +63,7 @@ export default {
   computed: {
       file(){
           if(this.pdf){
-              let baseUrl = 'http://localhost:8000' || process.env.MIX_APP_URL;
+              let baseUrl = process.env.MIX_APP_URL;
               return `${baseUrl}/file/sk/${this.pdf}`
           }
       }

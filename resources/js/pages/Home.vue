@@ -5,7 +5,7 @@
       <div class="container-fluid">
         <div class="row">
           <div
-            class="callout-item col-xl-3 col-lg-3"
+            class="callout-item col-xl-2 col-lg-2"
             v-for="item in items"
             :key="item.id"
             :class="{ 'light-bg': item.id == selected }"
@@ -19,7 +19,7 @@
       </div>
     </section>
     <section class="welcome-section sp-one">
-      <div class="container">
+      <div class="container" ref="scroll">
         <div>
           <component :is="activeComponent"></component>
         </div>
@@ -44,7 +44,7 @@ export default {
   },
   data() {
     return {
-      selected: 0,
+      selected: 1,
       activeComponent: undefined,
     };
   },
@@ -74,6 +74,16 @@ export default {
           title: "BERITA TERBARU",
           component: Berita,
         },
+         {
+          id: 5,
+          title: "SAMBUTAN KETUA YAYASAN",
+          component: Berita,
+        },
+        {
+          id: 6,
+          title: "PEJABAT STRUKTURAL",
+          component: Berita,
+        },
       ];
     },
   },
@@ -83,6 +93,12 @@ export default {
       this.activeComponent = this.items.filter((item) => {
         return item.id === id;
       })[0].component;
+      if (this.selected > 1) {
+        let yOffset = -600;
+        let el = this.$refs.scroll;
+        let y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
     },
   },
 };
@@ -92,6 +108,8 @@ export default {
   margin: 0px;
   position: relative;
   z-index: 0;
+  display: flex;
+  align-items: center;
 }
 
 .callout-section .callout-item {
@@ -111,9 +129,11 @@ export default {
 
 .callout-section .default-bg {
   margin: 0px;
+  height: 10vh;
 }
 .callout-item h5 {
   font-weight: bold;
+  text-align: center;
 }
 
 .callout-item .inner-item {

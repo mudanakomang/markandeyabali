@@ -2,7 +2,7 @@
   <div class="contanier hero-section">
     <div class="hero-text">
       <h1 class="header-text">BEYOND EDUCATION</h1>
-      <button type="submit" class="register">DAFTAR SEKARANG</button>
+      <a role="button" target="_blank" href="https://pmb.itp.stkipsuarbangli.ac.id" class="register">DAFTAR SEKARANG</a>
     </div>
   </div>
 </template>
@@ -33,9 +33,8 @@ export default {
     border: 3px solid #fcc254;
 }
 .hero-section {
-  height: 100vh;
+  height: 90vh;
   color: white;
-  height: 75vh;
   background-image:
     linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
     url('/img/header.jpg');
@@ -51,6 +50,10 @@ export default {
   height: 100%;
   font-size: 1.4em;
   letter-spacing: 9px;
+}
+.hero-text a{
+    text-decoration: none;
+    letter-spacing: normal;
 }
 
 </style>
