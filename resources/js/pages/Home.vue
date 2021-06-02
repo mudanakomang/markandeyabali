@@ -9,7 +9,7 @@
             v-for="item in items"
             :key="item.id"
             :class="{ 'light-bg': item.id == selected }"
-            @click="selectItem(item.id)"
+            @click="selectItem(item.id); scrollPage()"
           >
             <div class="row justify-content-center mr-auto">
               <h5>{{ item.title }}</h5>
@@ -93,13 +93,13 @@ export default {
       this.activeComponent = this.items.filter((item) => {
         return item.id === id;
       })[0].component;
-      if (this.selected > 1) {
+    },
+    scrollPage(){
         let yOffset = -600;
         let el = this.$refs.scroll;
         let y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
-      }
-    },
+    }
   },
 };
 </script>

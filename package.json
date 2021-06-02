@@ -30,6 +30,7 @@
         "@fortawesome/free-brands-svg-icons": "^5.15.3",
         "@fortawesome/free-solid-svg-icons": "^5.15.3",
         "@fortawesome/vue-fontawesome": "^2.0.2",
+        "mobile-device-detect": "^0.4.3",
         "vue-instant-pdf-viewer": "^1.0.2",
         "vue-meta": "^2.4.0",
         "vue-router": "^3.5.1"

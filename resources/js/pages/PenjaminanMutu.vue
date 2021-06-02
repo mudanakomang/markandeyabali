@@ -6,7 +6,7 @@
           <h2>Penjaminan Mutu</h2>
         </div>
         <ul class="title-manu pull-right">
-          <li><router-link :to="{ path: '/home' }">Home</router-link></li>
+          <li><router-link :to="{ path: '/' }">Home</router-link></li>
           <li><i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
           <li>Penjaminan Mutu</li>
         </ul>

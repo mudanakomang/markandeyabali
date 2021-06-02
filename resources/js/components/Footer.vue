@@ -129,7 +129,7 @@ export default {
 <style scoped>
 .main-footer{
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
 }
 .main-footer h6 {
 	font-size: 20px;
