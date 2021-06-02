@@ -12913,7 +12913,7 @@ __webpack_require__.r(__webpack_exports__);
   computed: {
     file: function file() {
       if (this.pdf) {
-        var baseUrl = 'http://localhost:8000' || 0;
+        var baseUrl = "http://localhost:8000";
         return "".concat(baseUrl, "/file/sk/").concat(this.pdf);
       }
     }
