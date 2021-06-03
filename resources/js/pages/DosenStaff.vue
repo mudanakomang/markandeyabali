@@ -193,7 +193,27 @@ export default {
     overflow: auto;
   }
   .row {
-    width: 860px;
+    width: 400px;
+    overflow-wrap: break-word;
+  }
+}
+@media (max-width: 768px) {
+  .grid-content {
+    position: relative;
+    overflow: auto;
+  }
+  .row {
+    width: 700px;
+    overflow-wrap: break-word;
+  }
+}
+@media (max-width: 512px) {
+  .grid-content {
+    position: relative;
+    overflow: auto;
+  }
+  .row {
+    width: 468px;
     overflow-wrap: break-word;
   }
 }
