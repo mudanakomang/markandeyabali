@@ -14,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+// Route::middleware('auth:api')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
+
+Route::get('/sanctum/csrf-cookie', function (Request $request) {
+    /*
+     * Set xsrf cookie for login
+     */
+    return response()->json();
 });
+Route::get('/auth-check', 'Auth\LoginController@checkIsAuthenticated');

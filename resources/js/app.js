@@ -15,7 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(faFacebook , faTwitter, faInstagram, faWhatsapp)
 import App from './App.vue';
 import router from './router';
-
+import './plugins/axios.js';
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 /**
  * The following block of code may be used to automatically register your

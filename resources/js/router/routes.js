@@ -2,6 +2,7 @@ import Home from '../pages/Home';
 import Akademik from '../pages/Akademik';
 import Penelitian from '../pages/Penelitian';
 import PenjaminanMutu from '../pages/PenjaminanMutu';
+import Dashboard from '../pages/admin/Dashboard';
 
 const routes = [
 	{
@@ -23,6 +24,14 @@ const routes = [
         path: '/penjaminan-mutu',
         name: 'penjaminan.mutu',
         component: PenjaminanMutu
+    },
+    {
+        path: '/admin',
+        name: 'admin',
+        component: Dashboard,
+        meta: {
+            requiresAuth: true,
+        }
     }
 ];
 

@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <Navbar />
       <router-view />
-    <Footer />
     <div
       class="scroll-to-top scroll-to-target"
       data-target="html"
@@ -13,12 +11,9 @@
   </div>
 </template>
 <script>
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+
 export default {
   components: {
-    Navbar,
-    Footer,
   },
   mounted(){
      $(window).on('scroll', function(){
@@ -43,6 +38,9 @@ export default {
 };
 </script>
 <style>
+h2{
+    font-weight: bolder;
+}
 body p {
   font-size: 16px;
 }
