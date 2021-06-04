@@ -85,7 +85,7 @@ export default {
         },
         {
           id: 6,
-          title: "PEJABAT STRUKTURAL",
+          title: "PEJABAT STRUTURAL",
           component: PejabatStruktural,
         },
       ];

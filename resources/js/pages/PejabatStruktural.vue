@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Pejabat Struktural</h2>
+    <h2>Pejabat Strutural</h2>
     <div class="container">
       <div class="level-1 rectangle">
         <h1 class="text-center">Rektor</h1>
@@ -45,7 +45,7 @@
             <p class="text-center">Kepala Lembaga Penjaminan Mutu</p>
             <figure>
               <img src="/img/pejabat/ketua-lp.png" alt="Rektor" />
-              <figcaption>Ni Putu Eni Astuti, S.Pd.,M.Pd.</figcaption>
+              <figcaption>Ni Wayan Sri Darmayanthi S.Pd.,M.Pd.</figcaption>
             </figure>
           </div>
         </li>
@@ -56,7 +56,7 @@
             </p>
             <figure>
               <img src="/img/pejabat/ketua-pm.png" alt="Rektor" />
-              <figcaption>Ni Wayan Sri Darmayanthi S.Pd.,M.Pd.</figcaption>
+              <figcaption>Ni Putu Eni Astuti, S.Pd.,M.Pd.</figcaption>
             </figure>
           </div>
         </li>
@@ -95,7 +95,7 @@
               <li></li>
               <li>
                 <div class="level-2 rectangle">
-                  <p class="text-center">Kepala Tata Usaha</p>
+                  <p class="text-center">Sekretaris Jurusan Pendidikan</p>
                   <figure>
                     <img src="/img/pejabat/tu-fip.png" alt="Rektor" />
                     <figcaption>

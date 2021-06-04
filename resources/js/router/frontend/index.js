@@ -2,6 +2,7 @@ import  Home from '../../pages/Home';
 import Akademik from '../../pages/Akademik';
 import Penelitian from '../../pages/Penelitian';
 import PenjaminanMutu from '../../pages/PenjaminanMutu';
+import Kemahasiswaan from '../../pages/Kemahasiswaan';
 import AppBase from '../../pages/_layouts/AppBase';
 
 const frontEndRoutes = {
@@ -30,6 +31,11 @@ const frontEndRoutes = {
             name: 'penjaminan.mutu',
             component: PenjaminanMutu
         },
+        {
+            path: '/kemahasiswaan',
+            name: 'kemahasiswaan',
+            component: Kemahasiswaan
+        }
     ]
 }
 
