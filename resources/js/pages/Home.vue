@@ -32,6 +32,8 @@ import InfoKuliahGratis from "../pages/InfoKuliahGratis";
 import DosenStaff from "../pages/DosenStaff";
 import Akreditasi from "../pages/Akreditasi";
 import Berita from "../pages/Berita";
+import Sambutan from '../pages/Sambutan';
+import PejabatStruktural from '../pages/PejabatStruktural';
 import Header from "../components/Header";
 
 export default {
@@ -40,6 +42,8 @@ export default {
     DosenStaff,
     Berita,
     Akreditasi,
+    Sambutan,
+    PejabatStruktural,
     Header,
   },
   data() {
@@ -76,13 +80,13 @@ export default {
         },
          {
           id: 5,
-          title: "SAMBUTAN KETUA YAYASAN",
-          component: Berita,
+          title: "SAMBUTAN KETUA YAYASAN KRESNA ANDHI MANDIRI",
+          component: Sambutan,
         },
         {
           id: 6,
           title: "PEJABAT STRUKTURAL",
-          component: Berita,
+          component: PejabatStruktural,
         },
       ];
     },

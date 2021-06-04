@@ -13891,7 +13891,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_DosenStaff__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pages/DosenStaff */ "./resources/js/pages/DosenStaff.vue");
 /* harmony import */ var _pages_Akreditasi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/Akreditasi */ "./resources/js/pages/Akreditasi.vue");
 /* harmony import */ var _pages_Berita__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/Berita */ "./resources/js/pages/Berita.vue");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Header */ "./resources/js/components/Header.vue");
+/* harmony import */ var _pages_Sambutan__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pages/Sambutan */ "./resources/js/pages/Sambutan.vue");
+/* harmony import */ var _pages_PejabatStruktural__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pages/PejabatStruktural */ "./resources/js/pages/PejabatStruktural.vue");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Header */ "./resources/js/components/Header.vue");
 //
 //
 //
@@ -13921,6 +13923,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
+
 
 
 
@@ -13932,7 +13936,9 @@ __webpack_require__.r(__webpack_exports__);
     DosenStaff: _pages_DosenStaff__WEBPACK_IMPORTED_MODULE_1__.default,
     Berita: _pages_Berita__WEBPACK_IMPORTED_MODULE_3__.default,
     Akreditasi: _pages_Akreditasi__WEBPACK_IMPORTED_MODULE_2__.default,
-    Header: _components_Header__WEBPACK_IMPORTED_MODULE_4__.default
+    Sambutan: _pages_Sambutan__WEBPACK_IMPORTED_MODULE_4__.default,
+    PejabatStruktural: _pages_PejabatStruktural__WEBPACK_IMPORTED_MODULE_5__.default,
+    Header: _components_Header__WEBPACK_IMPORTED_MODULE_6__.default
   },
   data: function data() {
     return {
@@ -13963,12 +13969,12 @@ __webpack_require__.r(__webpack_exports__);
         component: _pages_Berita__WEBPACK_IMPORTED_MODULE_3__.default
       }, {
         id: 5,
-        title: "SAMBUTAN KETUA YAYASAN",
-        component: _pages_Berita__WEBPACK_IMPORTED_MODULE_3__.default
+        title: "SAMBUTAN KETUA YAYASAN KRESNA ANDHI MANDIRI",
+        component: _pages_Sambutan__WEBPACK_IMPORTED_MODULE_4__.default
       }, {
         id: 6,
         title: "PEJABAT STRUKTURAL",
-        component: _pages_Berita__WEBPACK_IMPORTED_MODULE_3__.default
+        component: _pages_PejabatStruktural__WEBPACK_IMPORTED_MODULE_5__.default
       }];
     }
   },
@@ -20574,6 +20580,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.btn-label[data-v-ab6f1866] {\n  pos
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\nfigure figcaption[data-v-e8079fb6] {\n  text-align: center;\n  font-size: 1.3rem;\n}\nh2[data-v-e8079fb6]{\n    padding-bottom: 25px;\n}\n.unit[data-v-e8079fb6] {\n  padding-bottom: 25px;\n  padding-top: 15px;\n  border-bottom: 1px solid rgba(0, 0, 0, 0.15);\n}\nimg[data-v-e8079fb6] {\n  width: 100%;\n  height: auto;\n}\n[data-v-e8079fb6]:root {\n  --level-1: #8dccad;\n  --level-2: #f5cc7f;\n  --level-3: #7b9fe0;\n  --level-4: #f27c8d;\n  --black: black;\n}\n*[data-v-e8079fb6] {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\nol[data-v-e8079fb6] {\n  list-style: none;\n}\nbody[data-v-e8079fb6] {\n  margin: 50px 0 100px;\n  text-align: center;\n  font-family: \"Inter\", sans-serif;\n}\n.container[data-v-e8079fb6] {\n  max-width: 1000px;\n  padding: 0 10px;\n  margin: 0 auto;\n}\n.rectangle[data-v-e8079fb6] {\n  position: relative;\n  padding: 20px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);\n}\n\n/* LEVEL-1 STYLES\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.level-1[data-v-e8079fb6] {\n  width: 50%;\n  margin: 0 auto 40px;\n  background: var(--level-1);\n}\n.level-1[data-v-e8079fb6]::before {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 2px;\n  height: 20px;\n  background: var(--black);\n}\n\n/* LEVEL-2 STYLES\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.level-2-wrapper[data-v-e8079fb6] {\n  position: relative;\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n}\n.level-2-wrapper[data-v-e8079fb6]::before {\n  content: \"\";\n  position: absolute;\n  top: -20px;\n  left: 25%;\n  width: 50%;\n  height: 2px;\n  background: var(--black);\n}\n.level-2-wrapper[data-v-e8079fb6]::after {\n  display: none;\n  content: \"\";\n  position: absolute;\n  left: -20px;\n  bottom: -20px;\n  width: calc(100% + 20px);\n  height: 2px;\n  background: var(--black);\n}\n.level-2-wrapper li[data-v-e8079fb6] {\n  position: relative;\n}\n.level-2-wrapper > li[data-v-e8079fb6]::before {\n  content: \"\";\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 2px;\n  height: 20px;\n  background: var(--black);\n}\n.level-2[data-v-e8079fb6] {\n  width: 90%;\n  margin: 0 auto 40px;\n  background: var(--level-2);\n}\n.level-2[data-v-e8079fb6]::before {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 2px;\n  height: 20px;\n  background: var(--black);\n}\n.level-2[data-v-e8079fb6]::after {\n  display: none;\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 0%;\n  transform: translate(-100%, -50%);\n  width: 20px;\n  height: 2px;\n  background: var(--black);\n}\n\n/* LEVEL-3 STYLES\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.level-3-wrapper[data-v-e8079fb6] {\n  position: relative;\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  grid-column-gap: 20px;\n  width: 90%;\n  margin: 0 auto;\n}\n.level-3-wrapper[data-v-e8079fb6]::before {\n  content: \"\";\n  position: absolute;\n  top: -20px;\n  left: calc(25% - 5px);\n  width: calc(50% + 10px);\n  height: 2px;\n  background: var(--black);\n}\n.level-3-wrapper > li[data-v-e8079fb6]::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 50%;\n  transform: translate(-50%, -100%);\n  width: 2px;\n  height: 20px;\n  background: var(--black);\n}\n.level-3[data-v-e8079fb6] {\n  margin-bottom: 20px;\n  background: var(--level-3);\n}\n\n/* LEVEL-4 STYLES\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n.level-4-wrapper[data-v-e8079fb6] {\n  position: relative;\n  width: 80%;\n  margin-left: auto;\n}\n.level-4-wrapper[data-v-e8079fb6]::before {\n  content: \"\";\n  position: absolute;\n  top: -20px;\n  left: -20px;\n  width: 2px;\n  height: calc(100% + 20px);\n  background: var(--black);\n}\n.level-4-wrapper li + li[data-v-e8079fb6] {\n  margin-top: 20px;\n}\n.level-4[data-v-e8079fb6] {\n  font-weight: normal;\n  background: var(--level-4);\n}\n.level-4[data-v-e8079fb6]::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 0%;\n  transform: translate(-100%, -50%);\n  width: 20px;\n  height: 2px;\n  background: var(--black);\n}\n\n/* MQ STYLES\n–––––––––––––––––––––––––––––––––––––––––––––––––– */\n@media screen and (max-width: 700px) {\n.rectangle[data-v-e8079fb6] {\n    padding: 20px 10px;\n}\n.level-1[data-v-e8079fb6],\n  .level-2[data-v-e8079fb6] {\n    width: 100%;\n}\n.level-1[data-v-e8079fb6] {\n    margin-bottom: 20px;\n}\n.level-1[data-v-e8079fb6]::before,\n  .level-2-wrapper > li[data-v-e8079fb6]::before {\n    display: none;\n}\n.level-2-wrapper[data-v-e8079fb6],\n  .level-2-wrapper[data-v-e8079fb6]::after,\n  .level-2[data-v-e8079fb6]::after {\n    display: block;\n}\n.level-2-wrapper[data-v-e8079fb6] {\n    width: 90%;\n    margin-left: 10%;\n}\n.level-2-wrapper[data-v-e8079fb6]::before {\n    left: -20px;\n    width: 2px;\n    height: calc(100% + 40px);\n}\n.level-2-wrapper > li[data-v-e8079fb6]:not(:first-child) {\n    margin-top: 50px;\n}\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css&":
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css& ***!
@@ -20616,6 +20646,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\n.btn-label[data-v-237b7efe] {\n  position: relative;\n  left: -12px;\n  display: inline;\n  padding: 3px 3px;\n  background: rgba(0, 0, 0, 0.15);\n  border-radius: 3px 0 0 3px;\n}\n.btn-labeled[data-v-237b7efe] {\n  padding-top: 0;\n  padding-bottom: 0;\n}\n.btn[data-v-237b7efe] {\n  margin-bottom: 10px;\n}\nol[data-v-237b7efe] {\n  padding-top: 25px;\n}\nol > li[data-v-237b7efe] {\n  font-weight: bold;\n  padding-bottom: 10px;\n  width: 60%;\n}\n.list[data-v-237b7efe] {\n  padding: 15px 15px 15px 15px;\n}\n.list .title[data-v-237b7efe] {\n  padding-bottom: 5px;\n  font-weight: bold;\n}\n.list .item[data-v-237b7efe] {\n  padding: 5px 0px;\n}\n.title-manu[data-v-237b7efe] {\n  padding-top: 15px;\n}\n.content[data-v-237b7efe] {\n  padding: 100px 0px;\n}\n.title h2[data-v-237b7efe] {\n  padding-top: 25px;\n}\n.sp-one[data-v-237b7efe] {\n  padding: 100px 0px;\n  z-index: 0;\n}\n.welcome-section .title-manu li[data-v-237b7efe] {\n  position: relative;\n  font-size: 15px;\n  line-height: 26px;\n  font-weight: 700;\n  color: #f36371;\n  margin-left: 15px;\n  padding: 17px 0px;\n  display: inline-block;\n  font-family: \"Montserrat\", sans-serif;\n  text-transform: capitalize;\n}\n.welcome-section .title-manu li a[data-v-237b7efe] {\n  color: #333333;\n  font-family: \"Montserrat\", sans-serif;\n  transition: all 500ms ease;\n}\n.welcome-section .title-manu li a[data-v-237b7efe]:hover {\n  color: #f36371;\n  transition: all 500ms ease;\n}\nbody[data-v-237b7efe] {\n  padding: 50px;\n  background: #fff;\n}\n.wrapper[data-v-237b7efe] {\n  width: 90%;\n}\n@media (max-width: 992px) {\n.wrapper[data-v-237b7efe] {\n    width: 100%;\n}\nol > li[data-v-237b7efe] {\n    font-weight: bold;\n    padding-bottom: 10px;\n    width: 100%;\n}\n}\n.panel-heading[data-v-237b7efe] {\n  padding: 0;\n  border: 0;\n}\n.panel-icon[data-v-237b7efe] {\n  transition: all 0.5s linear;\n}\n.panel-heading.active .panel-icon[data-v-237b7efe] {\n  transform: rotate(180deg);\n}\n.panel-title[data-v-237b7efe] {\n  border-bottom: #f36371 solid 2px;\n}\n.panel-title a[data-v-237b7efe]:hover {\n  color: #f36371;\n}\n.panel-title > a[data-v-237b7efe],\n.panel-title > a[data-v-237b7efe]:active {\n  display: block;\n  padding: 15px;\n  color: #555;\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  word-spacing: 3px;\n  text-decoration: none;\n}\n/* .panel-heading a:before {\n  font-family: \"Glyphicons Halflings\";\n  content: \"\\e114\";\n  float: right;\n  transition: all 0.5s;\n} */\n.panel-body[data-v-237b7efe] {\n  padding: 0px 25px 0px 25px;\n}\n.panel-body h5[data-v-237b7efe] {\n  font-weight: bold;\n}\n.panel-heading.active a[data-v-237b7efe]:before {\n  transform: rotate(180deg);\n}\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n.title[data-v-5ef940f8] {\n  font-weight: bolder;\n}\n.sp-nine[data-v-5ef940f8] {\n  padding: 25px 0px 25px;\n}\np[data-v-5ef940f8] {\n  text-align: justify;\n}\nh2[data-v-5ef940f8] {\n  padding-bottom: 25px;\n}\n.shop-item-one[data-v-5ef940f8] {\n  margin-bottom: 30px;\n}\n.shop-item-one .image-box[data-v-5ef940f8] {\n  position: relative;\n  overflow: hidden;\n  border: 1px solid #e0e0e0;\n}\n.item img[data-v-5ef940f8] {\n  max-width: 300px;\n}\n.shop-item-one .overly-box[data-v-5ef940f8] {\n  position: relative;\n  text-align: center;\n  left: 0px;\n  top: 0px;\n  width: 100%;\n  height: 100%;\n  color: #ffffff;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  background: rgba(249, 190, 77, 0.7);\n  transition: 0.5s cubic-bezier(0.4, 0, 1, 1);\n  opacity: 0;\n  content: \"\";\n  visibility: hidden;\n}\n.shop-item-one .image-box:hover .overly-box[data-v-5ef940f8] {\n  visibility: visible;\n  opacity: 1;\n  transition: all 500ms ease;\n}\n.shop-item-one a i[data-v-5ef940f8] {\n  font-size: 13px;\n  line-height: 29px;\n  margin-right: 10px;\n}\n.shop-item-one .image-text[data-v-5ef940f8] {\n  padding: 20px 0px;\n}\n.shop-item-one .image-text h6[data-v-5ef940f8] {\n  font-size: 1.2rem;\n  font-weight: bolder;\n  line-height: 22px;\n  color: #333333;\n}\n.shop-item-one h6[data-v-5ef940f8] {\n  font-size: 16px;\n  font-weight: bold;\n  line-height: 22px;\n  color: #000000;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -53826,6 +53880,45 @@ component.options.__file = "resources/js/pages/InfoKuliahGratis.vue"
 
 /***/ }),
 
+/***/ "./resources/js/pages/PejabatStruktural.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/pages/PejabatStruktural.vue ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _PejabatStruktural_vue_vue_type_template_id_e8079fb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PejabatStruktural.vue?vue&type=template&id=e8079fb6&scoped=true& */ "./resources/js/pages/PejabatStruktural.vue?vue&type=template&id=e8079fb6&scoped=true&");
+/* harmony import */ var _PejabatStruktural_vue_vue_type_style_index_0_id_e8079fb6_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css& */ "./resources/js/pages/PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  script,
+  _PejabatStruktural_vue_vue_type_template_id_e8079fb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _PejabatStruktural_vue_vue_type_template_id_e8079fb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "e8079fb6",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/PejabatStruktural.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/pages/Penelitian.vue":
 /*!*******************************************!*\
   !*** ./resources/js/pages/Penelitian.vue ***!
@@ -53904,6 +53997,45 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/pages/PenjaminanMutu.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Sambutan.vue":
+/*!*****************************************!*\
+  !*** ./resources/js/pages/Sambutan.vue ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Sambutan_vue_vue_type_template_id_5ef940f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Sambutan.vue?vue&type=template&id=5ef940f8&scoped=true& */ "./resources/js/pages/Sambutan.vue?vue&type=template&id=5ef940f8&scoped=true&");
+/* harmony import */ var _Sambutan_vue_vue_type_style_index_0_id_5ef940f8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css& */ "./resources/js/pages/Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  script,
+  _Sambutan_vue_vue_type_template_id_5ef940f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Sambutan_vue_vue_type_template_id_5ef940f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "5ef940f8",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/Sambutan.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -54504,6 +54636,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/pages/PejabatStruktural.vue?vue&type=template&id=e8079fb6&scoped=true&":
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/pages/PejabatStruktural.vue?vue&type=template&id=e8079fb6&scoped=true& ***!
+  \*********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PejabatStruktural_vue_vue_type_template_id_e8079fb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PejabatStruktural_vue_vue_type_template_id_e8079fb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PejabatStruktural_vue_vue_type_template_id_e8079fb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PejabatStruktural.vue?vue&type=template&id=e8079fb6&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PejabatStruktural.vue?vue&type=template&id=e8079fb6&scoped=true&");
+
+
+/***/ }),
+
 /***/ "./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true&":
 /*!**************************************************************************************!*\
   !*** ./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true& ***!
@@ -54534,6 +54683,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_template_id_237b7efe_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_template_id_237b7efe_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PenjaminanMutu.vue?vue&type=template&id=237b7efe&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PenjaminanMutu.vue?vue&type=template&id=237b7efe&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/Sambutan.vue?vue&type=template&id=5ef940f8&scoped=true&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/pages/Sambutan.vue?vue&type=template&id=5ef940f8&scoped=true& ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Sambutan_vue_vue_type_template_id_5ef940f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Sambutan_vue_vue_type_template_id_5ef940f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Sambutan_vue_vue_type_template_id_5ef940f8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Sambutan.vue?vue&type=template&id=5ef940f8&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Sambutan.vue?vue&type=template&id=5ef940f8&scoped=true&");
 
 
 /***/ }),
@@ -54793,6 +54959,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/pages/PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css&":
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/pages/PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css& ***!
+  \***********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PejabatStruktural_vue_vue_type_style_index_0_id_e8079fb6_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-style-loader/index.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css& */ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PejabatStruktural_vue_vue_type_style_index_0_id_e8079fb6_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PejabatStruktural_vue_vue_type_style_index_0_id_e8079fb6_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PejabatStruktural_vue_vue_type_style_index_0_id_e8079fb6_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PejabatStruktural_vue_vue_type_style_index_0_id_e8079fb6_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+
+/***/ }),
+
 /***/ "./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css&":
 /*!****************************************************************************************************!*\
   !*** ./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css& ***!
@@ -54822,6 +55005,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_style_index_0_id_237b7efe_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_style_index_0_id_237b7efe_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
 /* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_style_index_0_id_237b7efe_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_PenjaminanMutu_vue_vue_type_style_index_0_id_237b7efe_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/pages/Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css& ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sambutan_vue_vue_type_style_index_0_id_5ef940f8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-style-loader/index.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css& */ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sambutan_vue_vue_type_style_index_0_id_5ef940f8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sambutan_vue_vue_type_style_index_0_id_5ef940f8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sambutan_vue_vue_type_style_index_0_id_5ef940f8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Sambutan_vue_vue_type_style_index_0_id_5ef940f8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
 /* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
 
 
@@ -57145,6 +57345,274 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PejabatStruktural.vue?vue&type=template&id=e8079fb6&scoped=true&":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PejabatStruktural.vue?vue&type=template&id=e8079fb6&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h2", [_vm._v("Pejabat Struktural")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "level-1 rectangle" }, [
+          _c("h1", { staticClass: "text-center" }, [_vm._v("Rektor")]),
+          _vm._v(" "),
+          _c("figure", [
+            _c("img", {
+              attrs: { src: "/img/pejabat/rektor.png", alt: "Rektor" }
+            }),
+            _vm._v(" "),
+            _c("figcaption", [_vm._v("I Wayan Numertayasa, S.Pd.,M.Pd.")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("ol", { staticClass: "level-2-wrapper" }, [
+          _c("li", [
+            _c("div", { staticClass: "level-2 rectangle" }, [
+              _c("h2", { staticClass: "text-center" }, [
+                _vm._v("Wakil Rektor I")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-center" }, [
+                _vm._v("Bidang Akademik & Kerjasama")
+              ]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/img/pejabat/wakil1.png", alt: "Rektor" }
+                }),
+                _vm._v(" "),
+                _c("figcaption", [_vm._v("Pande Agusadiwijaya, S.Pd.,M.Pd.")])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "level-2 rectangle" }, [
+              _c("h2", { staticClass: "text-center" }, [
+                _vm._v("Wakil Rektor II")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-center" }, [
+                _vm._v("Bidang SDM & Keuangan")
+              ]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/img/pejabat/wakil2.png", alt: "Rektor" }
+                }),
+                _vm._v(" "),
+                _c("figcaption", [
+                  _vm._v("Md. Andhi Supriatna Arna, S.H.,M.H.")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "level-2 rectangle" }, [
+              _c("h2", { staticClass: "text-center" }, [
+                _vm._v("Wakil Rektor III")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-center" }, [
+                _vm._v("Bidang Kemahasiswaan & Alumni")
+              ]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/img/pejabat/wakil3.png", alt: "Rektor" }
+                }),
+                _vm._v(" "),
+                _c("figcaption", [_vm._v("I Putu Oka Suardana, S.Pd.,M.Pd.")])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "level-2 rectangle" }, [
+              _c("p", { staticClass: "text-center" }, [
+                _vm._v("Kepala Lembaga Penjaminan Mutu")
+              ]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/img/pejabat/ketua-lp.png", alt: "Rektor" }
+                }),
+                _vm._v(" "),
+                _c("figcaption", [_vm._v("Ni Putu Eni Astuti, S.Pd.,M.Pd.")])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "level-2 rectangle" }, [
+              _c("p", { staticClass: "text-center" }, [
+                _vm._v(
+                  "\n            Kepala Lembaga Penelitian & Pengabdian Masyarakat\n          "
+                )
+              ]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/img/pejabat/ketua-pm.png", alt: "Rektor" }
+                }),
+                _vm._v(" "),
+                _c("figcaption", [
+                  _vm._v("Ni Wayan Sri Darmayanthi S.Pd.,M.Pd.")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c("div", { staticClass: "level-2 rectangle" }, [
+              _c("p", { staticClass: "text-center" }, [
+                _vm._v("Kepala Tata Usaha")
+              ]),
+              _vm._v(" "),
+              _c("figure", [
+                _c("img", {
+                  attrs: { src: "/img/pejabat/ktu.png", alt: "Rektor" }
+                }),
+                _vm._v(" "),
+                _c("figcaption", [_vm._v("I Nyoman Sudirman, S.Pd.,M.Pd.")])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "unit" }, [
+          _c("h3", { staticClass: "text-center" }, [
+            _vm._v("FAKULTAS ILMU PENDIDIKAN")
+          ]),
+          _vm._v(" "),
+          _c("ol", { staticClass: "level-1-wrapper" }, [
+            _c("li", [
+              _c("div", { staticClass: "level-1 rectangle" }, [
+                _c("p", { staticClass: "text-center" }, [
+                  _vm._v("Dekan Fakultas Ilmu Pendidikan")
+                ]),
+                _vm._v(" "),
+                _c("figure", [
+                  _c("img", {
+                    attrs: { src: "/img/pejabat/dekan-fip.png", alt: "Rektor" }
+                  }),
+                  _vm._v(" "),
+                  _c("figcaption", [_vm._v("I Nengah Sueca S.Pd.,M.Pd.")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("ol", { staticClass: "level-2-wrapper" }, [
+                _c("li", [
+                  _c("div", { staticClass: "level-2 rectangle" }, [
+                    _c("p", { staticClass: "text-center" }, [
+                      _vm._v("Ketua Jurusan Pendidikan")
+                    ]),
+                    _vm._v(" "),
+                    _c("figure", [
+                      _c("img", {
+                        attrs: {
+                          src: "/img/pejabat/kejur-fip.png",
+                          alt: "Rektor"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c("figcaption", [
+                        _vm._v("I Putu Beny Pradnyana S.Pd.,M.Pd.")
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li"),
+                _vm._v(" "),
+                _c("li", [
+                  _c("div", { staticClass: "level-2 rectangle" }, [
+                    _c("p", { staticClass: "text-center" }, [
+                      _vm._v("Kepala Tata Usaha")
+                    ]),
+                    _vm._v(" "),
+                    _c("figure", [
+                      _c("img", {
+                        attrs: { src: "/img/pejabat/tu-fip.png", alt: "Rektor" }
+                      }),
+                      _vm._v(" "),
+                      _c("figcaption", [
+                        _vm._v(
+                          "\n                    Luh Made Dwi Wedayanthi, S.Pd.,M.Pd.\n                  "
+                        )
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "unit" }, [
+          _c("h3", { staticClass: "text-center" }, [
+            _vm._v("FAKULTAS TEKNOLOGI DAN BISNIS")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "unit" }, [
+          _c("h3", { staticClass: "text-center" }, [_vm._v("UNIT")]),
+          _vm._v(" "),
+          _c("ol", { staticClass: "level-1-wrapper" }, [
+            _c("li", [
+              _c("div", { staticClass: "level-1 rectangle" }, [
+                _c("p", { staticClass: "text-center" }, [
+                  _vm._v(
+                    "\n              Kepala Unit Perpustakaan, Laboratorium & Sistem Informasi\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("figure", [
+                  _c("img", {
+                    attrs: {
+                      src: "/img/pejabat/kepala-unit.png",
+                      alt: "Rektor"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("figcaption", [
+                    _vm._v("Desak Anom Djanawati, S.Pd.,M.Pd.")
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true&":
 /*!*****************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=template&id=6ea73e94&scoped=true& ***!
@@ -58216,6 +58684,99 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("span", { staticClass: "btn-label" }, [
       _c("i", { staticClass: "fa fa-search" })
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Sambutan.vue?vue&type=template&id=5ef940f8&scoped=true&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Sambutan.vue?vue&type=template&id=5ef940f8&scoped=true& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("h2", [_vm._v("Sambutan Ketua Yayasan Kresna Andhi Mandiri")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "single-product-section sp-nine" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-xl-12 col-sm-12" }, [
+              _c("div", { staticClass: "left-side-area" }, [
+                _c("div", { staticClass: "single-product-one" }, [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-xl-4 col-md-6 col-sm-12" }, [
+                      _c("div", { staticClass: "product-info" }, [
+                        _c("div", {}, [
+                          _c("div", { staticClass: "item" }, [
+                            _c("img", {
+                              attrs: {
+                                src: "/img/ketua-yayasan.png",
+                                alt: "Ketua Yayasan"
+                              }
+                            })
+                          ])
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-xl-8 col-md-6 col-sm-12" }, [
+                      _c("div", { staticClass: "shop-item-one" }, [
+                        _c("h6", [
+                          _vm._v("Drs. I Wayan S. Arsana, M.M.,M.AP.")
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "product-text" }, [
+                          _c("p", { staticClass: "text-justify" }, [
+                            _vm._v(
+                              "\n                        Perkembangan IPTEKS dan minat masyarakat terhadap\n                        akses Pendidikan tinggi terutama program Sarjana\n                        sangat tinggi, terutama di kawasan Bali Timur. Hal ini\n                        memicu Yayasan Kresna Andhi Mandiri Bangli sebagai\n                        salah satu badan penyelenggara pendidikan tinggi di\n                        Kawasan ini untuk mendirikan Institut Teknologi dan\n                        Pendidikan (ITP) Markandeya Bali. ITP Markandeya Bali\n                        merupakan perubahan bentuk dari Sekolah Tinggi\n                        Keguruan dan Ilmu Pendidikan (STKIP) Suar Bangli.\n                        Perubahan bentuk dari sekolah tinggi menjadi institut\n                        bertujuan untuk meningkatkan kualitas, daya saing, dan\n                        daya jangkau perguruan tinggi kepada calon mahasiswa.\n                        Semasa bernama STKIP Suar Bangli, fokus\n                        penyelenggaraan pendidikan perguruan tinggi adalah\n                        menghasilkan tenaga pendidik (guru) pada bidang Bahasa\n                        Indonesia, Bahasa Inggris, dan Sekolah Dasar. Akan\n                        tetapi, mengingat perkembangan dan tuntutan zaman,\n                        fokus pendidikan tinggi yang diselenggarakan tidak\n                        hanya untuk mengahasilkan tenaga kependidikan saja.\n                        Saat ini fokus penyelenggaraan pendidikan di ITP\n                        Markandeya Bali Bali tidak hanya bidang tenaga\n                        kependidikan saja, tetapi juga bidang teknologi.\n                      "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _vm._v(
+                              "\n                        Pemilihan fokus bidang teknologi dan pendidikan\n                        bertujuan untuk menyukseskan program pemerintah untuk\n                        menciptakan sumber daya manusia Indonesia yang\n                        berkualitas, khususnya di kawaasan Bali Timur.\n                        Kualitas-kualitas tersebut ditunjukkan dalam\n                        penguasaan bidang teknologi dan sains yang ditopang\n                        oleh kemampuan manajemen serta calon pendidik yang\n                        berkualitas. Pengembangan kualitas tersebut dijabarkan\n                        ke dalam prodi-prodi yang ada di ITP Markandeya Bali\n                        Bali. Terdapat empat prodi yang akan diselenggarakan\n                        oleh ITP Markandeya Bali yaitu, Prodi Pendidikan\n                        Bahasa dan Sastra Indonesia, Pendidikan Bahasa\n                        Inggris, Pendidikan Guru Sekolah Dasar, dan Sistem\n                        Informasi."
+                            ),
+                            _c("br", { staticStyle: { clear: "both" } })
+                          ]),
+                          _vm._v(" "),
+                          _c("p", [
+                            _vm._v(
+                              "\n                        Harapan kami sebagai Badan Penyelenggara ITP\n                        Markandeya Bali adalah kehadiran kami sebagai\n                        perguruan tinggi yang sehat dapat menjadi solusi bagi\n                        masyarakat untuk meningkatkan kualitas SDM di\n                        Indonesia, Bali pada khususnya."
+                            ),
+                            _c("br", { staticStyle: { clear: "both" } })
+                          ])
+                        ])
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
     ])
   }
 ]
@@ -61847,6 +62408,27 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/PejabatStruktural.vue?vue&type=style&index=0&id=e8079fb6&scoped=true&lang=css&");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
+var update = add("27933ae3", content, false, {});
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css&":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Penelitian.vue?vue&type=style&index=0&id=6ea73e94&scoped=true&lang=css& ***!
@@ -61884,6 +62466,27 @@ if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
 var update = add("54406da7", content, false, {});
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/pages/Sambutan.vue?vue&type=style&index=0&id=5ef940f8&scoped=true&lang=css&");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(/*! !../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
+var update = add("3b63169f", content, false, {});
 // Hot Module Replacement
 if(false) {}
 
