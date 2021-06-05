@@ -43,9 +43,19 @@
 </template>
 <script>
 import BemOnDuty from '../pages/kemahasiswaan/BemOnDuty';
+import TracerStudy from '../pages/kemahasiswaan/TracerStudy';
+import UpcomingEvent from '../pages/kemahasiswaan/UpcomingEvent';
+import Sayembara from '../pages/kemahasiswaan/Sayembara';
+import MarkandeyaNews from '../pages/kemahasiswaan/MarkandeyaNews';
+import Moment from '../pages/kemahasiswaan/Moment';
 export default {
     components:{
-        BemOnDuty
+        BemOnDuty,
+        TracerStudy,
+        UpcomingEvent,
+        Sayembara,
+        MarkandeyaNews,
+        Moment
     },
      mounted() {
     this.selectItem(1);
@@ -66,28 +76,28 @@ export default {
         },
         {
           id: 2,
-          title: "DOSEN & STAFF",
-          component: "",
+          title: "Tracer Study",
+          component: TracerStudy,
         },
         {
           id: 3,
-          title: "AKREDITASI",
-          component: "",
+          title: "Upcoming Event",
+          component: UpcomingEvent,
         },
         {
           id: 4,
-          title: "BERITA TERBARU",
-          component: "",
+          title: " Sayembara Berhadiah",
+          component: Sayembara,
         },
         {
           id: 5,
-          title: "SAMBUTAN KETUA YAYASAN KRESNA ANDHI MANDIRI",
-          component: "",
+          title: "Markandeya News",
+          component: MarkandeyaNews,
         },
         {
           id: 6,
-          title: "PEJABAT STRUTURAL",
-          component: "",
+          title: "Capture The Moment",
+          component: Moment,
         },
       ];
     },
@@ -165,7 +175,7 @@ body {
 
 .callout-section .callout-item {
   background: #3333332d;
-  padding: 35px 0 0px;
+  padding: 35px 0 25px;
   /* border-left: #333333 solid 1px; */
   cursor: pointer;
 }

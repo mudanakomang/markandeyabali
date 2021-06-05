@@ -37,7 +37,7 @@ export default {
   color: white;
   background-image:
     linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
-    url('/img/header.jpg');
+    url('/img/test.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

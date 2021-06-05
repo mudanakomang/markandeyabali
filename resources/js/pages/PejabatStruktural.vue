@@ -42,7 +42,9 @@
         </li>
         <li>
           <div class="level-2 rectangle">
-            <p class="text-center">Kepala Lembaga Penjaminan Mutu</p>
+            <p class="text-center">
+              Kepala Lembaga Penelitian & Pengabdian Masyarakat
+            </p>
             <figure>
               <img src="/img/pejabat/ketua-lp.png" alt="Rektor" />
               <figcaption>Ni Wayan Sri Darmayanthi S.Pd.,M.Pd.</figcaption>
@@ -51,9 +53,7 @@
         </li>
         <li>
           <div class="level-2 rectangle">
-            <p class="text-center">
-              Kepala Lembaga Penelitian & Pengabdian Masyarakat
-            </p>
+            <p class="text-center">Kepala Lembaga Penjaminan Mutu</p>
             <figure>
               <img src="/img/pejabat/ketua-pm.png" alt="Rektor" />
               <figcaption>Ni Putu Eni Astuti, S.Pd.,M.Pd.</figcaption>
@@ -135,8 +135,8 @@ figure figcaption {
   text-align: center;
   font-size: 1.3rem;
 }
-h2{
-    padding-bottom: 25px;
+h2 {
+  padding-bottom: 25px;
 }
 .unit {
   padding-bottom: 25px;
