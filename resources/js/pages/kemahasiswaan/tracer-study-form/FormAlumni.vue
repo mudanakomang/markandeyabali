@@ -97,16 +97,16 @@ export default {
       id: id,
     };
   },
-  validations: {
-    dataAlumni: {
-      nama: {
-        required,
-      },
-      tgl_lahir: {
-        required,
-      },
-    },
-  },
+  // validations: {
+  //   dataAlumni: {
+  //     nama: {
+  //       required,
+  //     },
+  //     tgl_lahir: {
+  //       required,
+  //     },
+  //   },
+  // },
   computed: {
     startDate() {
       let date = new Date();
