@@ -34,7 +34,7 @@ router.beforeEach(async (to, from, next) => {
                 }
             });
         } else {
-            next({ name: 'notFound' });
+            next();
         }
     } else {
         next();

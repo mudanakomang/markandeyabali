@@ -5,7 +5,7 @@
         <i class="fa fa-bars fa-2x"></i>
       </div>
       <div class="logo">
-        <img width="75px" src="/img/logo.png?v=2" alt="Logo">
+        <img width="65px" src="/img/logo.png?v=2" alt="Logo">
       </div>
       <div class="menu">
         <ul>
@@ -77,7 +77,7 @@ p {
   line-height: 60px;
   position: fixed;
   float: left;
-  margin: 16px 46px;
+  margin: 5px 46px;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
@@ -110,7 +110,7 @@ nav.black ul {
 
 nav ul li {
   display: inline-block;
-  padding: 16px 40px;
+  padding: 6px 40px;
 }
 
 nav ul li a {

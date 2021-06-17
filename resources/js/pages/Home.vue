@@ -18,7 +18,7 @@
         </div>
       </div>
     </section>
-    <section class="welcome-section sp-one">
+    <section class="welcome-section sp-home">
       <div class="container" ref="scroll">
         <div>
           <component :is="activeComponent"></component>
@@ -85,7 +85,7 @@ export default {
         },
         {
           id: 6,
-          title: "PEJABAT STRUTURAL",
+          title: "PEJABAT STRUKTURAL",
           component: PejabatStruktural,
         },
       ];
@@ -118,7 +118,7 @@ export default {
 
 .callout-section .callout-item {
   background: #3333332d;
-  padding: 35px 0 35px;
+  padding: 40px 0 10px;
   /* border-left: #333333 solid 1px; */
   cursor: pointer;
 }
@@ -137,6 +137,7 @@ export default {
 }
 .callout-item h5 {
   font-weight: bold;
+  font-size: 0.9rem;
   text-align: center;
 }
 
@@ -163,47 +164,15 @@ export default {
 .callout-item .text {
   color: #222;
 }
-.sp-one {
-  padding: 100px 0px;
-}
+@media (max-width: 883px) {
+  .callout-section .callout-item {
+    padding: 20px 5px 10px;
+  }
+  .callout-item h5 {
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-align: center;
+    }
 
-.sp-two {
-  padding: 130px 0px 80px;
-}
-
-.sp-three {
-  padding: 130px 0px 100px;
-}
-
-.sp-four {
-  padding: 120px 0px 80px;
-}
-
-.sp-five {
-  padding: 50px 0px 20px;
-}
-
-.sp-six {
-  padding: 75px 0px 55px;
-}
-
-.sp-seven {
-  padding: 95px 0px 65px;
-}
-
-.sp-eight {
-  padding: 60px 0px 30px;
-}
-
-.sp-nine {
-  padding: 150px 0px 40px;
-}
-
-.sp-ten {
-  padding: 150px 0px 110px;
-}
-
-.sp-eleven {
-  padding: 150px 0px;
 }
 </style>

@@ -632,9 +632,6 @@ ol > li {
   padding: 100px 0px;
   z-index: 0;
 }
-.content {
-  padding: 100px 0px;
-}
 .welcome-section .title-manu li {
   position: relative;
   font-size: 15px;

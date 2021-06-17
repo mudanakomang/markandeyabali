@@ -119,10 +119,6 @@ export default {
 };
 </script>
 <style scoped>
-.sp-one {
-  padding: 100px 0px;
-  z-index: 0;
-}
 .welcome-section .title-manu li {
   position: relative;
   font-size: 15px;
@@ -157,13 +153,20 @@ body {
   padding: 50px;
   background: #fff;
 }
-.wrapper {
-  width: 90%;
-}
-@media (max-width: 992px) {
-  .wrapper {
-    width: 100%;
+
+@media (max-width: 883px) {
+    .callout-section{
+        width: 100%;
+    }
+  .callout-section .callout-item {
+    padding: 20px 5px 10px;
   }
+  .callout-item h5 {
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-align: center;
+    }
+
 }
 .callout-section {
   margin: 0px;

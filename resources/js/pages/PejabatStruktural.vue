@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Pejabat Strutural</h2>
+    <h2>Pejabat Struktural</h2>
     <div class="container">
       <div class="level-1 rectangle">
         <h1 class="text-center">Rektor</h1>

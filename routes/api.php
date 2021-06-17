@@ -25,3 +25,6 @@ Route::get('/sanctum/csrf-cookie', function (Request $request) {
     return response()->json();
 });
 Route::get('/auth-check', 'Auth\LoginController@checkIsAuthenticated');
+
+Route::post('/admin/login','Auth\LoginController@login');
+Route::get('/logout', 'Auth\LoginController@logout');

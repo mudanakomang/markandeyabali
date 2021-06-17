@@ -38,8 +38,19 @@ export default {
 };
 </script>
 <style>
+.sp-one {
+  padding: 100px 0px;
+  z-index: 0;
+}
+.sp-home {
+  padding: 65px 0px;
+  z-index: 0;
+}
 h2{
     font-weight: bolder;
+}
+.content {
+  padding: 20px 0px;
 }
 body p {
   font-size: 16px;

@@ -21,7 +21,7 @@ const cookieAuth = {
         }
     },
     async logout() {
-        let logoutUrl = 'admin/logout';
+        let logoutUrl = 'logout';
         try {
             const res = await Vue.axios.get(logoutUrl);
             if (res.status) {

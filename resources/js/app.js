@@ -9,10 +9,11 @@ require('./bootstrap');
 window.Vue = require('vue').default;
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@fortawesome/fontawesome-free/js/all.js';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faFacebook, faTwitter, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-library.add(faFacebook , faTwitter, faInstagram, faWhatsapp)
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faFacebook, faTwitter, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faSignOutAlt, faTachometerAlt } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+library.add(faFacebook , faTwitter, faInstagram, faWhatsapp, faSignOutAlt, faTachometerAlt );
 import App from './App.vue';
 import router from './router';
 import './plugins/axios.js';

@@ -465,13 +465,6 @@ export default {
 .title-manu {
   padding-top: 15px;
 }
-.content {
-  padding: 100px 0px;
-}
-.sp-one {
-  padding: 100px 0px;
-  z-index: 0;
-}
 .welcome-section .title-manu li {
   position: relative;
   font-size: 15px;

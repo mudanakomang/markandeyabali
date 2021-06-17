@@ -262,17 +262,10 @@ ol > li {
 .title-manu {
   padding-top: 15px;
 }
-.content {
-  padding: 100px 0px;
-}
 .title h2 {
   padding-top: 25px;
 }
 
-.sp-one {
-  padding: 100px 0px;
-  z-index: 0;
-}
 .welcome-section .title-manu li {
   position: relative;
   font-size: 15px;

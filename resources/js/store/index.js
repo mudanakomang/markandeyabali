@@ -55,6 +55,7 @@ const actions = {
         if (!state.info.status) {
             try {
                 const authInfo = await auth.checkAuth();
+                console.log(authInfo)
                 if (authInfo.status) {
                     commit('login', authInfo);
                 }

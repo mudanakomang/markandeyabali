@@ -31,26 +31,28 @@ class LoginController extends Controller
         /*
          * Default guard ('web')
          */
-        //if (Auth::guard()->check()) {
-        //    $isAuthenticated = true;
-        //    $username = Auth::user()->display_name;
-        //    $this->authInfo->setAuthenticated($username);
+        if (Auth::check()) {
+           $isAuthenticated = true;
+           $id = Auth::user()->id;
+           $username = Auth::user()->display_name;
+           $this->authInfo->setAuthenticated($id, $username);
+        }
         //    return response()->json($this->authInfo);
         //}
 
         /*
          * Other session guards
          */
-        foreach ($this->sessionGuards as $key => $value) {
-            if (Auth::guard($key)->check()) {
-                $isAuthenticated = true;
-                $id = Auth::guard($key)->user()->id;
-                $username = Auth::guard($key)->user()->name;
-                $role = Auth::guard($key)->user()->role;
-                $this->authInfo->setAuthenticated($id, $username, $key, $role);
-                break;
-            }
-        }
+        // foreach ($this->sessionGuards as $key => $value) {
+        //     if (Auth::guard($key)->check()) {
+        //         $isAuthenticated = true;
+        //         $id = Auth::guard($key)->user()->id;
+        //         $username = Auth::guard($key)->user()->username;
+        //         $role = Auth::guard($key)->user()->role;
+        //         $this->authInfo->setAuthenticated($id, $username, $key, $role);
+        //         break;
+        //     }
+        // }
         if ($isAuthenticated) {
             return response()->json($this->authInfo);
         } else {
