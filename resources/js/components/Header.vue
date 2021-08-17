@@ -5,7 +5,7 @@
   <div class="overlay"></div>
 
   <!-- The HTML5 video element that will create the background video on the header -->
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"  preload="auto">
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"  preload="auto" poster="/img/poster.jpg">
     <source src="/video/hero.mp4" type="video/mp4">
   </video>
 
