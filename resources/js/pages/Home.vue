@@ -139,6 +139,7 @@ export default {
   font-weight: bold;
   font-size: 0.9rem;
   text-align: center;
+  padding-left: 25px;
 }
 
 .callout-item .inner-item {
