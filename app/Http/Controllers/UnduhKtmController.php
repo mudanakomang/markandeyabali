@@ -39,7 +39,7 @@ class UnduhKtmController extends Controller
         }
         $img = Image::make($template);
         $generator = new BarcodeGeneratorPNG();
-        file_put_contents('img/ktm/temp/'.$nim.'.png', $generator->getBarcode($nim, $generator::TYPE_CODE_128,1.5, 70,[0, 0, 0]));
+        file_put_contents($barcode, $generator->getBarcode($nim, $generator::TYPE_CODE_128,1.5, 70,[0, 0, 0]));
         $img->text($nama, 180,262, function($font) use($fontFile){
             $font->file($fontFile);
             $font->size(17);
