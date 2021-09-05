@@ -21,42 +21,42 @@ class UnduhKtmController extends Controller
     }
 
     public function downloadKtm(Request $request){
-        $template   = 'img/ktm/template.png';
+        $template   = public_path('img/ktm/template.png');
 
-        $font       = 'fonts/Calibri.ttf';
+        $fontFile   = public_path('fonts/calibrib.ttf');
         $nama       = $request['item']['nama'];
         $nim        = $request['item']['nim'];
-        $output     = 'img/ktm/temp/output-'.$nim.'.png';
+        $output     = public_path('img/ktm/temp/output-'.$nim.'.png');
         $prodi      = $request['item']['jurusan']['nama'];
         $tempatLahir= $request['item']['tempat_lahir'];
         $tglLahir   = Carbon::parse($request['item']['tanggal_lahir'])->format('d-m-Y');
         if(file_exists($output)){
             unlink($output);
         }
-        $barcode    = ('img/ktm/temp/'.$nim.'.png');
+        $barcode    = public_path('img/ktm/temp/'.$nim.'.png');
         if(file_exists($barcode)){
             unlink($barcode);
         }
         $img = Image::make($template);
         $generator = new BarcodeGeneratorPNG();
         file_put_contents('img/ktm/temp/'.$nim.'.png', $generator->getBarcode($nim, $generator::TYPE_CODE_128,1.5, 70,[0, 0, 0]));
-        $img->text($nama, 180,262, function($font){
-            $font->file('fonts/calibrib.ttf');
+        $img->text($nama, 180,262, function($font) use($fontFile){
+            $font->file($fontFile);
             $font->size(17);
             $font->align('left');
         });
-        $img->text($nim, 180,293, function($font){
-            $font->file('fonts/calibrib.ttf');
+        $img->text($nim, 180,293, function($font) use($fontFile){
+            $font->file($fontFile);
             $font->size(17);
             $font->align('left');
         });
-        $img->text($prodi, 180,328, function($font){
-            $font->file('fonts/calibrib.ttf');
+        $img->text($prodi, 180,328, function($font) use ($fontFile){
+            $font->file($fontFile);
             $font->size(17);
             $font->align('left');
         });
-        $img->text($tempatLahir.', '.$tglLahir, 180,362, function($font){
-            $font->file('fonts/calibrib.ttf');
+        $img->text($tempatLahir.', '.$tglLahir, 180,362, function($font) use($fontFile){
+            $font->file($fontFile);
             $font->size(17);
             $font->align('left');
         });
@@ -66,8 +66,8 @@ class UnduhKtmController extends Controller
     }
     public function clearTemp(Request $request){
         $nim        = $request->nim;
-        $barcode    = 'img/ktm/temp/'.$nim.'.png';
-        $output     = 'img/ktm/temp/output-'.$nim.'.png';
+        $barcode    = public_path('img/ktm/temp/'.$nim.'.png');
+        $output     = public_path('img/ktm/temp/output-'.$nim.'.png');
         if(file_exists($barcode)){
             unlink($barcode);
         }
