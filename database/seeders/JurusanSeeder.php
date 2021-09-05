@@ -16,7 +16,7 @@ class JurusanSeeder extends Seeder
     {
         //
         $jurusan =  [
-            ['nama' => 'Pend. Bahasa Indonesia'],
+            ['nama' => 'Pend. Bahasa dan Sastra Indonesia'],
             ['nama' => 'Pend. Bahasa Inggris'],
             ['nama' => 'PGSD'],
             ['nama' => 'Sistem Informasi']
