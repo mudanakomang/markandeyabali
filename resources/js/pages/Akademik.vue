@@ -703,7 +703,6 @@ export default {
         axios.post(url,  {search: this.payload })
         .then(res => {
             this.searchResults = res.data.mahasiswa;
-            console.log(this.displayResults)
         })
        }
       },
@@ -712,7 +711,6 @@ export default {
         axios.post(url, {item}).then(res => {
           let url = res.data;
           axios.get(url, {responseType: 'blob'}).then((res) => {
-              console.log(res.data)
               const url = window.URL.createObjectURL(new Blob([res.data]));
               const link = document.createElement('a');
               link.href = url;
@@ -727,8 +725,7 @@ export default {
           let url = 'api/ktm/cleartemp';
           axios.post(url, {nim}).then(res => {
               if(res){
-                  console.log(res)
-                  this.alertShow();
+                this.alertShow();
               }
           })
       },
