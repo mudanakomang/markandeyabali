@@ -62,7 +62,7 @@ class UnduhKtmController extends Controller
         });
         $img->insert($barcode,'bottom-left', 18,55);
         $img->save($output);
-        return response($output);
+        return response(env('APP_URL').'/'.'img/ktm/temp/output-'.$nim.'.png');
     }
     public function clearTemp(Request $request){
         $nim        = $request->nim;

@@ -712,6 +712,7 @@ export default {
         axios.post(url, {item}).then(res => {
           let url = res.data;
           axios.get(url, {responseType: 'blob'}).then((res) => {
+              console.log(res.data)
               const url = window.URL.createObjectURL(new Blob([res.data]));
               const link = document.createElement('a');
               link.href = url;
