@@ -28,3 +28,7 @@ Route::get('/auth-check', 'Auth\LoginController@checkIsAuthenticated');
 
 Route::post('/admin/login','Auth\LoginController@login');
 Route::get('/logout', 'Auth\LoginController@logout');
+
+Route::post('ktm/search','UnduhKtmController@search');
+Route::post('ktm/download', 'UnduhKtmController@downloadKtm');
+Route::post('ktm/cleartemp', 'UnduhKtmController@clearTemp');

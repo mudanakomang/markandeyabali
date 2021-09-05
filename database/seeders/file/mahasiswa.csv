@@ -1,0 +1,153 @@
+status_masuk_id,jurusan_id,nik,nim,nama,tempat_lahir,tanggal_lahir,alamat,nomor_hp,barcode
+1,1,5107065805820002,21188201001,Yuliyatin,Karangasem,1982-05-18,"Jln. Teuku umar, Br. Dinas Kecicang Islam, Desa Bungaya Kangin, Kecamatan Bebandem, Kabupaten Karangasem, Bali",08970290845,21188201001.png
+1,1,5106015911990001,21188201003,Dewa Ayu Setiawati,Lumbuan,1999-11-19,"Br. Lumbuan, Desa Sulahan, Kec Susut, Kab Bangli Bali",081918331614,21188201003.png
+1,1,5106016312010001,21188201004,I Dewa Ayu Narianingsih,Br. Sulahan,2001-12-23,"Br. Sulahan, Desa Sulahan, Kec Susut, Kab Bangli, Bali",083114699507,21188201004.png
+1,1,51040323029880001,21188201005,GEDE ADHI PRADANA PUTRA,GIANYAR,1998-02-23,SUMITA BR TENGAH,081337281331,21188201005.png
+1,1,5104030808970004,21188201006,I GEDE AGUS SUDARMANA,SUMITA,1997-08-07,"SUMITA, TENGAH",082145577272,21188201006.png
+1,1,5103024911980003,21188201007,Ni Putu Sutariningsih,Sembung,1998-11-09,"Br. Dangin Bingin, Desa Sembung, Kecamatan Mengwi, Kabupaten Badung, Bali",085847814274,21188201007.png
+1,1,3404102307990002,21188201008,ARBI YULIYANTO NUGRAHA,Sleman,1999-07-23,"Gendingsari rt.09/rw.15, Sembur, Tirtomartani, Kalasan, Sleman, DI Yogyakarta",088225036861,21188201008.png
+1,1,5103014810980002,21188201009,MEGA DIAH AJENG LESTARI,BADUNG,1998-10-08,Jalan Tepi Siring no 12 Pesalakan Tuban,087863458679,21188201009.png
+1,1,5106032201020009,21188201010,I Komang Gede Selamet Kumara Priantara,Nongan,2001-03-19,"Br. Dinas Sekar, Desa Nongan, Kecamatan Rendang, Kabupaten Karangasem, Bali",082146420848,21188201010.png
+1,2,5107014905010001,21188203001,Ni Wayan Rismawati,Br.pempatan,2001-05-09,Jln. Pempatan,85964337873,21188203001.png
+1,2,5107016008030004,21188203002,Ni Komang Lia Dwita Endriani,Br. Pempatan,2003-08-20,Jln. Pempatan,81907581976,21188203002.png
+1,2,5107016905030002,21188203003,Ni Putu Dea Damayanti,Menanga,2003-05-29,"Br. Dinas Menanga Kawan, Desa Menanga, Kec. Rendang, Kab. Karangasem",81999157332,21188203003.png
+1,2,5107014811030002,21188203004,NI WAYAN ANITA (KIP),Br. Dinas Pempatan,2003-11-08,Br. Dinas Pempatan,81938904631,21188203004.png
+1,2,5107012307030001,21188203005,I KADEK WIDIAWAN (KIP),Ds.Pempatan,2003-07-23,"Desa pempatan, kecamatan rendang, kabupaten karangasem",881037523251,21188203005.png
+1,2,5107010806030001,21188203006,I KOMANG ARSANA (KIP),"Ds. Pempatan, Kec. Rendang, Kab. Karangasem",2003-06-08,"Br.Pempatan, Ds. Pempatan, Kec. Rendang, Kab. Karangangasem, Prov. Bali",83114264003,21188203006.png
+1,2,5107011502030001,21188203007,I Gede Krisna Ariawan,Pempatan,2003-02-15,"Br.Pempatan,Desa Pempatan,Kec.Rendang,Kab.Karangasem",81939684161,21188203007.png
+1,2,5107011208020003,21188203008,I WAYAN MUDITA,PEMPATAN,2002-08-12,"BR. DINAS PEMPATAN, KEC. RENDANG, KAB. KARANGASEM",85942902882,21188203008.png
+1,2,5107016808020003,21188203009,Ni Komang Ariska,Pempatan,2002-08-28,"Ds.Pempatan, Kecamatan Rendang, Kabupaten Karangasem",87807266021,21188203009.png
+1,2,5107076910020001,21188203010,Ni Kadek Sri Parwati,Karangasem,2002-10-28,"Br. Susut, Desa Muncan, Kec. Selat, Kab. Karangasem, Bali.",81338728234,21188203010.png
+1,2,5106017004030002,21188203011,Ni Wayan Apri Widnyani(KIP),"Sulahan,Susut,Bangli",2003-04-30,"Jl.Muhamad Hatta,LC Subak Aya Bangli",87850909107,21188203011.png
+1,2,5106043112020067,21188203012,I Kadek Adian Krisiana (KIP),Desa Banua,2002-12-31,"Ds Banua, Kecamatan Kintamani",83117334616,21188203012.png
+1,2,5106042202020006,21188203013,Degus Setiawan (KIP),Banua,2002-02-22,"Desa Banua, Kecamatan Kintamani, Kabupaten Bangli",83119884157,21188203013.png
+1,2,5107016106030002,21188203014,Ni Kadek Eniati (KIP),Batusesa,2003-06-21,"Br. Dinas Batusesa, Desa Menanga, Kecamatan Rendang, Kabupaten Karangasem, Bali.",85738297317,21188203014.png
+1,2,5107074806030001,21188203015,Ni Komang Jun Asrini,Br. Siladumi,2003-06-08,"Br. Siladumi ,Desa Peringsari ,Kecamatan Selat ,Kapubaten Karangasem",85964345281,21188203015.png
+1,2,5107015403020001,21188203016,Ni Luh Eka Andriani,Waringin,2002-03-14,"Br. Dinas Waringin, Desa Pempatan, Kec Rendang, Kab Karangasem",83846613947,21188203016.png
+1,2,5104035605030001,21188203017,Ni Komang Karuniasih,"Br. Mulung , Sumita , Gianyar",2003-05-16,"Br. Mulung , Sumita ,Gianyar.",85941051589,21188203017.png
+1,2,5104031105030001,21188203018,I kadek Setiawan,Gianyar,2003-05-11,BR. Mulung Sumita Gianyar,8873292283,21188203018.png
+1,2,5371030512990004,21188203019,risaldy soru,oelmasi,1999-05-12,jl.dewy sri no II pararaton 8,895416244044,21188203019.png
+1,2,8101135605040003,21188203020,Yolin Tresa Berhitu,Hulaliu,2004-05-16,"Desa Hulaliu, Kecamatan Pulau Haruku, Kabupaten Maluku Tengah",81237360159,21188203020.png
+1,2,507010405020001,21188203021,I wayan mertayasa,Pempatan,2002-05-04,"Br pempatan, desa pempatan, kec rendang, kab karangasem",81339587062,21188203021.png
+1,2,5106044210010004,21188203022,Dewa Ayu Kartiniasih,Belancan,2001-10-02,"Dusun Belancan, Desa Belancan, Kec Kintamani, Kab Bangli-Bali",81937942916,21188203022.png
+1,2,5107011708020001,21188203023,I Komang Aditya Yatha Loka,Klungkung,2002-08-17,"Br. Dinas Muku, Desa Rendang, Kec Rendang Kab Karangasem-Bali",85858298574,21188203023.png
+1,2,5108052106030009,21188203024,GEDE ADI MAHARDIKA (KIP),SEKARSARI,2003-06-21,BANJAR DINAS SEKAR SARI SELAT,6285954676324,21188203024.png
+1,2,5107011605020002,21188203025,I Komang Krisna Ariawan,Nongan,2002-05-16,"Br. Bujaga, Desa Nongan, Kec Rendang, Kab Karangasem-Bali",85739274542,21188203025.png
+1,2,5106043112000115,21188203026,I wayan gunawan,Songan,2021-12-31,"BR, Dalem",83115709886,21188203026.png
+1,2,5107011308030001,21188203027,I Wayan Agus Wirayuda,"Br.saren kelod, Nongan ,Rendang. Karangasem",2003-08-13,"Br.saren kelod, Nongan, Rendang. Karangasem",83119833335,21188203027.png
+1,2,5107012605020001,21188203028,I KADEK ARIS DARMA YUDA,PEDUKUHAN,2003-05-26,"BR DINAS PEDUKUHAN, DESA RENDANG, KECAMATAN RENDANG, KABUPATEN KARANGASEM.",87756610551,21188203028.png
+1,2,5106024108030002,21188203029,Ni Nengah Suardani,Bangli,2003-08-01,Dusun br. Jelekungkang,83851977775,21188203029.png
+1,2,5104035904030002,21188203030,Ni Luh Gde Ananda Putri,Br. Peteluan,2021-05-04,"Br. Kaja kauh, Desa Tulikup, Gianyar",87750560822,21188203030.png
+1,2,5106042202010005,21188203031,I komang merta,Songan,2021-02-22,"Br bukit tung tung, ds songan B, kecamatan kintamani, kabupaten bangli",87857013142,21188203031.png
+1,2,5106041604010004,21188203032,I GEDE SADE DADI,SONGAN,2001-04-16,"Br. Munduk Lantang, Songan B",83115163109,21188203032.png
+1,2,5106022405030002,21188203033,Putu Nathan Lesmana Kadee,Denpasar,2003-05-24,"Jln. Kusuma yudha No 35, Lingkungan/BR, Kawan Bangli, Bali",82247974272,21188203033.png
+1,2,5107011506030001,21188203034,I kadek Junawan,Pedukuhan,2003-06-15,"Br. Pedukuhan, rendang, karangasem",87882260812,21188203034.png
+1,2,5104034910020001,21188203035,Ni Luh Putu Oktapiani,Gianyar,2002-10-09,"Br.Tengah, Desa Sumita, Kecamatan Gianyar, Kabupaten Gianyar",81937339098,21188203035.png
+1,2,5107035506020002,21188203036,NI PUTU AYU JunARTINI,KLUNGKUNG,2002-06-15,"Br Dinas Tanah Ampo, Desa Ulakan, Kec Manggis, Kab Karangasem-Bali",85643484712,21188203036.png
+1,2,5104035107020001,21188203037,Ni Luh Putu Suwandewi,Be.Mulung,2002-07-11,"Be.mulung ,sumita Gianyar",85858721410,21188203037.png
+1,2,5106024302000002,21188203038,Gusti Ayu Febriani,Jelekungkang,2003-02-03,"Banjar Jelekungkang, Tamanbali ,Bangli",81934624495,21188203038.png
+1,2,510604050702006,21188203039,I WAYAN SETIAWAN,Br. Lateng,2002-07-05,"Br. Lateng, Desa Dausa, Kecamatan Kintamani, Kabupaten Bangli, Bali",82144896779,21188203039.png
+1,2,5106026508030003,21188203040,I Gusti Ayu Saskia Sri Rahayu,Bangli,2003-08-25,Link/Br.Cempaga,85954501566,21188203040.png
+1,2,5107035105030001,21188203041,Ni Luh Jeni Meliantini,Padangbai,2003-05-11,"Gang luhur no 9, jln silayukti padangbai, kecamatan manggis, kabupaten karangasem",81339828732,21188203041.png
+1,2,5107035108010001,21188203042,ni putu suryaningsih,padangbai,2001-08-11,"jln silayukti, gang luhur no 2, padangbai kecamatn manggis kabupaten padangbai",81246434616,21188203042.png
+1,2,5106041703030004,21188203043,Putu Yogi Saputra,Desa.Banua,2003-03-17,"Ds.BANUA,RT/RW:000/000,KEL/DESA:BANUA,KECAMATAN:KINTAMANI",83117469744,21188203043.png
+1,2,5104041506090026,21188203044,Desak Ayu Kembariasih,Br. Tengah,1999-11-15,"Jln. Widura, Br. Tengah, Desa Tampaksiring, Kecamatan Tampaksiring, Kabupaten Gianyar,Bali",83111502099,21188203044.png
+1,2,5106046901030003,21188203045,Dewa Ayu Ratih,Ds. Banua,2003-01-29,Desa Banua,81547666215,21188203045.png
+1,2,5106044703030008,21188203046,Ni Komang Sinta Dewi ( KIP),Desa Banua,2003-03-07,"Desa Banua, kecamatan Kintamani, Kabupaten Bangli, Bali",83115471247,21188203046.png
+1,2,5107012202020003,21188203047,I KADEK PEDIASA ( KIP ),Besakih,2002-02-24,"Br. Temukus, Desa Besakih, Kecamatan Rendang , Kabupaten Karangasem, Bali",881037498712,21188203047.png
+1,2,5107011411020001,21188203048,I WAYAN ARDANA (KIP),BESAKIH,2002-11-14,"JLN.BESAKIH, BR. ANGSOKA, DESA BESAKIH, KECAMATAN RENDANG, KABUPATEN KARANGASEM, BALI",8873498061,21188203048.png
+1,2,5107011711020001,21188203049,I Ketut Adiasa (KIP),Besakih,2002-11-17,"Jln. Raya Besakih, Br Temukus, Desa Besakih, Kecamatan Rendang, Kabupaten Karangasem, Bali",881038442968,21188203049.png
+1,2,5107016307020001,21188203050,Ni Wayan Sudiasih (KIP),Br. Temukus,2002-07-23,"Br. Temukus, desa. Besakih, kec. Rendang, Kab. Karangasem, Prov. Bali",85239011039,21188203050.png
+1,2,5106040107011136,21188203051,I Jro Riana,SONGAN B,2001-07-01,"BANJAR KAYUPADI, DESA SONGAN KECAMATAN KINTAMANI, KABUPATEN BANGLI, BALI",083117978803,21188203051.png
+1,2,5106016202020003,21188203052,ni wayan pebriyanti,bangli,2002-02-22,"desa demulih, kec. susut ,kab. bangli, bali",83117221177,21188203052.png
+1,2,5171042610000003,21188203053,I Made Arie wahyudi,Singaraja,2003-01-05,"Jl. Gn. Fujiyama I No. 12, Br. Kertha Sari, Desa Pemecutan Kaja, Denpasar Utara, Denpasar, Bali",89670167809,21188203053.png
+1,2,5105031401030002,21188203054,LUH AYU SETIANINGSIH,GIANYAR,2002-03-27,JL. HASANUDIN LINGKUNGAN BESANG KANGIN,85792874288,21188203054.png
+1,2,5104074406020004,21188203055,Komang Joniarta,"BATUGAMBIR,16-06-2002",2002-06-16,"Br kerta, Ds kerta, kac, Payangan kab, Gianyar",87858767399,21188203055.png
+1,2,5104031608030001,21188203056,I Kadek Widi Hendra Yana,Bangli,2003-01-01,BR. PANDE,83144302802,21188203056.png
+1,2,510707004020001,21188203057,NI KADEK ARTINI,Batusesa,2002-04-30,"Br.batusesa, menanga, rendang, karangasem",085754821512,21188203057.png
+1,2,5107011406010001,21188203058,I Putu Doni Irawan,Waringin,2001-06-14,Br. Dinas Waringin Desa Pempatan Kecamatan Rendang Kabupaten Karangasem,8873080090,21188203058.png
+1,2,5106031409030001,21188203059,I NENGAH SURIANA,NYANGLAN KAJA,2003-09-14,Jl. Raya timuhun br. NYANGLAN KAJA,083147642328,21188203059.png
+1,2,5108092405030001,21188203060,Gede Ferdi Ariswangga,Madenan,2003-05-24,"Banjar Dinas Kajanan, Desa Madenan, Kecamatan Tejakula, Kabupaten Buleleng, Bali",082339625844,21188203060.png
+1,2,5108091908030003,21188203061, I WAYAN AGUS ANGGARA PUTRA,MADENAN,2003-08-19,"Banjar dinas sangambu,desa madenan ,kecamatan tejakula ,kabupaten buleleng",085858667699,21188203061.png
+1,2,5107016705990001,21188203062,Ni Luh Ade Sintia Paramita,Semarapura,1999-05-27,"Br. Bencingah , Desa Rendang, Kecamatan Rendang, Kabupaten Karangasem, Bali",81338589179,21188203062.png
+1,2,5106032201020009,21188203063,I Dewa Made Risdana,Bangli,2002-01-22,JALAN. RADEN WIJAYA GANG PRATAMA NO.11 LINGK CANDI BARU,82237446559,21188203063.png
+1,2,5106040709980006,21188203064,I Made Yuda Adnyana,"Br. Dausa, Kintamani, Bangli",1998-09-07,BANJAR DAUSA,81918321802,21188203064.png
+1,2,5107011604040001,21188203065,I Made Ari Setiawan,Nongan,2004-04-16,"Nongan, Br. Dinas Saren Kaler",81237153692,21188203065.png
+1,2,5104027001030001,21188203066,WAYAN ARLITA EKA SHANTI,Gianyar,2003-01-30,"Br. Margabingung, Bedulu, Kecamatan Blahbatuh, Kabupaten Gianyar",83114684815,21188203066.png
+1,2,5108082703020002,21188203067,I GEDE AGUS REDIASA,Depeha,2002-03-27,"Br. Dinas seganti, desa depeha",81237611531,21188203067.png
+1,2,5106026904000002,21188203068,Ni Wayan Widiani,Bangli,2000-04-29,"Br. Dajan Umah, Ds. Pengotan, Kec. Bangli, Kab. Bangli, Bali",83117480284,21188203068.png
+1,2,5103046111000001,21188203069,Ni Kadek Anggreni,Br.Penikit,2001-04-19,"Br,Penikit ,Desa Belok-Sidan , kecamatan Petang, Kabupaten Badung.",82144430787,21188203069.png
+1,2,5103046603020001,21188203070,Ni Kadek Wina Artini,"Belok, Petang",2002-03-26,"Br.Penikit,Desa Belok-Sidan,Kecamatan Petang,Kabupaten Badung.",82145578197,21188203070.png
+1,2,5103041412930001,21188203071,I Made Edy Ariawan,Petang,1992-12-14,"Br. Bukian, Desa Pelaga, kec. Petang, Badung",81999275055,21188203071.png
+1,2,5102026202980001,21188203072,Ni Nyoman Lani Purwita Adriani,Tabanan,1998-02-22,"Br.Dinas Bantas Tengah Kaja , kecamatan selemadeg timur , kabupaten tabanan, bali",83846300886,21188203072.png
+1,2,5103042009980001,21188203073,I Gusti Ngurah Abi Padmana Putra,Sulangai,1998-09-20,"Br batulantang, desa sulangai, kecamatan petang, kabupaten badung, bali",81238439409,21188203073.png
+1,2,3507095507840010,21188203074,KRISDIANA ANGGRAENI,MALANG,1984-07-15,Jln Tukad Barito No 38 Br.Kangin Panjer Denpasar Selatan Bali,85333676643,21188203074.png
+1,2,5104046303030004,21188203075,NI KOMANG AYU ULAN DARI,Pejeng,2003-03-23,"Br.Intaran, Desa Pejeng, Kecamatan Tampaksiring - Gianyar",83125859545,21188203075.png
+1,2,5106047003030008,21188203076,Ni komang Aristarini,"Br. Klatkat , Desa.Abang batudinding",2003-03-30,"Br. Klatkat ,Desa Abang Batudinding ,Kecamatan Kintamani ,Kabupaten Bangli , Bali",081237611531,21188203076.png
+1,3,5106015011020001,21186206001,Ni Kadek Lespita Devi,Selat Peken,2002-11-10,"Br. Selat Peken, Desa Selat, Kecamatan Susut, Kabupaten Bangli, Bali",85829247053,21186206001.png
+1,3,5106016501030002,21186206002,Ni Luh Risma Ayu Swandewi,Br.Selat Peken,2003-01-25,"Br. Selat Peken, Desa Selat, Kecamatan Susut, Kabupaten Bangli, Bali",85792280368,21186206002.png
+1,3,5106035211010001,21186206003,Ni Luh Murti Wulansari,Tampuagan,2001-11-12,"Br. Tampuagan, Ds. Peninjoan, Kec. Tembuku, Kab. Bangli",6281390291063,21186206003.png
+1,3,5106015406030002,21186206004,Ni Komang Jun Rahayu,"Sulahan,",2003-06-14,"Jln. Muhamad Hatta,LC.subak Aya bangli 80613",87854117958,21186206004.png
+1,3,5106036412020001,21186206005,Ida IDewa Ayu Bahari,Br. Tambahan Kelod,2002-12-24,"Br. Tambahan Kelod, Desa Jehem, Kecamatan Tembuku, Kabupaten Bangli, Bali.",85847264750,21186206005.png
+1,3,5106025711030002,21186206006,Ni Ketut Trisnawati,Bangli,2002-04-25,"Lingkungan/Br Kubu, Kelurahan Kubu, Kecamatan Bangli, Kabupaten Bangli",83115954705,21186206006.png
+1,3,5106014706030002,21186206007,Ni Made Yuni Dwi Cahyanti,Br. Susut kaja,2003-06-07,"Br. Susut kaja, Desa susut, kecamatan susut, Kabupaten Bangli, Bali",81236296534,21186206007.png
+1,3,5104036009990001,21186206008,I Komang Mahendra,Gianyar,2003-03-15,"Br. Mulung Desa Sumita, Kec. Gianya, Kab Gianyar",85737821134,21186206008.png
+1,3,5106014512020003,21186206009,NI KADEK AYU ARTATI,BUNGKUAN,2002-12-05,"Banjar Bungkuan, Desa Sulahan, Kec Susut, Bangli",87760332233,21186206009.png
+1,3,5106014107020252,21186206010,Ni Luh Widiani,Sulahan,2002-10-24,"Br. Sulahan, Kec. Susut Kab Bangli",81805616050,21186206010.png
+1,3,5107011307030002,21186206011,I Kadek Julawan,Menanga,2003-07-13,"Br Dinas Menanga Kangin, Desa Menanga, Kec Rendang, Kab Karangasem",85800270765,21186206011.png
+1,3,3508035006920009,21186206012,Ratna Indra Yanti,Malang,1992-06-10,"Banjar Lumbuan, Desa Sulahan, Kec Susut, Kab Bangli-Bali",81339599165,21186206012.png
+1,3,5107076309020001,21186206013,Ni Luh Putu Ditha Seftiani,"Br. Susut, Desa Muncan, Kec Selat, Kab Karangasem, Bali",2002-09-23,"Jln. Yeh Sah, Br. Susut, Desa Muncan, Kecamatan Selat, Kab Karangasem, Bali",81236262520,21186206013.png
+1,3,5106046207010004,21186206014,Ni putu yustika rini,Songan,2002-04-18,Br pulu desa songan,83848370827,21186206014.png
+1,3,5107016808020004,21186206015,Ni Luh Sari Arta Dewi,Nongan,2002-08-28,"Br. Dinas Sigar, Desa Nongan, Kecamatan Rendang, Kabupaten Karangasem, Bali",87815847092,21186206015.png
+1,3,5107016003020001,21186206016,Ni komang sri rusmiati,Rendang,2002-03-20,"Br. Pedukuhan, kecamatan rendang, kabupaten karangasem, bali",87753967407,21186206016.png
+1,3,5106021101990006,21186206017,I Komang Windhu Krisna Putra,Petak,1999-01-11,"Lingkungan/Br Petak, Kelurahan Bebalang, Kec Bangli, Bali",82237001908,21186206017.png
+1,3,5106031605030001,21186206018,I Putu Bayu Andika,Denpasar,2003-05-16,"Br Cepunggung, Desa Bangbang, Kec Tembuku, Kab Bangli Bali",81999757220,21186206018.png
+1,3,5106016102030001,21186206019,Desak Ayu Dina Gayatri,Bangli,2003-02-21,"Banjar Demulih, Desa Demulih, Kec Susut, Kab Bangli, Bali",0,21186206019.png
+1,3,5106037101030003,21186206020,Desak putu Sri Sulatri,Br. Pembungan,2003-01-31,"Br. Pembungan, desa jehem, kecamatan tembuku, kabupaten bangli",81918069993,21186206020.png
+1,3,5106014107020254,21186206021,Ni KADEK DWI WULANDARI,SELAT PEKEN,2020-01-07,"Br , selat peken , kecamatan susut , kabupaten bangli",85792151581,21186206021.png
+1,3,50701560493001,21186206022,Desak Putu Eka Sriwahyuni,Umejero,1993-04-16,"Br.Nongan Kaler ,Desa Nongan kec.Rendang, Kab.Karangasem",85739300332,21186206022.png
+1,3,5106036811010004,21186206023,Ni wayan eva dwi yanti,Br Antugan,2001-11-28,Br Antugan .Jehem.Tembuku.Bangli,85964355311,21186206023.png
+1,3,5106014805010002,21186206024,Ni Wayan Sairendri,Selat Peken,2001-05-08,"Br Selat Peken Susut,Bangli, Bali",85792780528,21186206024.png
+1,3,5106026006030004,21186206025,Kadek Yuni Wulandari,Bangli,2003-06-20,"Lingk/Br.Bebalang, Desa Bebalang, Kecamatan Bangli, Kabupaten Bangli, Bali",85964364735,21186206025.png
+1,3,5107014408030001,21186206026,Ni Kadek Ayu Merta Asih,Nongan,2003-08-04,"Br. Dinas Tengah, Desa Nongan, Kecamatan Rendang",83115944934,21186206026.png
+1,3,5106020611020004,21186206027,A A Gd Indra Pramudya,Bangli,2002-11-06,"Dusun Dadia, Desa Tamanbali, Kecamatan Bangli, Kab Bangli-Bali",85779284523,21186206027.png
+1,3,5107010608030003,21186206028,I PUTU REAN MERDANA,Klungkung,2003-08-06,"Br. Alasngandang, Desa Pempatan, Rendang, Karangasem, Bali",85737436018,21186206028.png
+1,3,51070156020002,21186206029,NI KOMANG MARIANI,"Besakih, 16 Jun 2002",2002-06-16,"Br Temukus ,Desa Besakih, kecamatan Rendang, kabupaten Karangasem",82147059361,21186206029.png
+1,3,5107014104030001,21186206030,I PUTU APRIANA,Rendang,2003-04-01,"Br. Dinas Muku, Kecamatan Rendang, Kabupaten Karangasem , Bali",85737447392,21186206030.png
+1,3,5107015606020001,21186206031,Ni Kadek mariana,Besakih,2002-06-16,Br temukus,88703304476,21186206031.png
+1,3,5106015512020001,21186206032,Ni Wayan Ita Drastini,Br. Demulih,2002-12-15,"Jln. Demulih Gunung, Desa Demulih, Kecamatan Susut, Kabupaten Bangli",085955183815,21186206032.png
+1,3,5104014609020001,21186206033,Ni Putu Intan Saptya Dewi,Gianyar ,2002-04-06,Br.samu singapadu kaler sukawati gianyar ,081238535662,21186206033.png
+1,3,5106041010010012,21186206034,I Putu Mertayasa,Lateng,2001-10-10,Jl ke Singaraja kintamani Bangli,081913507713,21186206034.png
+1,3,5104030501030001,21186206035,Kadek Oka Dwi Saputra,Denpasar,2000-10-26,Br Pande Sumita Gianyar,81236409348,21186206035.png
+1,3,5104036703020001,21186206036,Ni ketut anggreni,Br kerta,2003-12-30,BR PANDE,88703030727,21186206036.png
+1,3,5171022209020002,21186206037,PANDE KOMANG YOGI MAHARDIKA,GIANYAR,2003-08-16,"Jl.wr Superman Gg.Rahayu No 9,Br.Abian kapas kaja,Desa Sumerta, kecamatan Denpasar Timur,Kabupaten Kota Denpasar",881037131011,21186206037.png
+1,3,5108091606020005,21186206038,Igusti Agung Putra Adhikara,Denpasar,2002-09-22,"BJR DINAS BATUGAMBIR, DESA JULAH, KECAMATAN TEJAKULA",85792427683,21186206038.png
+1,3,5107046205000002,21186206039,ida ayu sri widnyani,Pendem,2000-05-22,"Link. Pendem, Karangasem, Karangasem, Bali",085792203169,21186206039.png
+1,3,5105035508970001,21186206040,Ni kadek putri sekar pertiwi,Jakarta,1997-08-15,"Dusun tengah, desa manduang, klungkung",081936606528,21186206040.png
+1,3,5106014903020005,21186206041,Sang Ayu Putu Gita Amanda,Bangli,2002-03-09,Banjar Pukuh Desa Susut Kecamatan Susut Kabupaten Bangli,083116046013,21186206041.png
+1,3,5106014605030003,21186206042,Luh Candra Mitha Utami ,Br. Selat Peken,2003-05-06,"Br. Selat Peken, Desa Selat, Kecamatan Susut, Kabupaten Bangli, Bali",085736228507,21186206042.png
+1,3,5106016908030001,21186206043,Ni Luh Putu Nita Miliana Indrayanti,Br. Susut Kaja,2003-08-29,"Br. Susut Kaja, Ds. Susut,  Kec. Susut,  Kab. Bangli, Bali",085738857716,21186206043.png
+1,3,5104035107020001,21186206044,Ni Luh Putu Suwandewi,Br. Mulung,2002-07-11,"Be.mulung ,sumita Gianyar",85858721410,21186206044.png
+1,3,5302076309020003,21186206045,Oci rosaliani nenokeba ,Pusu,2002-09-23,"Pusu.001/ 001 , DESA PUSU, kecamatan Amanuban barat, kabupaten timor tengah selatan . Soe",085333820097,21186206045.png
+1,3,5106014607030001,21186206046,Ni Luh Sri Arta Ningsih,Bangli,2003-07-06,"Jln.Nakula Sulahan,Susut,Bangli",087858777420,21186206046.png
+1,3,5106026512030003,21186206047,Ni Ketut Sri Partini,Jelekungkang,2003-12-25,"Br. Jelekungkang, Tamanbali, Bangli",81943240579,21186206047.png
+1,3,5106040407020008,21186206048,I Made Pranata,Songan A,2002-04-07,"Br. tabu, Ds. Songan, Kintamani, Bangli.",83114620255,21186206048.png
+1,3,5103021603020002,21186206049,I Kadek Alit Ariyawan,Baha,2002-03-16,"Br. Gegaran, Ds. Baha, Kec. Mengwi, Badung",82144775557,21186206049.png
+1,3,5106015902930004,21186206050,Anak agung ayu purnami,Susut,1993-02-19,"Br. Tambahan kelod, desa jehem, kecamatan tembuku, kabupaten bangli",83852526509,21186206050.png
+1,3,5106014610940004,21186206051,I Dewa Ayu Trisna Oktarini,Selat Nyuhan,1994-10-06,"Br. Susut Kaja, Desa Susut,Kec.Susut,Kab.Bangli",85737828168,21186206051.png
+1,3,5106016104030001,21186206052,Putu Risma Widiari,Kab.Bangli,2003-04-21,Banjar Abuan kangin,81803306435,21186206052.png
+1,3,5103046210010002,21186206053,Ni putu sariani,Badung,2001-10-22,"Br.bukian,des.pelaga,kec.petang,kab.badung",83119730650,21186206053.png
+1,3,5103044107040015,21186206054,Ni Ketut intan Primasari,Badung,2003-06-01,Br.selantang Desa Belok/Sidan,87869366530,21186206054.png
+1,3,5103040509020003,21186206055,PUTU SULASTRA,Sidan,2002-09-05,Jl belok sidan br sidan desa belok/sidan kecatan petang kabupaten badung bali,81935212841,21186206055.png
+1,3,5106031512020003,21186206056,I made pastika,Br. Kalanganyar,2002-12-15,"Br. Kalanganyar, desa yangapi, kecamatan tembuku, kabupaten bangli, bali",81391555496,21186206056.png
+1,4,5106010303900003,21157201001,I Wayan Suardana Putra Yasa,Kayuambua,1990-03-03,"Banjar Kayuambua, Desa Tiga, Kecamatan Susut, Kabupaten Bangli, Bali",81246268761,21157201001.png
+1,4,5107010707930003,21157201002,I Komang Bagiarta,PEMPATAN,1993-07-07,"Br.Dinas Waringin, Desa Pempatan, Kec. Rendang",8977268357,21157201002.png
+1,4,5108022312940003,21157201003,Kadek Bayu Sastra Yudha Darma,Kalisada,1995-12-23,Banjar dinas kalisada,81239311001,21157201003.png
+1,4,5106040912010004,21157201004,I Wayan Artayasa,Kintamani,2001-12-09,"Br Surakarma, Desa Kintamani, Kec Kintamani, Kab Bangli",81547624049,21157201004.png
+1,4,5104021708020001,21157201005,I Gusti Ngurah Bagus Jayendra,Gianyar,2002-08-17,"Br. Prajamukti, Desa Bona, Kec Blahbatuh, Kab. Gianyar",81246416443,21157201005.png
+1,4,51006022306020006,21157201006,IDA BAGUS GEDE AGUNG WIRATENAYA,Bangli,2002-06-23,LINGK/BR. BRAHMANA BUKIT,87854342310,21157201006.png
+1,4,5106012206960002,21157201007,I Made Kardiana,Bangli,1996-06-22,"Br. Kayuambua Desa Tiga, Kec. Susut, Kab. Bangli",87751548900,21157201007.png
+1,4,5106040101030007,21157201008,I Komang Risky Hendrawan,Klungkung,2003-01-14,"Desa Belancan, Kecamatan Kintamani, Kabupaten Bangli, Bali",85967241087,21157201008.png
+1,4,5107010203030002,21157201009,I Kadek Bali Merta Wijana,Solonsa Jaya,2003-03-02,"Jln. Raya Besakih, Br. Saren Kaler, Desa Nongan, Kec. Rendang, Kab. Karangasem, Bali",082296694530,21157201009.png
+1,4,5106040108010005,21157201010,I Ketut Agus Alit Sulaksana,Br.dukuh,2001-01-08,Br.dukuh ds.abang batu dinding,81915664435,21157201010.png
+1,4,,21157201011,I Wayan Adit Surya Adnyana,KARANGASEM,2002-04-13,"Br dinas segah,kec.rendang,kab.karangasem,prov.bali",85738995547,21157201011.png

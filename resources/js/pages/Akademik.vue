@@ -1,5 +1,9 @@
 <template>
   <div>
+    <div class="alert-top alert alert-success" style=" position: fixed; top: 75px; left:5%; width: 90%;z-index:999999;">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Sukses! </strong> Kartu Mahasiswa Berhasil Diunduh.
+    </div>
     <section class="welcome-section sp-one">
       <div class="container" data-target="html">
         <div class="title pull-left">
@@ -27,15 +31,15 @@
             aria-multiselectable="true"
           >
             <div class="panel panel-default">
-              <div class="panel-heading active" role="tab" id="headingOne">
+              <div class="panel-heading active" role="tab" id="headingKurikulum">
                 <h4 class="panel-title">
                   <a
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseOne"
+                    href="#kurikulum"
                     aria-expanded="true"
-                    aria-controls="collapseOne"
+                    aria-controls="kurikulum"
                   >
                     Kurikulum
                     <i
@@ -46,10 +50,10 @@
                 </h4>
               </div>
               <div
-                id="collapseOne"
+                id="kurikulum"
                 class="panel-collapse collapse in show"
                 role="tabpanel"
-                aria-labelledby="headingOne"
+                aria-labelledby="headingKurikulum"
               >
                 <div class="panel-body">
                   <h5>Fakultas Ilmu Pendidikan</h5>
@@ -486,15 +490,15 @@
               </div>
             </div>
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTwo">
+              <div class="panel-heading" role="tab" id="headingKalenderAkademik">
                 <h4 class="panel-title">
                   <a
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseTwo"
+                    href="#kalenderAkademik"
                     aria-expanded="true"
-                    aria-controls="collapseTwo"
+                    aria-controls="kalenderAkademik"
                   >
                     Kalender Akademik
                     <i
@@ -505,10 +509,10 @@
                 </h4>
               </div>
               <div
-                id="collapseTwo"
+                id="kalenderAkademik"
                 class="panel-collapse collapse in"
                 role="tabpanel"
-                aria-labelledby="headingTwo"
+                aria-labelledby="headingKalenderAkademik"
               >
                 <div class="panel-body">
                   <p class="text-justify">
@@ -519,15 +523,15 @@
               </div>
             </div>
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingThree">
+              <div class="panel-heading" role="tab" id="headingInformasiAkademik">
                 <h4 class="panel-title">
                   <a
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseThree"
+                    href="#informasiAkademik"
                     aria-expanded="true"
-                    aria-controls="collapseThree"
+                    aria-controls="informasiAkademik"
                   >
                     Informasi Akademik
                     <i
@@ -538,10 +542,10 @@
                 </h4>
               </div>
               <div
-                id="collapseThree"
+                id="informasiAkademik"
                 class="panel-collapse collapse in"
                 role="tabpanel"
-                aria-labelledby="headingThree"
+                aria-labelledby="headingInformasiAkademik"
               >
                 <div class="panel-body">
                   <p class="text-justify">
@@ -552,15 +556,15 @@
               </div>
             </div>
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingFour">
+              <div class="panel-heading" role="tab" id="headingKuliahOnline">
                 <h4 class="panel-title">
                   <a
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseFour"
+                    href="#kuliahOnline"
                     aria-expanded="true"
-                    aria-controls="collapseFour"
+                    aria-controls="kuliahOnline"
                   >
                     Kuliah Online
                     <i
@@ -571,10 +575,10 @@
                 </h4>
               </div>
               <div
-                id="collapseFour"
+                id="kuliahOnline"
                 class="panel-collapse collapse in"
                 role="tabpanel"
-                aria-labelledby="headingFour"
+                aria-labelledby="headingKuliahOnline"
               >
                 <div class="panel-body">
                   <p class="text-justify">
@@ -591,6 +595,85 @@
                 </div>
               </div>
             </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingKtm">
+                <h4 class="panel-title">
+                  <a
+                    role="button"
+                    data-toggle="collapse"
+                    data-parent="#accordion"
+                    href="#unduhKtm"
+                    aria-expanded="true"
+                    aria-controls="unduhKtm"
+                  >
+                    Unduh Kartu Mahasiswa
+                    <i
+                      class="fa fa-angle-double-up pull-right panel-icon"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </h4>
+              </div>
+              <div
+                id="unduhKtm"
+                class="panel-collapse collapse in"
+                role="tabpanel"
+                aria-labelledby="headingKtm"
+              >
+                <div class="panel-body">
+                  <div>
+                    <h5 class="pt-2">Form Pencarian Kartu Mahasiswa</h5>
+                    <form ref="formKtm">
+                      <div class="form-group row pt-2">
+                        <!-- <label
+                          for="nama"
+                          class="col-sm-12 col-lg-3 col-form-label"
+                          >Nama</label
+                        > -->
+                        <div class="col-sm-12 col-lg-6">
+                          <input
+                            type="text"
+                            id="nama"
+                            name="nama"
+                            required
+                            class="form-control"
+                            placeholder="Nama/NIM Mahasiswa"
+                            v-model="payload"
+                          />
+                        </div>
+                      </div>
+                      <div class="container pl-0 pb-3">
+                        <div class="row">
+                          <div class="col text-left">
+                            <button type="button" class="btn btn-primary" @click="getUser()">
+                              Cari
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <table class="table" v-if="displayResults.length>0">
+                        <thead>
+                            <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nama</th>
+                            <th scope="col">NIM</th>
+                            <th scope="col">Jurusan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr v-for="(item, index) in displayResults" :key="index" style="cursor:pointer" @click="unduhKtm(item)">
+                            <th scope="row">{{index+1}}</th>
+                            <td>{{ item.nama}}</td>
+                            <td>{{ item.nim }}</td>
+                            <td>{{ item.jurusan.nama }}</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -598,7 +681,63 @@
   </div>
 </template>
 <script>
+import axios from 'axios';
 export default {
+  data(){
+      return {
+        payload: '',
+        searchResults: []
+      }
+  },
+  computed: {
+      displayResults(){
+          return this.searchResults.map((mhs)=>({
+              ...mhs
+          }))
+      }
+  },
+  methods: {
+      getUser: function(){
+       if(this.payload !==''){
+        let url = 'api/ktm/search';
+        axios.post(url,  {search: this.payload })
+        .then(res => {
+            this.searchResults = res.data.mahasiswa;
+            console.log(this.displayResults)
+        })
+       }
+      },
+      unduhKtm(item){
+        let url = 'api/ktm/download';
+        axios.post(url, {item}).then(res => {
+          let url = res.data;
+          axios.get(url, {responseType: 'blob'}).then((res) => {
+              const url = window.URL.createObjectURL(new Blob([res.data]));
+              const link = document.createElement('a');
+              link.href = url;
+              link.setAttribute('download', item.nim+'.png');
+              document.body.appendChild(link);
+              link.click();
+              this.clearTempImage(item.nim);
+          })
+        })
+      },
+      clearTempImage(nim){
+          let url = 'api/ktm/cleartemp';
+          axios.post(url, {nim}).then(res => {
+              if(res){
+                  console.log(res)
+                  this.alertShow();
+              }
+          })
+      },
+      alertShow(){
+        $(".alert-top").show();
+        setTimeout(function(){
+            $(".alert-top").hide();
+        }, 3000);
+      }
+  },
   mounted() {
     $(".panel-collapse").on("show.bs.collapse", function () {
       $(this).siblings(".panel-heading").addClass("active");
@@ -621,6 +760,12 @@ export default {
     $(".panel-collapse").on("hide.bs.collapse", function () {
       $(this).siblings(".panel-heading").removeClass("active");
     });
+
+    $(".alert-top").hide();
+
+    if (location.hash !== null && location.hash !== "") {
+      $(location.hash + ".collapse").collapse("show");
+    }
   },
 };
 </script>
