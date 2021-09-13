@@ -14,6 +14,7 @@
           <li><router-link :to="{path: '/kemahasiswaan'}">Kemahasiswaan</router-link></li>
           <li><router-link :to="{path: '/penjaminan-mutu'}">Penjaminan Mutu</router-link></li>
           <li><router-link :to="{path: '/penelitian'}">Penelitian</router-link></li>
+          <li><a href="https://ceo.markandeyabali.ac.id" target="_blank">Kuliah Online <font-awesome-icon :icon="['fas', 'external-link-alt']" /></a></li>
         </ul>
       </div>
     </nav>
