@@ -587,7 +587,7 @@
                   </p>
                   <div class="link">
                     <a
-                      href="https://kuliahonline.stkipsuarbangli.ac.id/"
+                      href="https://ceo.markandeyabali.ac.id"
                       target="_blank"
                       ><strong>Kuliah Online</strong></a
                     >
