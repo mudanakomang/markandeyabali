@@ -149,13 +149,14 @@ nav ul li a {
   }
 
   .showing {
-    max-height: 38em;
+    max-height: 45em;
+    padding-bottom: 40px;
   }
 
   nav ul li {
     box-sizing: border-box;
     width: 100%;
-    padding: 24px;
+    /* padding: 24px; */
     text-align: center;
   }
 
