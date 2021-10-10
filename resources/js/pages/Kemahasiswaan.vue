@@ -225,6 +225,8 @@ body {
 }
 .sp-one {
   padding: 100px 0px;
+  width: 80%;
+  margin: auto;
 }
 
 .sp-two {

@@ -1,5 +1,8 @@
-import Home from '../../pages/admin/Home';
+
 import AppBase from '../../pages/admin/_layouts/AppBase';
+import admin from './modules/admin';
+import berita from './modules/berita';
+import event from './modules/events';
 
 const adminRoutes = {
     path: '/admin',
@@ -10,12 +13,9 @@ const adminRoutes = {
         requiresAuth: true
     },
     children: [
-        {
-            path: 'home',
-            name: 'admin.home',
-            component: Home,
-            alias: '/admin'
-        }
+        ...admin,
+        ...berita,
+        ...event
     ]
 }
 

@@ -22,15 +22,15 @@
             aria-multiselectable="true"
           >
             <div class="panel panel-default">
-              <div class="panel-heading active" role="tab" id="headingOne">
+              <div class="panel-heading active" role="tab" id="headingprofilLpm">
                 <h4 class="panel-title">
                   <a
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseOne"
+                    href="#profilLpm"
                     aria-expanded="true"
-                    aria-controls="collapseOne"
+                    aria-controls="profilLpm"
                   >
                     Profil Lembaga Penelitian
                     <i
@@ -41,10 +41,10 @@
                 </h4>
               </div>
               <div
-                id="collapseOne"
+                id="profilLpm"
                 class="panel-collapse collapse in show"
                 role="tabpanel"
-                aria-labelledby="headingOne"
+                aria-labelledby="headingprofilLpm"
               >
                 <div class="panel-body">
                   <p class="text-justify">
@@ -88,16 +88,16 @@
               </div>
             </div>
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTwo">
+              <div class="panel-heading" role="tab" id="headingPanduan">
                 <h4 class="panel-title">
                   <a
                     class="collapsed"
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseTwo"
+                    href="#panduan"
                     aria-expanded="false"
-                    aria-controls="collapseTwo"
+                    aria-controls="panduan"
                   >
                     Panduan Penelitan dan Pengabdian
                     <i
@@ -108,10 +108,10 @@
                 </h4>
               </div>
               <div
-                id="collapseTwo"
+                id="panduan"
                 class="panel-collapse collapse"
                 role="tabpanel"
-                aria-labelledby="headingTwo"
+                aria-labelledby="headingPanduan"
               >
                 <div class="panel-body">
                   <div class="download">Download</div>
@@ -119,16 +119,16 @@
               </div>
             </div>
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingThree">
+              <div class="panel-heading" role="tab" id="headingJurnal">
                 <h4 class="panel-title">
                   <a
                     class="collapsed"
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseThree"
+                    href="#jurnal"
                     aria-expanded="false"
-                    aria-controls="collapseThree"
+                    aria-controls="jurnal"
                   >
                     Jurnal penelitian
                     <i
@@ -139,10 +139,10 @@
                 </h4>
               </div>
               <div
-                id="collapseThree"
+                id="jurnal"
                 class="panel-collapse collapse"
                 role="tabpanel"
-                aria-labelledby="headingThree"
+                aria-labelledby="headingJurnal"
               >
                 <div class="panel-body">
                   ITP Markandeya Bali memiliki tiga jurnal ilmiah, yaitu:
@@ -308,15 +308,15 @@
               </div>
             </div>
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingFour">
+              <div class="panel-heading" role="tab" id="headingRepository">
                 <h4 class="panel-title">
                   <a
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseFour"
+                    href="#repository"
                     aria-expanded="true"
-                    aria-controls="collapseFour"
+                    aria-controls="repository"
                   >
                     Repository
                     <i
@@ -327,10 +327,10 @@
                 </h4>
               </div>
               <div
-                id="collapseFour"
+                id="repository"
                 class="panel-collapse collapse in"
                 role="tabpanel"
-                aria-labelledby="headingFour"
+                aria-labelledby="headingRepository"
               >
                 <div class="panel-body">
                   <p class="text-justify">
@@ -380,6 +380,9 @@ export default {
     $(".panel-collapse").on("hide.bs.collapse", function () {
       $(this).siblings(".panel-heading").removeClass("active");
     });
+     if (location.hash !== null && location.hash !== "") {
+      $(location.hash + ".collapse").collapse("show");
+    }
   },
 };
 </script>
@@ -552,5 +555,9 @@ body {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+.sp-one , .content{
+    width: 80%;
+    margin: auto;
 }
 </style>

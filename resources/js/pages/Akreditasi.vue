@@ -27,16 +27,8 @@
             <div class="col">{{ item.akreditasi }}</div>
             <div class="col">{{ item.status }}</div>
             <div class="col">
-              <a v-if="item.file"
-                class="btn btn-sm btn-success btn-labeled pull-right"
-                href="#"
-                role="button"
-                @click.prevent="previewPdf(item)"
-              >
-                <span class="btn-label"><i class="fa fa-search"></i></span
-                >Lihat</a
-              >
-              <ViewPDF :show="showModal" :title="viewItem.nama" :pdf="viewItem.file" @closeModal="hideModal()"/>
+                <v-btn x-small color="success"  @click.prevent="previewPdf(item)" > <span class="btn-label"><i class="fa fa-search"></i></span>Lihat </v-btn>
+                <ViewPDF :show="showModal" :title="viewItem.nama" :pdf="viewItem.file" @closeModal="hideModal()"/>
             </div>
           </div>
         </div>

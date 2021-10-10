@@ -17,7 +17,22 @@ library.add(faFacebook , faTwitter, faInstagram, faWhatsapp, faSignOutAlt, faTac
 import App from './App.vue';
 import router from './router';
 import './plugins/axios.js';
+
+import Vue from 'vue';
+import vuetify from './vuetify'
+
+import { TiptapVuetifyPlugin } from 'tiptap-vuetify';
+// don't forget to import CSS styles
+import 'tiptap-vuetify/dist/main.css';
+// Vuetify's CSS styles
+import 'vuetify/dist/vuetify.min.css'
+import DatetimePicker from 'vuetify-datetime-picker'
+Vue.use(TiptapVuetifyPlugin, {
+    vuetify,
+    iconsGroup: 'mdi'
+})
 Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.use(DatetimePicker)
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -39,5 +54,6 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 export const app = new Vue({
     router: router,
+    vuetify,
     render: h =>h(App)
 }).$mount('#app');

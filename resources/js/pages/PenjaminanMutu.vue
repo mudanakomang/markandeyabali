@@ -22,15 +22,15 @@
             aria-multiselectable="true"
           >
             <div class="panel panel-default">
-              <div class="panel-heading active" role="tab" id="headingOne">
+              <div class="panel-heading active" role="tab" id="headingProfil">
                 <h4 class="panel-title">
                   <a
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseOne"
+                    href="#Profil"
                     aria-expanded="true"
-                    aria-controls="collapseOne"
+                    aria-controls="Profil"
                   >
                     Profil Lembaga Penjaminan Mutu
                     <i
@@ -41,10 +41,10 @@
                 </h4>
               </div>
               <div
-                id="collapseOne"
+                id="Profil"
                 class="panel-collapse collapse in show"
                 role="tabpanel"
-                aria-labelledby="headingOne"
+                aria-labelledby="headingProfil"
               >
                 <div class="panel-body">
                   <p class="text-justify">
@@ -95,16 +95,16 @@
                 </div>
               </div>
               <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTwo">
+                <div class="panel-heading" role="tab" id="headingpanduan">
                   <h4 class="panel-title">
                     <a
                       class="collapsed"
                       role="button"
                       data-toggle="collapse"
                       data-parent="#accordion"
-                      href="#collapseTwo"
+                      href="#panduan"
                       aria-expanded="false"
-                      aria-controls="collapseTwo"
+                      aria-controls="panduan"
                     >
                       Panduan
                       <i
@@ -115,70 +115,74 @@
                   </h4>
                 </div>
                 <div
-                  id="collapseTwo"
+                  id="panduan"
                   class="panel-collapse collapse"
                   role="tabpanel"
-                  aria-labelledby="headingTwo"
+                  aria-labelledby="headingpanduan"
                 >
                   <div class="panel-body">
                     <ol>
                       <li>
                         <span class="title">Buku Kebijakan SPMI</span>
                         <span class="">
-                          <a
-                            class="btn btn-sm btn-success btn-labeled pull-right"
+                         <v-btn
+                            class="pull-right"
+                            color="success"
                             href="#"
                             role="button"
                             @click.prevent="previewPdf"
                           >
                             <span class="btn-label"
                               ><i class="fa fa-search"></i></span
-                            >Lihat</a
+                            >Lihat</v-btn
                           >
                         </span>
                       </li>
                       <li>
                         <span class="title">Buku Manual SPMI</span>
                         <span class="">
-                          <a
-                            class="btn btn-sm btn-success btn-labeled pull-right"
+                          <v-btn
+                            class="pull-right"
+                            color="success"
                             href="#"
                             role="button"
                             @click.prevent="previewPdf"
                           >
                             <span class="btn-label"
                               ><i class="fa fa-search"></i></span
-                            >Lihat</a
+                            >Lihat</v-btn
                           >
                         </span>
                       </li>
                       <li>
                         <span class="title"> Standar SPMI</span>
                         <span class="">
-                          <a
-                            class="btn btn-sm btn-success btn-labeled pull-right"
+                          <v-btn
+                            class="pull-right"
+                            color="success"
                             href="#"
                             role="button"
                             @click.prevent="previewPdf"
                           >
                             <span class="btn-label"
                               ><i class="fa fa-search"></i></span
-                            >Lihat</a
+                            >Lihat</v-btn
                           >
                         </span>
                       </li>
                       <li>
                         <span class="title"> Buku Formulir SPMI</span>
                         <span class=""
-                          ><a
-                            class="btn btn-sm btn-success btn-labeled pull-right"
+                          ><v-btn
+                            class="pull-right"
+                            color="success"
                             href="#"
                             role="button"
                             @click.prevent="previewPdf"
                           >
                             <span class="btn-label"
                               ><i class="fa fa-search"></i></span
-                            >Lihat</a
+                            >Lihat</v-btn
                           >
                         </span>
                       </li>
@@ -217,6 +221,9 @@ export default {
     $(".panel-collapse").on("hide.bs.collapse", function () {
       $(this).siblings(".panel-heading").removeClass("active");
     });
+     if (location.hash !== null && location.hash !== "") {
+      $(location.hash + ".collapse").collapse("show");
+    }
   },
   methods: {
     previewPdf() {
@@ -355,4 +362,9 @@ body {
   -moz-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+.sp-one , .content{
+    width: 80%;
+    margin: auto;
+}
+
 </style>

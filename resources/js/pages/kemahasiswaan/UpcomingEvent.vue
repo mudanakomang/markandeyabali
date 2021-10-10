@@ -1,39 +1,41 @@
 <template>
   <div>
     <h1>Upcoming Event</h1>
-    <section class="timeline">
+    <div class="container">
+        <div class="row justify-content-center">
+            <FacebookLoader color="violet" v-if="loadingComponent" class="text-center"/>
+        </div>
+    </div>
+    <section class="timeline" v-if="!loadingComponent">
       <div class="container">
         <div
           class="timeline-item"
-          v-for="event in timelineItems"
-          :key="event.id"
+          v-for="(event,index) in displayEvents"
+          :key="index"
+          :style="index > 0 ? 'margin-top:-150px': ''"
         >
           <div class="timeline-img">
           </div>
           <div
+
             :class="{
 
-              'timeline-content js--fadeInRight timeline-card': event.id % 2 === 0 && event.image,
-              'timeline-content js--fadeInLeft  timeline-card': event.id % 2 !== 0 && event.image,
-               'timeline-content js--fadeInRight': event.id % 2 === 0 && !event.image,
-              'timeline-content js--fadeInLeft ': event.id % 2 !== 0 && !event.image,
+              'timeline-content js--fadeInRight timeline-card': event.id % 2 === 0 && (event.gambar !== 'null' ),
+              'timeline-content js--fadeInLeft  timeline-card': event.id % 2 !== 0 && (event.gambar !== 'null' ),
+               'timeline-content js--fadeInRight pa-5': event.id % 2 === 0 &&  event.gambar !=='null',
+              'timeline-content js--fadeInLeft pa-5': event.id % 2 !== 0 &&  event.gambar !== 'null',
+
             }"
           >
-            <div v-if="event.image" class="timeline-img-header" :style="{background:
-            'linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4))', backgroundImage: `url(${event.image})`, backgroundSize: 'cover'}">
+          <div >
+               <div  :class="event.gambar ? 'timeline-img-header': 'pt-7'" :style="event.style">
               <div style="padding-right: 20px">
-                  <h2 style="padding: 10px 25px 10px 10px;background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));">{{ event.title }}</h2>
+                  <h2 style="width:100%; left:0px; padding: 10px 25px 10px 10px;background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8));">{{ event.judul }}</h2>
               </div>
             </div>
-            <div v-else>
-              <h2>{{ event.title }}</h2>
-            </div>
-            <h2>Title</h2>
-            <div class="date">{{ event.date }}</div>
-            <p>
-              {{ event.shortDesc }}
-            </p>
-            <a v-if="event.url" class="bnt-more" :href="event.url">Detail</a>
+          </div>
+          <div class="date">{{ event.tgl_mulai }} - {{ event.tgl_selesai}} WITA</div>
+           <div v-html="event.detail"></div>
           </div>
         </div>
       </div>
@@ -41,41 +43,40 @@
   </div>
 </template>
 <script>
+import {getAll} from '../../services/crud';
+import { FacebookLoader } from 'vue-spinners-css';
 export default {
+   components :{
+       FacebookLoader
+   },
+   data(){
+        return {
+            loadingComponent: false,
+            events: [],
+            options: {
+                groupBy: [],
+                groupDesc: [],
+                itemsPerPage: 15,
+                multiSort: false,
+                mustSort: false,
+                page: 1,
+                sortBy: ['tgl_mulai'],
+                sortDesc: ['true'],
+            }
+        }
+   },
   computed: {
-    timelineItems() {
-      return [
-        {
-          id: 1,
-          title: "Event 1",
-          shortDesc: "Ini event 1",
-          detail: "Loooong desc",
-          url: "",
-          image: "/img/header.jpg",
-          date: "10 Juni 2021, 08:30 - 12:00",
-        },
-        {
-          id: 2,
-          title: "Event 2",
-          shortDesc: "Ini event 2",
-          detail: "Loooong desc 2",
-          url: "",
-          image: "",
-          date: "11 Juni 2021, 08:00 - 12:00",
-        },
-        {
-          id: 3,
-          title: "Event 3",
-          shortDesc: "Ini event 3",
-          detail: "Loooong desc 3",
-          url: "",
-          image: "/img/header-v2.jpg",
-          date: "19 Juni 2021, 09:00 - 12:00",
-        },
-      ];
-    },
+    displayEvents(){
+        return this.events.map((event) => ({
+            ...event,
+            style: event.gambar ? `background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)); background-image: url('${event.gambar}'); background-size: cover` : '',
+            tgl_mulai: this.formatDate(event.tgl_mulai),
+            tgl_selesai: this.formatDate(event.tgl_selesai)
+        }))
+    }
   },
   mounted() {
+    this.getEvent();
     $(function () {
       window.sr = ScrollReveal();
 
@@ -122,7 +123,34 @@ export default {
         duration: 800,
       });
     });
+
   },
+  methods: {
+      getEvent: async function(){
+          try{
+              this.loadingComponent = true;
+              let url =  '/api/event/list';
+              const { itemsPerPage, page, sortBy, sortDesc } = this.options;
+              const res = await getAll(url, {
+                  itemsPerPage,
+                  page,
+                  sortBy,
+                  sortDesc
+              });
+              this.events = res.events.data;
+              console.log(this.events)
+          }catch(err){
+              console.log(err);
+          } finally{
+              this.loadingComponent = false;
+          }
+      },
+      formatDate(date){
+          var dt = new Date(date).toLocaleDateString('id-ID', {dateStyle:'medium'})
+          var tm = new Date(date).toLocaleTimeString('id-ID', {timeStyle: 'short'})
+          return dt + ' '+ tm.replace('.', ':');
+      }
+  }
 };
 </script>
 <style lang="scss" scoped>
@@ -296,7 +324,7 @@ a {
 
 .timeline-img-header {
 
-	height: 200px;
+	height: 400px;
 	position: relative;
 	margin-bottom: 20px;
 
@@ -305,6 +333,11 @@ a {
 		position: absolute;
 		bottom: 5px;
 		left: 20px;
+	}
+}
+.pt-7 {
+    h2 {
+		color: $text;
 	}
 }
 

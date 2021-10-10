@@ -34,30 +34,25 @@
             aria-labelledby="headingOne"
           >
             <div class="panel-body">
-              <a
-                role="button"
-                class="btn btn-sm btn-success"
-                style="border-radius: 0; font-size: 16px; padding: 5px"
-                href="https://pmb.itp.stkipsuarbangli.ac.id"
-                target="_blank"
-                >Pendaftaran Kuliah Gratis
-                <span><i class="fa fa-arrow-right"></i></span>
-              </a>
-
+                <v-btn href="https://pmb.itp.stkipsuarbangli.ac.id" color="success" outlined target="_blank" style="text-decoration:none"> Pendaftaran Kuliah Gratis </v-btn>
               <h5>Brosur Kuliah Gratis & Kuliah dengan Beasiswa KIP Kuliah</h5>
               <div class="brosur">
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col">
-                      <img
+                      <v-img
                         src="/img/brosur/brosur2.jpeg?ver=1"
                         alt="Brosur1"
                         srcset=""
+                        class="pt-2 mb-2"
+                        max-width="90%"
                       />
-                      <img
+                      <v-img
                         src="/img/brosur/brosur1.jpeg?ver=1"
                         alt="Brosur2"
                         srcset=""
+                        class="pt-2 mb-2"
+                        max-width="90%"
                       />
                     </div>
                   </div>
@@ -134,17 +129,11 @@
                 <li>Program Studi yang akan dilamar</li>
               </ol>
               <p>HOTLINE</p>
-              <a
-                class="btn btn-success btn-lg btn-labeled"
-                href="https://wa.me/message/PCH2URFPCNZ6F1?src=qr"
-                role="button"
-                target="_blank"
-                >ITP Markandeya Bali
-                <span class="btn-label"
-                  ><font-awesome-icon
-                    size="2x"
-                    :icon="{ prefix: 'fab', iconName: 'whatsapp' }" /></span
-              ></a>
+
+              <v-btn href="https://wa.me/message/PCH2URFPCNZ6F1?src=qr" target="_blank" color="success" outlined large>
+                  ITP Markandeya Bali
+                  <span> <v-icon>mdi-whatsapp</v-icon></span>
+              </v-btn>
             </div>
           </div>
         </div>
@@ -225,17 +214,10 @@
                 </li>
               </ol>
               <p>HOTLINE</p>
-              <a
-                class="btn btn-success btn-lg btn-labeled"
-                href="https://wa.me/message/PCH2URFPCNZ6F1?src=qr"
-                role="button"
-                target="_blank"
-                >ITP Markandeya Bali
-                <span class="btn-label"
-                  ><font-awesome-icon
-                    size="2x"
-                    :icon="{ prefix: 'fab', iconName: 'whatsapp' }" /></span
-              ></a>
+               <v-btn href="https://wa.me/message/PCH2URFPCNZ6F1?src=qr" target="_blank" color="success" outlined large>
+                  ITP Markandeya Bali
+                  <span> <v-icon>mdi-whatsapp</v-icon></span>
+              </v-btn>
             </div>
           </div>
         </div>
@@ -269,10 +251,12 @@
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col">
-                      <img
+                      <v-img
                         src="/img/brosur/alur-daftar.png?ver=1"
                         alt="Alur Pendaftaran"
                         srcset=""
+                        class="pt-2 mb-2"
+                        max-width="90%"
                       />
                     </div>
                   </div>
@@ -427,5 +411,8 @@ body {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+.v-btn {
+    text-decoration: none;
 }
 </style>

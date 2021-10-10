@@ -872,4 +872,8 @@ body {
   -moz-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+.sp-one , .content{
+    width: 80%;
+    margin: auto;
+}
 </style>

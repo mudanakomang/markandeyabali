@@ -35,6 +35,7 @@ export default {
      $(document).ready(function(){
          $('li a').on('click', function(){
              $('nav ul').removeClass('showing')
+             $('.scroll-to-top').click();
          })
      })
      $(window).on("scroll", function() {

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <v-app id="app">
       <router-view />
     <div
       class="scroll-to-top scroll-to-target"
@@ -8,7 +8,7 @@
     >
       <font-awesome-icon :icon="['fas', 'angle-double-up']" />
     </div>
-  </div>
+  </v-app>
 </template>
 <script>
 

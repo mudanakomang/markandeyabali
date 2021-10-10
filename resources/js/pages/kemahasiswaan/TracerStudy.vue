@@ -11,15 +11,15 @@
           aria-multiselectable="true"
         >
           <div class="panel panel-default">
-            <div class="panel-heading active" role="tab" id="headingOne">
+            <div class="panel-heading active" role="tab" id="headingSop">
               <h4 class="panel-title">
                 <a
                   role="button"
                   data-toggle="collapse"
                   data-parent="#accordion"
-                  href="#collapseOne"
+                  href="#sop"
                   aria-expanded="true"
-                  aria-controls="collapseOne"
+                  aria-controls="sop"
                 >
                   Prosedur Operasional Standar
                   <i
@@ -30,10 +30,10 @@
               </h4>
             </div>
             <div
-              id="collapseOne"
+              id="sop"
               class="panel-collapse collapse in show"
               role="tabpanel"
-              aria-labelledby="headingOne"
+              aria-labelledby="headingSop"
             >
               <div class="panel-body">
                 <ol>
@@ -238,15 +238,15 @@
             </div>
           </div>
           <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingFour">
+              <div class="panel-heading" role="tab" id="headingKuesioner">
                 <h4 class="panel-title">
                   <a
                     role="button"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#collapseFour"
+                    href="#kuesioner"
                     aria-expanded="true"
-                    aria-controls="collapseFour"
+                    aria-controls="kuesioner"
                   >
                   KUESIONER TRACER STUDY (PELACAKAN) ALUMNI
                     <i
@@ -257,10 +257,10 @@
                 </h4>
               </div>
               <div
-                id="collapseFour"
+                id="kuesioner"
                 class="panel-collapse collapse in"
                 role="tabpanel"
-                aria-labelledby="headingFour"
+                aria-labelledby="headingKuesioner"
               >
                 <div class="panel-body">
                  <FormAlumni/>
@@ -301,6 +301,9 @@ export default {
     $(".panel-collapse").on("hide.bs.collapse", function () {
       $(this).siblings(".panel-heading").removeClass("active");
     });
+    if (location.hash !== null && location.hash !== "") {
+      $(location.hash + ".collapse").collapse("show");
+    }
   },
 };
 </script>

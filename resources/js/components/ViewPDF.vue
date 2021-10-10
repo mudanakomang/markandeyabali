@@ -20,16 +20,9 @@
                 <VuePDFViewer height="500px" :url="file" />
               </div>
               <div class="modal-footer">
-                <a
-                  href="#"
-                  role="button"
-                  class="btn btn-danger btn-labeled pull-right"
-                  @click="closeModal"
-                >
-                 <span class="btn-label"><i class="fa fa-times"></i></span
-                >
-                  Tutup
-                </a>
+                  <v-btn color="blue-grey lighten-4" @click="closeModal" ><span class="btn-label"><i class="fa fa-times"></i></span>
+                    Tutup
+                  </v-btn>
               </div>
             </div>
           </div>

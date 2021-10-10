@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <section class="callout-section">
+    <section class="callout-section" ref="scroll">
       <div class="container-fluid">
         <div class="row">
           <div
@@ -11,15 +11,15 @@
             :class="{ 'light-bg': item.id == selected }"
             @click="selectItem(item.id); scrollPage()"
           >
-            <div class="row justify-content-center mr-auto">
+            <div class="row justify-content-center mr-auto" >
               <h5>{{ item.title }}</h5>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="welcome-section sp-home">
-      <div class="container" ref="scroll">
+    <section class="welcome-section sp-home" >
+      <div class="container">
         <div>
           <component :is="activeComponent"></component>
         </div>
@@ -99,7 +99,7 @@ export default {
       })[0].component;
     },
     scrollPage(){
-        let yOffset = -600;
+        let yOffset = -60;
         let el = this.$refs.scroll;
         let y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
@@ -108,6 +108,9 @@ export default {
 };
 </script>
 <style scoped>
+.row{
+    margin-top:0px;
+}
 .callout-section {
   margin: 0px;
   position: relative;
@@ -118,7 +121,7 @@ export default {
 
 .callout-section .callout-item {
   background: #3333332d;
-  padding: 40px 0 10px;
+  padding: 30px 0 20px;
   /* border-left: #333333 solid 1px; */
   cursor: pointer;
 }
@@ -165,6 +168,7 @@ export default {
 .callout-item .text {
   color: #222;
 }
+
 @media (max-width: 883px) {
   .callout-section .callout-item {
     padding: 20px 5px 10px;
@@ -176,4 +180,9 @@ export default {
     }
 
 }
+.sp-home{
+    width: 80%;
+    margin: auto;
+}
+
 </style>

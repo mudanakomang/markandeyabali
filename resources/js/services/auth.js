@@ -2,9 +2,9 @@ import Vue from 'vue';
 
 const cookieAuth = {
     async login(credentials) {
-        let loginUrl = 'admin/login';
+        let loginUrl = '/api/login';
         try {
-            const csrfCookie = await Vue.axios.get('sanctum/csrf-cookie');
+            const csrfCookie = await Vue.axios.get('/api/sanctum/csrf-cookie');
             if (csrfCookie) {
                 const login = await Vue.axios.post(loginUrl, credentials);
                 if (login.data.status) {
@@ -21,7 +21,7 @@ const cookieAuth = {
         }
     },
     async logout() {
-        let logoutUrl = 'logout';
+        let logoutUrl = '/api/logout';
         try {
             const res = await Vue.axios.get(logoutUrl);
             if (res.status) {
@@ -43,7 +43,7 @@ const cookieAuth = {
     },
     async checkAuth() {
         try {
-            const res = await Vue.axios.get('/auth-check');
+            const res = await Vue.axios.get('/api/auth-check');
             return res.data;
         } catch (err) {
             return {

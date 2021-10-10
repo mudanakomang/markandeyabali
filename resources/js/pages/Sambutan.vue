@@ -159,4 +159,8 @@ h2 {
   line-height: 22px;
   color: #000000;
 }
+.sp-one , .content{
+    width: 80%;
+    margin: auto;
+}
 </style>

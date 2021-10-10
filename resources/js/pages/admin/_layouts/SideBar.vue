@@ -1,274 +1,126 @@
 <template>
-  <div class="row" id="body-row">
-    <div id="sidebar-container" class="sidebar-expanded d-none d-md-block">
-      <!-- d-* hiddens the Sidebar in smaller devices. Its itens can be kept on the Navbar 'Menu' -->
-      <!-- Bootstrap List Group -->
-      <ul class="list-group">
-        <!-- Separator with title -->
-        <li
-          class="
-            list-group-item
-            sidebar-separator-title
-            text-muted
-            d-flex
-            align-items-center
-            menu-collapsed
-          "
-        >
-          <small>MAIN MENU</small>
-        </li>
-        <!-- /END Separator -->
-        <!-- Menu with submenu -->
-        <a
-          href="#submenu1"
-          data-toggle="collapse"
-          aria-expanded="false"
-          class="
-            bg-dark
-            list-group-item list-group-item-action
-            flex-column
-            align-items-start
-          "
-        >
-          <div class="d-flex w-100 justify-content-start align-items-center">
-            <span>
-                <font-awesome-icon class="fa-fw mr-3" :icon="['fas', 'tachometer-alt']" />
-            </span>
-            <span class="menu-collapsed">Dashboard</span>
-            <span class="submenu-icon ml-auto"></span>
-          </div>
-        </a>
-        <!-- Submenu content -->
-        <div id="submenu1" class="collapse sidebar-submenu">
-          <a
-            href="#"
-            class="list-group-item list-group-item-action bg-dark text-white"
-          >
-            <span class="menu-collapsed">Chahgag</span>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action bg-dark text-white"
-          >
-            <span class="menu-collapsed">Reports</span>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action bg-dark text-white"
-          >
-            <span class="menu-collapsed">Tables</span>
-          </a>
-        </div>
-        <a
-          href="#submenu2"
-          data-toggle="collapse"
-          aria-expanded="false"
-          class="
-            bg-dark
-            list-group-item list-group-item-action
-            flex-column
-            align-items-start
-          "
-        >
-          <div class="d-flex w-100 justify-content-start align-items-center">
-            <span class="fa fa-user fa-fw mr-3"></span>
-            <span class="menu-collapsed">Profile</span>
-            <span class="submenu-icon ml-auto"></span>
-          </div>
-        </a>
-        <!-- Submenu content -->
-        <div id="submenu2" class="collapse sidebar-submenu">
-          <a
-            href="#"
-            class="list-group-item list-group-item-action bg-dark text-white"
-          >
-            <span class="menu-collapsed">Settings</span>
-          </a>
-          <a
-            href="#"
-            class="list-group-item list-group-item-action bg-dark text-white"
-          >
-            <span class="menu-collapsed">Password</span>
-          </a>
-        </div>
-        <a href="#" class="bg-dark list-group-item list-group-item-action">
-          <div class="d-flex w-100 justify-content-start align-items-center">
-            <span class="fa fa-tasks fa-fw mr-3"></span>
-            <span class="menu-collapsed">Tasks</span>
-          </div>
-        </a>
-        <!-- Separator with title -->
-        <li
-          class="
-            list-group-item
-            sidebar-separator-title
-            text-muted
-            d-flex
-            align-items-center
-            menu-collapsed
-          "
-        >
-          <small>OPTIONS</small>
-        </li>
-        <!-- /END Separator -->
-        <a href="#" class="bg-dark list-group-item list-group-item-action">
-          <div class="d-flex w-100 justify-content-start align-items-center">
-            <span class="fa fa-calendar fa-fw mr-3"></span>
-            <span class="menu-collapsed">Calendar</span>
-          </div>
-        </a>
-        <a href="#" class="bg-dark list-group-item list-group-item-action">
-          <div class="d-flex w-100 justify-content-start align-items-center">
-            <span >
-                <i class="fa fa-envelope fa-fw mr-3"></i>
-            </span>
-            <span class="menu-collapsed"
-              >Messages
-              <span class="badge badge-pill badge-primary ml-2">5</span></span
+  <v-navigation-drawer v-model="drawerOpen" app>
+    <v-list-item>
+      <v-list-item-content>
+        <v-list-item-title class="title">
+          ITP Markandeya Bali
+        </v-list-item-title>
+        <v-list-item-subtitle>
+          Admin
+        </v-list-item-subtitle>
+      </v-list-item-content>
+    </v-list-item>
+
+    <v-divider></v-divider>
+
+    <v-list dense nav>
+      <v-list-item-group value="true">
+        <template v-for="menu in navLeftMenus">
+          <v-list-item v-if="!menu.hasChildren" :key="menu.id" :to="menu.route">
+            <v-list-item-icon v-if="menu.icon">
+              <v-icon>{{ menu.icon }}</v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-title>{{menu.label}}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-group v-else :key="menu.id" value="true" class="ml-1">
+            <template v-slot:activator>
+              <v-list-item-icon v-if="menu.icon">
+                <v-icon>{{ menu.icon }}</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>{{ menu.label }}</v-list-item-title>
+              </v-list-item-content>
+            </template>
+
+            <v-list-item
+              v-for="submenu in menu.children"
+              :key="submenu.title"
+              :to="submenu.route"
+              exact
+              class="ml-5"
             >
-          </div>
-        </a>
-        <!-- Separator without title -->
-        <li class="list-group-item sidebar-separator menu-collapsed"></li>
-        <!-- /END Separator -->
-        <a href="#" class="bg-dark list-group-item list-group-item-action">
-          <div class="d-flex w-100 justify-content-start align-items-center">
-            <span class="fa fa-question fa-fw mr-3"></span>
-            <span class="menu-collapsed">Help</span>
-          </div>
-        </a>
-        <a
-          href="#top"
-          data-toggle="sidebar-colapse"
-          class="
-            bg-dark
-            list-group-item list-group-item-action
-            d-flex
-            align-items-center
-          "
-        >
-          <div class="d-flex w-100 justify-content-start align-items-center">
-            <span id="collapse-icon" class="fa fa-2x mr-3"></span>
-            <span id="collapse-text" class="menu-collapsed">Collapse</span>
-          </div>
-        </a>
-      </ul>
-      <!-- List Group END-->
-    </div>
-    <div class="col p-4">
-      <div class="card">
-        <div class="card-body">
-          <router-view></router-view>
-        </div>
-      </div>
-    </div>
-    <!-- Main Col END -->
-  </div>
+              <v-list-item-icon v-if="submenu.icon">
+                <v-icon>{{ submenu.icon }}</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>{{ submenu.label }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list-group>
+        </template>
+      </v-list-item-group>
+    </v-list>
+  </v-navigation-drawer>
 </template>
+
 <script>
-export default {
-  mounted() {
-    $("#body-row .collapse").collapse("hide");
-
-    // Collapse/Expand icon
-    $("#collapse-icon").addClass("fa-angle-double-left");
-
-    // Collapse click
-    $("[data-toggle=sidebar-colapse]").click(function () {
-      SidebarCollapse();
-    });
-
-    function SidebarCollapse() {
-      $(".menu-collapsed").toggleClass("d-none");
-      $(".sidebar-submenu").toggleClass("d-none");
-      $(".submenu-icon").toggleClass("d-none");
-      $("#sidebar-container").toggleClass("sidebar-expanded sidebar-collapsed");
-
-      // Treating d-flex/d-none on separators with title
-      var SeparatorTitle = $(".sidebar-separator-title");
-      if (SeparatorTitle.hasClass("d-flex")) {
-        SeparatorTitle.removeClass("d-flex");
-      } else {
-        SeparatorTitle.addClass("d-flex");
+const navLeftMenus = [
+  {
+    id: "berita",
+    label: "Berita",
+     icon: "mdi-newspaper",
+    hasChildren: true,
+    children: [
+      {
+        id: "berita.list",
+        label: "Daftar Berita",
+        route: { name: "berita" },
+        hasChildren: false
+      },
+      {
+        id: "tambah.berita",
+        label: "Tambah Berita",
+        route: { name: "tambah.berita" },
+        hasChildren: false
       }
-
-      // Collapse/Expand icon
-      $("#collapse-icon").toggleClass(
-        "fa-angle-double-left fa-angle-double-right"
-      );
+    ]
+  },
+  {
+    id: "event",
+    label: "Event",
+     icon: "mdi-calendar-clock",
+    hasChildren: true,
+    children: [
+      {
+        id: "event.list",
+        label: "Daftar Event",
+        route: { name: "event" },
+        hasChildren: false
+      },
+      {
+        id: "tambah.event",
+        label: "Tambah Event",
+        route: { name: "tambah.event" },
+        hasChildren: false
+      }
+    ]
+  }
+];
+export default {
+  props: {
+    value: {
+      type: Boolean,
+      required: true
     }
   },
+  data() {
+    return {
+      navLeftMenus
+    };
+  },
+  computed: {
+    drawerOpen: {
+      get() {
+        return this.value;
+      },
+      set(val) {
+        this.$emit("input", val);
+      }
+    }
+  },
+  created() {}
 };
 </script>
-<style scoped>
-/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'); */
-#body-row {
-  margin-left: 0;
-  margin-right: 0;
-}
-#sidebar-container {
-  min-height: 100vh;
-  background-color: #333;
-  padding: 0;
-}
-
-/* Sidebar sizes when expanded and expanded */
-.sidebar-expanded {
-  width: 230px;
-}
-.sidebar-collapsed {
-  width: 60px;
-}
-
-/* Menu item*/
-#sidebar-container .list-group a {
-  height: 50px;
-  color: white;
-}
-
-/* Submenu item*/
-#sidebar-container .list-group .sidebar-submenu a {
-  height: 45px;
-  padding-left: 30px;
-}
-.sidebar-submenu {
-  font-size: 0.9rem;
-}
-
-/* Separators */
-.sidebar-separator-title {
-  background-color: #333;
-  height: 35px;
-}
-.sidebar-separator {
-  background-color: #333;
-  height: 25px;
-}
-.logo-separator {
-  background-color: #333;
-  height: 60px;
-}
-
-/* Closed submenu icon */
-#sidebar-container
-  .list-group
-  .list-group-item[aria-expanded="false"]
-  .submenu-icon::after {
-  content: " \f0d7";
-  font-family: FontAwesome;
-  display: inline;
-  text-align: right;
-  padding-left: 10px;
-}
-/* Opened submenu icon */
-#sidebar-container
-  .list-group
-  .list-group-item[aria-expanded="true"]
-  .submenu-icon::after {
-  content: " \f0da";
-  font-family: FontAwesome;
-  display: inline;
-  text-align: right;
-  padding-left: 10px;
-}
-</style>
